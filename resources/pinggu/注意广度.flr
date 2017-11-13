@@ -1,0 +1,448 @@
+movie 'D:\csharp\simri\resources\pinggu\ע����.swf' {
+// flash 8, total frames: 12, frame rate: 12 fps, 800x600 px, compressed
+
+  movieClip 3 douzi {
+  }
+
+  frame 1 {
+  }
+
+  frame 1 {
+    function ZQL() {
+      switch (ZQDA_array[TM_jsq]) {
+        case 5:
+          if (DA_array[TM_jsq] == ZQDA_array[TM_jsq]) {
+            ++ZQL_BFL5;
+          } else {}
+          trace('五个豆子正确的个数' + ZQL_BFL5);
+          break;
+        case 6:
+          if (DA_array[TM_jsq] == ZQDA_array[TM_jsq]) {
+            ++ZQL_BFL6;
+          } else {}
+          trace('六个豆子正确的个数' + ZQL_BFL6);
+          break;
+        case 7:
+          if (DA_array[TM_jsq] == ZQDA_array[TM_jsq]) {
+            ZQL_BFL7 = ++ZQL7 / 20;
+          } else {
+            ZQL_BFL7 = ZQL7 / 20;
+          }
+          trace('ZQL_BFL7=' + ZQL_BFL7);
+          break;
+        case 8:
+          if (DA_array[TM_jsq] == ZQDA_array[TM_jsq]) {
+            ZQL_BFL8 = ++ZQL8 / 20;
+          } else {
+            ZQL_BFL8 = ZQL8 / 20;
+          }
+          trace('ZQL_BFL8=' + ZQL_BFL8);
+          break;
+        case 9:
+          if (DA_array[TM_jsq] == ZQDA_array[TM_jsq]) {
+            ZQL_BFL9 = ++ZQL9 / 20;
+          } else {
+            ZQL_BFL9 = ZQL9 / 20;
+          }
+          trace('ZQL_BFL9=' + ZQL_BFL9);
+          break;
+        case 10:
+          if (DA_array[TM_jsq] == ZQDA_array[TM_jsq]) {
+            ZQL_BFL10 = ++ZQL10 / 20;
+          } else {
+            ZQL_BFL10 = ZQL10 / 20;
+          }
+          trace('ZQL_BFL10=' + ZQL_BFL10);
+          break;
+        case 11:
+          if (DA_array[TM_jsq] == ZQDA_array[TM_jsq]) {
+            ZQL_BFL11 = ++ZQL11 / 20;
+          } else {
+            ZQL_BFL11 = ZQL11 / 20;
+          }
+          trace('ZQL_BFL11=' + ZQL_BFL11);
+          break;
+        case 12:
+          if (DA_array[TM_jsq] == ZQDA_array[TM_jsq]) {
+            ZQL_BFL12 = ++ZQL12 / 20;
+          } else {
+            ZQL_BFL12 = ZQL12 / 20;
+          }
+          trace('ZQL_BFL12=' + ZQL_BFL12);
+      }
+    }
+
+    var my_sound = new Sound(my_mc);
+    var my1_sound = new Sound();
+    my_sound.attachSound('bgsound');
+    my1_sound.attachSound('tishiyin');
+    my1_sound.start(0, 99);
+    var kaiguan = true;
+    kaiguan_mc.onPress = function () {
+      if (kaiguan == true) {
+        this.gotoAndStop(2);
+        my1_sound.stop();
+        _root.kaiguan = false;
+      } else {
+        if (kaiguan == false) {
+          this.gotoAndStop(1);
+          my1_sound.start(0, 99);
+          _root.kaiguan = true;
+        }
+      }
+    };
+
+    stop();
+    var DzGs_sjs1;
+    var TM_jsq = 0;
+    var DA_array = new Array();
+    var ZQDA_array = new Array();
+    var DzWz_x = new Array();
+    var DzWz_y = new Array();
+    var DzWz_jsq = 0;
+    var ix = 100;
+    while (ix <= 660) {
+      var iy = 70;
+      while (iy < 480) {
+        DzWz_x[DzWz_jsq] = ix;
+        DzWz_y[DzWz_jsq] = iy;
+        ++DzWz_jsq;
+        iy += 40;
+      }
+      ix += 40;
+    }
+    var TM_dzGs = new Array();
+    var TM_i = 0;
+    i = 5;
+    while (i <= 6) {
+      ii = TM_i;
+      while (ii < TM_i + 2) {
+        TM_dzGs[ii] = i;
+        ++ii;
+      }
+      TM_i += 2;
+      ++i;
+    }
+    var ZQL_BFL5 = 0;
+    var ZQL_BFL6 = 0;
+    var ZQL_BFL7 = 0;
+    var ZQL_BFL8 = 0;
+    var ZQL_BFL9 = 0;
+    var ZQL_BFL10 = 0;
+    var ZQL_BFL11 = 0;
+    var ZQL_BFL12 = 0;
+    var ZQL5 = 0;
+    var ZQL6 = 0;
+    var ZQL7 = 0;
+    var ZQL8 = 0;
+    var ZQL9 = 0;
+    var ZQL10 = 0;
+    var ZQL11 = 0;
+    var ZQL12 = 0;
+    trace('每道题目的豆子个数数组=' + TM_dzGs);
+  }
+
+  movieClip 10  {
+  }
+
+  movieClip 12  {
+  }
+
+  movieClip 15  {
+  }
+
+  movieClip 17  {
+  }
+
+  movieClip 21  {
+  }
+
+  button 27 {
+
+    on (press) {
+      my1_sound.stop();
+      gotoAndStop(2);
+    }
+  }
+
+  movieClip 32  {
+
+    frame 1 {
+      stop();
+    }
+  }
+
+  frame 2 {
+    function shijian_yan() {
+      ++i;
+      trace('aaaa');
+      if (i == 50) {
+        clearInterval(Time_1);
+        i = 0;
+        gotoAndStop(8);
+      }
+    }
+
+    stop();
+    var Time_1 = setInterval(shijian_yan, 20);
+    var i = 0;
+  }
+
+  frame 3 {
+    function DzGs() {
+      DzGs1 = Math.floor(Math.random() * TM_dzGs.length);
+    }
+
+    function DzWz() {
+      DzWz1 = Math.floor(Math.random() * DzWz_x1.length);
+    }
+
+    function shijian1() {
+      ++i;
+      if (i == 10) {
+        clearInterval(Time1);
+        gotoAndStop(6);
+      }
+    }
+
+    stop();
+    var DzWz_x1 = new Array();
+    var DzWz_y1 = new Array();
+    var i = 0;
+    while (i < _root.DzWz_x.length) {
+      DzWz_x1[i] = _root.DzWz_x[i];
+      DzWz_y1[i] = _root.DzWz_y[i];
+      ++i;
+    }
+    DzGs();
+    var DzGs_sjs = String(DzGs1);
+    DzGs_sjs = TM_dzGs.splice(DzGs_sjs, 1);
+    var DzGs_sjs1 = DzGs_sjs[0];
+    ZQDA_array[_root.TM_jsq] = DzGs_sjs1;
+    trace('豆子个数随机数' + DzGs_sjs1);
+    var dz = 1;
+    while (dz <= DzGs_sjs1) {
+      DzWz();
+      var DzWz_sjs = String(DzWz1);
+      _root.attachMovie('douzi', 'douzi' + dz, 100 + dz);
+      var dz_x = DzWz_x1.splice(DzWz_sjs, 1);
+      var dz_y = DzWz_y1.splice(DzWz_sjs, 1);
+      _root['douzi' + dz]._x = dz_x[0];
+      _root['douzi' + dz]._y = dz_y[0];
+      ++dz;
+    }
+    var Time1 = setInterval(shijian1, 20);
+    var i = 0;
+  }
+
+  frame 4 {
+    function shijian1() {
+      ++i;
+      if (i == 50) {
+        trace('间隔');
+        clearInterval(Time1);
+        i = 0;
+        gotoAndStop(3);
+      }
+    }
+
+    var Time1 = setInterval(shijian1, 20);
+    var i = 0;
+    stop();
+  }
+
+  frame 5 {
+    function t() {
+      --TIME;
+      trace('at' + TIME);
+      _root.timeMc.Ti._xscale = ((30 - TIME) / 30) * 100;
+      updateAfterEvent();
+      if (TIME <= 0) {
+        clearInterval(lap_kz);
+        if (_root.TM_jsq == 4) {
+          gotoAndStop(7);
+        } else {
+          ++_root.TM_jsq;
+          trace('题目数字=' + _root.TM_jsq);
+          gotoAndStop(11);
+        }
+      }
+    }
+
+    tel_mc.TextDS.text = '';
+    _root.timeMc.Ti._xscale = 0;
+    stop();
+    lap_kz = setInterval(_root.t, 1000);
+    var TIME = 30;
+  }
+
+  movieClip 61  {
+
+    frame 1 {
+      TextDS.text = '';
+      i = 0;
+      while (i <= 9) {
+        obj0 = this['num_btn' + i];
+        obj0.onPress = function () {
+          if (TextDS.text.length <= 15) {
+            _root.kaiguan_mc.gotoAndStop(2);
+            TextDS.text += this._name.charAt(7);
+          }
+        };
+
+        ++i;
+      }
+      c_btn.onPress = function () {
+        temp = TextDS.text;
+        TextDS.text = temp.substring(0, temp.length - 1);
+      };
+
+      ent_btn.onPress = function () {
+        N = _root.tel_mc.TextDS.text;
+        fscommand('Note', N);
+      };
+
+      guo_btn.onPress = function () {
+        N = _root.tel_mc.TextDS.text;
+        fscommand('Note', N);
+      };
+
+    }
+  }
+
+  button 64 {
+
+    on (press) {
+      clearInterval(lap_kz);
+      _root.DA_array[_root.TM_jsq] = parseFloat(_root.tel_mc.TextDS.text);
+      _root.ZQL();
+      ++_root.TM_jsq;
+      trace('答案=' + _root.DA_array);
+      if (_root.TM_jsq == 4) {
+        gotoAndStop(7);
+      } else {
+        gotoAndStop(4);
+      }
+    }
+  }
+
+  movieClip 69  {
+  }
+
+  movieClip 70  {
+  }
+
+  movieClip 72  {
+  }
+
+  frame 6 {
+    function shijian1() {
+      ++i;
+      if (i == 10) {
+        clearInterval(Time1);
+        gotoAndStop(5);
+      }
+    }
+
+    i = 1;
+    while (i < 13) {
+      _root['douzi' + i].removeMovieClip();
+      ++i;
+    }
+    var Time1 = setInterval(shijian1, 20);
+    var i = 0;
+    stop();
+  }
+
+  frame 7 {
+    clearInterval(lap_kz);
+    k = ZQL_BFL5 + '|' + ZQL_BFL6;
+    trace('正确总数' + k);
+    fscommand('zygd', k);
+  }
+
+  frame 8 {
+    function shijian_yanshi() {
+      ++i;
+      if (i == 10) {
+        clearInterval(Time1);
+        _root.nextFrame();
+      }
+    }
+
+    stop();
+    var Time1 = setInterval(shijian_yanshi, 20);
+    var i = 0;
+  }
+
+  frame 9 {
+    tel_mc1.TextDS.text = '';
+    var DA;
+    stop();
+  }
+
+  button 73 {
+
+    on (press) {
+      trace('练习答案=' + tel_mc1.TextDS.text);
+      _root.DA = parseFloat(_root.tel_mc1.TextDS.text);
+      trace('练习=' + _root.DA);
+      _root.nextFrame();
+    }
+  }
+
+  frame 10 {
+    stop();
+    txt1 = '练习完毕，开始正式测试';
+    if (_root.DA == 4) {
+      txt = '恭喜您，回答正确！';
+    } else {
+      txt = '很抱歉，您的回答有误。正确答案是4。';
+    }
+  }
+
+  button 75 {
+
+    on (release) {
+      _root.gotoAndStop(4);
+    }
+  }
+
+  frame 11 {
+    function t_FK() {
+      --TIME_FK;
+      trace('atttttttttt' + TIME_FK);
+      updateAfterEvent();
+      if (TIME_FK <= 0) {
+        clearInterval(lap_FK);
+        _root.gotoAndStop(4);
+      }
+    }
+
+    clearInterval(lap_k);
+    var tz = 0;
+    k = ZQL_BFL5 + '|' + ZQL_BFL6;
+    if (_root.TM_jsq == 4) {
+      clearInterval(lap_FK);
+      tz = 1;
+    } else {
+      lap_FK = setInterval(t_FK, 1000);
+    }
+    var TIME_FK = 60;
+  }
+
+  button 78 {
+
+    on (press) {
+      if (_root.tz == 1) {
+        trace('正确总数' + k);
+        fscommand('zygd', k);
+      } else {
+        if (_root.tz == 0) {
+          clearInterval(lap_FK);
+          gotoAndStop(4);
+        }
+      }
+    }
+  }
+}

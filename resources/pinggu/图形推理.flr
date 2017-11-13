@@ -1,0 +1,2122 @@
+movie 'D:\csharp\simri\resources\pinggu\ͼ������.swf' {
+// flash 8, total frames: 9, frame rate: 20 fps, 800x600 px, compressed
+
+  movieClip 5 T-A4 {
+  }
+
+  movieClip 8 T-E12 {
+  }
+
+  movieClip 10 T-E11 {
+  }
+
+  movieClip 12 T-E10 {
+  }
+
+  movieClip 14 T-E9 {
+  }
+
+  movieClip 16 T-E8 {
+  }
+
+  movieClip 18 T-E7 {
+  }
+
+  movieClip 20 T-E6 {
+  }
+
+  movieClip 22 T-E5 {
+  }
+
+  movieClip 24 T-E4 {
+  }
+
+  movieClip 26 T-E3 {
+  }
+
+  movieClip 28 T-E2 {
+  }
+
+  movieClip 30 T-E1 {
+  }
+
+  movieClip 32 T-D12 {
+  }
+
+  movieClip 34 T-D11 {
+  }
+
+  movieClip 36 T-D10 {
+  }
+
+  movieClip 38 T-D9 {
+  }
+
+  movieClip 40 T-D8 {
+  }
+
+  movieClip 42 T-D7 {
+  }
+
+  movieClip 44 T-D6 {
+  }
+
+  movieClip 46 T-D5 {
+  }
+
+  movieClip 48 T-D4 {
+  }
+
+  movieClip 50 T-D3 {
+  }
+
+  movieClip 52 T-D2 {
+  }
+
+  movieClip 54 T-D1 {
+  }
+
+  movieClip 56 T-C12 {
+  }
+
+  movieClip 58 T-C11 {
+  }
+
+  movieClip 60 T-C10 {
+  }
+
+  movieClip 62 T-C9 {
+  }
+
+  movieClip 64 T-C8 {
+  }
+
+  movieClip 66 T-C7 {
+  }
+
+  movieClip 68 T-C6 {
+  }
+
+  movieClip 70 T-C5 {
+  }
+
+  movieClip 72 T-C4 {
+  }
+
+  movieClip 74 T-C3 {
+  }
+
+  movieClip 76 T-C2 {
+  }
+
+  movieClip 78 T-C1 {
+  }
+
+  movieClip 80 T-B12 {
+  }
+
+  movieClip 82 T-B11 {
+  }
+
+  movieClip 84 T-B10 {
+  }
+
+  movieClip 86 T-B8 {
+  }
+
+  movieClip 88 T-B7 {
+  }
+
+  movieClip 90 T-B6 {
+  }
+
+  movieClip 92 T-B5 {
+  }
+
+  movieClip 94 T-B4 {
+  }
+
+  movieClip 96 T-B3 {
+  }
+
+  movieClip 98 T-B2 {
+  }
+
+  movieClip 100 T-B1 {
+  }
+
+  movieClip 102 T-A12 {
+  }
+
+  movieClip 104 T-A11 {
+  }
+
+  movieClip 106 T-A10 {
+  }
+
+  movieClip 108 T-A9 {
+  }
+
+  movieClip 110 T-A8 {
+  }
+
+  movieClip 112 T-A7 {
+  }
+
+  movieClip 114 T-A6 {
+  }
+
+  movieClip 116 T-A5 {
+  }
+
+  movieClip 118 T-A1 {
+  }
+
+  movieClip 120 T-A3 {
+  }
+
+  movieClip 122 T-A2 {
+  }
+
+  movieClip 124  {
+  }
+
+  movieClip 126  {
+  }
+
+  movieClip 129 OPT {
+
+    frame 1 {
+      stop();
+    }
+  }
+
+  movieClip 131 E18 {
+  }
+
+  movieClip 133 E12 {
+  }
+
+  movieClip 135 E13 {
+  }
+
+  movieClip 137 E14 {
+  }
+
+  movieClip 139 E15 {
+  }
+
+  movieClip 141 E16 {
+  }
+
+  movieClip 143 E17 {
+  }
+
+  movieClip 145 E11 {
+  }
+
+  movieClip 147 E28 {
+  }
+
+  movieClip 149 E22 {
+  }
+
+  movieClip 151 E23 {
+  }
+
+  movieClip 153 E24 {
+  }
+
+  movieClip 155 E25 {
+  }
+
+  movieClip 157 E26 {
+  }
+
+  movieClip 159 E27 {
+  }
+
+  movieClip 161 E21 {
+  }
+
+  movieClip 163 E122 {
+  }
+
+  movieClip 165 E123 {
+  }
+
+  movieClip 167 E124 {
+  }
+
+  movieClip 169 E125 {
+  }
+
+  movieClip 171 E126 {
+  }
+
+  movieClip 173 E127 {
+  }
+
+  movieClip 175 E128 {
+  }
+
+  movieClip 177 E121 {
+  }
+
+  movieClip 179 E112 {
+  }
+
+  movieClip 181 E113 {
+  }
+
+  movieClip 183 E114 {
+  }
+
+  movieClip 185 E115 {
+  }
+
+  movieClip 187 E116 {
+  }
+
+  movieClip 189 E117 {
+  }
+
+  movieClip 191 E118 {
+  }
+
+  movieClip 193 E111 {
+  }
+
+  movieClip 195 E102 {
+  }
+
+  movieClip 197 E103 {
+  }
+
+  movieClip 199 E104 {
+  }
+
+  movieClip 201 E105 {
+  }
+
+  movieClip 203 E106 {
+  }
+
+  movieClip 205 E107 {
+  }
+
+  movieClip 207 E108 {
+  }
+
+  movieClip 209 E101 {
+  }
+
+  movieClip 211 E92 {
+  }
+
+  movieClip 213 E93 {
+  }
+
+  movieClip 215 E94 {
+  }
+
+  movieClip 217 E95 {
+  }
+
+  movieClip 219 E96 {
+  }
+
+  movieClip 221 E97 {
+  }
+
+  movieClip 223 E98 {
+  }
+
+  movieClip 225 E91 {
+  }
+
+  movieClip 227 E82 {
+  }
+
+  movieClip 229 E83 {
+  }
+
+  movieClip 231 E84 {
+  }
+
+  movieClip 233 E85 {
+  }
+
+  movieClip 235 E86 {
+  }
+
+  movieClip 237 E87 {
+  }
+
+  movieClip 239 E88 {
+  }
+
+  movieClip 241 E81 {
+  }
+
+  movieClip 243 E72 {
+  }
+
+  movieClip 245 E73 {
+  }
+
+  movieClip 247 E74 {
+  }
+
+  movieClip 249 E75 {
+  }
+
+  movieClip 251 E76 {
+  }
+
+  movieClip 253 E77 {
+  }
+
+  movieClip 255 E78 {
+  }
+
+  movieClip 257 E71 {
+  }
+
+  movieClip 259 E62 {
+  }
+
+  movieClip 261 E63 {
+  }
+
+  movieClip 263 E64 {
+  }
+
+  movieClip 265 E65 {
+  }
+
+  movieClip 267 E66 {
+  }
+
+  movieClip 269 E67 {
+  }
+
+  movieClip 271 E68 {
+  }
+
+  movieClip 273 E61 {
+  }
+
+  movieClip 275 E52 {
+  }
+
+  movieClip 277 E53 {
+  }
+
+  movieClip 279 E54 {
+  }
+
+  movieClip 281 E55 {
+  }
+
+  movieClip 283 E56 {
+  }
+
+  movieClip 285 E57 {
+  }
+
+  movieClip 287 E58 {
+  }
+
+  movieClip 289 E51 {
+  }
+
+  movieClip 291 E42 {
+  }
+
+  movieClip 293 E43 {
+  }
+
+  movieClip 295 E44 {
+  }
+
+  movieClip 297 E45 {
+  }
+
+  movieClip 299 E46 {
+  }
+
+  movieClip 301 E47 {
+  }
+
+  movieClip 303 E48 {
+  }
+
+  movieClip 305 E41 {
+  }
+
+  movieClip 307 E32 {
+  }
+
+  movieClip 309 E33 {
+  }
+
+  movieClip 311 E34 {
+  }
+
+  movieClip 313 E35 {
+  }
+
+  movieClip 315 E36 {
+  }
+
+  movieClip 317 E37 {
+  }
+
+  movieClip 319 E38 {
+  }
+
+  movieClip 321 E31 {
+  }
+
+  movieClip 323 D18 {
+  }
+
+  movieClip 325 D12 {
+  }
+
+  movieClip 327 D13 {
+  }
+
+  movieClip 329 D14 {
+  }
+
+  movieClip 331 D15 {
+  }
+
+  movieClip 333 D16 {
+  }
+
+  movieClip 335 D17 {
+  }
+
+  movieClip 337 D11 {
+  }
+
+  movieClip 339 D28 {
+  }
+
+  movieClip 341 D22 {
+  }
+
+  movieClip 343 D23 {
+  }
+
+  movieClip 345 D24 {
+  }
+
+  movieClip 347 D25 {
+  }
+
+  movieClip 349 D26 {
+  }
+
+  movieClip 351 D27 {
+  }
+
+  movieClip 353 D21 {
+  }
+
+  movieClip 355 D38 {
+  }
+
+  movieClip 357 D32 {
+  }
+
+  movieClip 359 D33 {
+  }
+
+  movieClip 361 D34 {
+  }
+
+  movieClip 363 D35 {
+  }
+
+  movieClip 365 D36 {
+  }
+
+  movieClip 367 D37 {
+  }
+
+  movieClip 368 D31 {
+  }
+
+  movieClip 370 D48 {
+  }
+
+  movieClip 372 D42 {
+  }
+
+  movieClip 374 D43 {
+  }
+
+  movieClip 376 D44 {
+  }
+
+  movieClip 378 D45 {
+  }
+
+  movieClip 380 D46 {
+  }
+
+  movieClip 382 D47 {
+  }
+
+  movieClip 384 D41 {
+  }
+
+  movieClip 386 D58 {
+  }
+
+  movieClip 388 D52 {
+  }
+
+  movieClip 390 D53 {
+  }
+
+  movieClip 392 D54 {
+  }
+
+  movieClip 394 D55 {
+  }
+
+  movieClip 396 D56 {
+  }
+
+  movieClip 398 D57 {
+  }
+
+  movieClip 400 D51 {
+  }
+
+  movieClip 402 D68 {
+  }
+
+  movieClip 404 D62 {
+  }
+
+  movieClip 406 D63 {
+  }
+
+  movieClip 408 D64 {
+  }
+
+  movieClip 410 D65 {
+  }
+
+  movieClip 412 D66 {
+  }
+
+  movieClip 414 D67 {
+  }
+
+  movieClip 416 D61 {
+  }
+
+  movieClip 418 D78 {
+  }
+
+  movieClip 420 D72 {
+  }
+
+  movieClip 422 D73 {
+  }
+
+  movieClip 424 D74 {
+  }
+
+  movieClip 426 D75 {
+  }
+
+  movieClip 428 D76 {
+  }
+
+  movieClip 430 D77 {
+  }
+
+  movieClip 432 D71 {
+  }
+
+  movieClip 434 D88 {
+  }
+
+  movieClip 436 D82 {
+  }
+
+  movieClip 438 D83 {
+  }
+
+  movieClip 440 D84 {
+  }
+
+  movieClip 442 D85 {
+  }
+
+  movieClip 444 D86 {
+  }
+
+  movieClip 446 D87 {
+  }
+
+  movieClip 447 D81 {
+  }
+
+  movieClip 449 D98 {
+  }
+
+  movieClip 451 D92 {
+  }
+
+  movieClip 453 D93 {
+  }
+
+  movieClip 455 D94 {
+  }
+
+  movieClip 457 D95 {
+  }
+
+  movieClip 459 D96 {
+  }
+
+  movieClip 461 D97 {
+  }
+
+  movieClip 463 D91 {
+  }
+
+  movieClip 465 D108 {
+  }
+
+  movieClip 467 D102 {
+  }
+
+  movieClip 469 D103 {
+  }
+
+  movieClip 471 D104 {
+  }
+
+  movieClip 473 D105 {
+  }
+
+  movieClip 475 D106 {
+  }
+
+  movieClip 477 D107 {
+  }
+
+  movieClip 479 D101 {
+  }
+
+  movieClip 481 D118 {
+  }
+
+  movieClip 483 D112 {
+  }
+
+  movieClip 485 D113 {
+  }
+
+  movieClip 487 D114 {
+  }
+
+  movieClip 489 D115 {
+  }
+
+  movieClip 491 D116 {
+  }
+
+  movieClip 493 D117 {
+  }
+
+  movieClip 495 D111 {
+  }
+
+  movieClip 497 D128 {
+  }
+
+  movieClip 499 D122 {
+  }
+
+  movieClip 501 D123 {
+  }
+
+  movieClip 503 D124 {
+  }
+
+  movieClip 505 D125 {
+  }
+
+  movieClip 507 D126 {
+  }
+
+  movieClip 509 D127 {
+  }
+
+  movieClip 511 D121 {
+  }
+
+  movieClip 513 C13 {
+  }
+
+  movieClip 515 C22 {
+  }
+
+  movieClip 517 C23 {
+  }
+
+  movieClip 519 C24 {
+  }
+
+  movieClip 521 C28 {
+  }
+
+  movieClip 523 C27 {
+  }
+
+  movieClip 524 C38 {
+  }
+
+  movieClip 526 C37 {
+  }
+
+  movieClip 528 C36 {
+  }
+
+  movieClip 530 C35 {
+  }
+
+  movieClip 532 C34 {
+  }
+
+  movieClip 534 C33 {
+  }
+
+  movieClip 536 C32 {
+  }
+
+  movieClip 538 C31 {
+  }
+
+  movieClip 540 C26 {
+  }
+
+  movieClip 542 C25 {
+  }
+
+  movieClip 544 C43 {
+  }
+
+  movieClip 546 C42 {
+  }
+
+  movieClip 548 C44 {
+  }
+
+  movieClip 550 C45 {
+  }
+
+  movieClip 552 C46 {
+  }
+
+  movieClip 554 C47 {
+  }
+
+  movieClip 556 C48 {
+  }
+
+  movieClip 558 C41 {
+  }
+
+  movieClip 560 C57 {
+  }
+
+  movieClip 562 C58 {
+  }
+
+  movieClip 564 C52 {
+  }
+
+  movieClip 566 C53 {
+  }
+
+  movieClip 568 C54 {
+  }
+
+  movieClip 570 C55 {
+  }
+
+  movieClip 572 C56 {
+  }
+
+  movieClip 574 C51 {
+  }
+
+  movieClip 576 C68 {
+  }
+
+  movieClip 578 C62 {
+  }
+
+  movieClip 580 C63 {
+  }
+
+  movieClip 582 C64 {
+  }
+
+  movieClip 584 C65 {
+  }
+
+  movieClip 586 C66 {
+  }
+
+  movieClip 588 C67 {
+  }
+
+  movieClip 590 C78 {
+  }
+
+  movieClip 592 C72 {
+  }
+
+  movieClip 594 C73 {
+  }
+
+  movieClip 596 C74 {
+  }
+
+  movieClip 598 C75 {
+  }
+
+  movieClip 600 C76 {
+  }
+
+  movieClip 602 C77 {
+  }
+
+  movieClip 604 C71 {
+  }
+
+  movieClip 606 C88 {
+  }
+
+  movieClip 608 C82 {
+  }
+
+  movieClip 610 C83 {
+  }
+
+  movieClip 612 C84 {
+  }
+
+  movieClip 614 C85 {
+  }
+
+  movieClip 616 C86 {
+  }
+
+  movieClip 618 C87 {
+  }
+
+  movieClip 620 C81 {
+  }
+
+  movieClip 622 C98 {
+  }
+
+  movieClip 624 C92 {
+  }
+
+  movieClip 626 C93 {
+  }
+
+  movieClip 628 C94 {
+  }
+
+  movieClip 630 C95 {
+  }
+
+  movieClip 632 C96 {
+  }
+
+  movieClip 634 C97 {
+  }
+
+  movieClip 636 C91 {
+  }
+
+  movieClip 638 C108 {
+  }
+
+  movieClip 640 C102 {
+  }
+
+  movieClip 642 C103 {
+  }
+
+  movieClip 644 C104 {
+  }
+
+  movieClip 646 C105 {
+  }
+
+  movieClip 648 C106 {
+  }
+
+  movieClip 650 C107 {
+  }
+
+  movieClip 652 C101 {
+  }
+
+  movieClip 654 C118 {
+  }
+
+  movieClip 656 C112 {
+  }
+
+  movieClip 658 C113 {
+  }
+
+  movieClip 660 C114 {
+  }
+
+  movieClip 662 C115 {
+  }
+
+  movieClip 664 C116 {
+  }
+
+  movieClip 666 C117 {
+  }
+
+  movieClip 668 C111 {
+  }
+
+  movieClip 670 C128 {
+  }
+
+  movieClip 672 C122 {
+  }
+
+  movieClip 674 C123 {
+  }
+
+  movieClip 676 C124 {
+  }
+
+  movieClip 678 C125 {
+  }
+
+  movieClip 680 C126 {
+  }
+
+  movieClip 682 C127 {
+  }
+
+  movieClip 684 C121 {
+  }
+
+  movieClip 686 C61 {
+  }
+
+  movieClip 688 C21 {
+  }
+
+  movieClip 690 C11 {
+  }
+
+  movieClip 692 C12 {
+  }
+
+  movieClip 694 C15 {
+  }
+
+  movieClip 696 C18 {
+  }
+
+  movieClip 698 C17 {
+  }
+
+  movieClip 700 C16 {
+  }
+
+  movieClip 702 C14 {
+  }
+
+  movieClip 704 B11 {
+  }
+
+  movieClip 706 B12 {
+  }
+
+  movieClip 708 B13 {
+  }
+
+  movieClip 710 B14 {
+  }
+
+  movieClip 712 B15 {
+  }
+
+  movieClip 714 B16 {
+  }
+
+  movieClip 716 B26 {
+  }
+
+  movieClip 718 B22 {
+  }
+
+  movieClip 720 B23 {
+  }
+
+  movieClip 722 B24 {
+  }
+
+  movieClip 724 B25 {
+  }
+
+  movieClip 726 B21 {
+  }
+
+  movieClip 728 B31 {
+  }
+
+  movieClip 730 B36 {
+  }
+
+  movieClip 732 B35 {
+  }
+
+  movieClip 734 B33 {
+  }
+
+  movieClip 736 B34 {
+  }
+
+  movieClip 737 B32 {
+  }
+
+  movieClip 739 B46 {
+  }
+
+  movieClip 741 B42 {
+  }
+
+  movieClip 743 B43 {
+  }
+
+  movieClip 745 B44 {
+  }
+
+  movieClip 747 B45 {
+  }
+
+  movieClip 749 B41 {
+  }
+
+  movieClip 751 B56 {
+  }
+
+  movieClip 753 B52 {
+  }
+
+  movieClip 755 B53 {
+  }
+
+  movieClip 757 B54 {
+  }
+
+  movieClip 759 B55 {
+  }
+
+  movieClip 761 B51 {
+  }
+
+  movieClip 763 B66 {
+  }
+
+  movieClip 765 B62 {
+  }
+
+  movieClip 767 B63 {
+  }
+
+  movieClip 769 B64 {
+  }
+
+  movieClip 771 B65 {
+  }
+
+  movieClip 773 B61 {
+  }
+
+  movieClip 775 B76 {
+  }
+
+  movieClip 777 B72 {
+  }
+
+  movieClip 779 B73 {
+  }
+
+  movieClip 781 B74 {
+  }
+
+  movieClip 783 B75 {
+  }
+
+  movieClip 785 B71 {
+  }
+
+  movieClip 787 B86 {
+  }
+
+  movieClip 789 B82 {
+  }
+
+  movieClip 791 B83 {
+  }
+
+  movieClip 793 B84 {
+  }
+
+  movieClip 795 B85 {
+  }
+
+  movieClip 797 B81 {
+  }
+
+  movieClip 798 B106 {
+  }
+
+  movieClip 800 B102 {
+  }
+
+  movieClip 802 B103 {
+  }
+
+  movieClip 803 B104 {
+  }
+
+  movieClip 805 B105 {
+  }
+
+  movieClip 807 B101 {
+  }
+
+  movieClip 809 B116 {
+  }
+
+  movieClip 811 B112 {
+  }
+
+  movieClip 812 B113 {
+  }
+
+  movieClip 813 B114 {
+  }
+
+  movieClip 815 B115 {
+  }
+
+  movieClip 817 B111 {
+  }
+
+  movieClip 819 B126 {
+  }
+
+  movieClip 820 B122 {
+  }
+
+  movieClip 822 B123 {
+  }
+
+  movieClip 824 B124 {
+  }
+
+  movieClip 826 B125 {
+  }
+
+  movieClip 828 B121 {
+  }
+
+  movieClip 830 A16 {
+  }
+
+  movieClip 832 A56 {
+  }
+
+  movieClip 834 A61 {
+  }
+
+  movieClip 836 A84 {
+  }
+
+  movieClip 838 A116 {
+  }
+
+  movieClip 840 A112 {
+  }
+
+  movieClip 842 A113 {
+  }
+
+  movieClip 844 A114 {
+  }
+
+  movieClip 846 A115 {
+  }
+
+  movieClip 848 A111 {
+  }
+
+  movieClip 850 A126 {
+  }
+
+  movieClip 852 A122 {
+  }
+
+  movieClip 854 A123 {
+  }
+
+  movieClip 856 A124 {
+  }
+
+  movieClip 858 A125 {
+  }
+
+  movieClip 860 A121 {
+  }
+
+  movieClip 862 A94 {
+  }
+
+  movieClip 864 A102 {
+  }
+
+  movieClip 866 A105 {
+  }
+
+  movieClip 868 A106 {
+  }
+
+  movieClip 870 A103 {
+  }
+
+  movieClip 872 A104 {
+  }
+
+  movieClip 874 A101 {
+  }
+
+  movieClip 876 A96 {
+  }
+
+  movieClip 878 A95 {
+  }
+
+  movieClip 880 A93 {
+  }
+
+  movieClip 882 A92 {
+  }
+
+  movieClip 884 A91 {
+  }
+
+  movieClip 886 A86 {
+  }
+
+  movieClip 888 A85 {
+  }
+
+  movieClip 890 A83 {
+  }
+
+  movieClip 892 A82 {
+  }
+
+  movieClip 894 A81 {
+  }
+
+  movieClip 896 A76 {
+  }
+
+  movieClip 898 A75 {
+  }
+
+  movieClip 900 A74 {
+  }
+
+  movieClip 902 A73 {
+  }
+
+  movieClip 904 A72 {
+  }
+
+  movieClip 905 A71 {
+  }
+
+  movieClip 907 A66 {
+  }
+
+  movieClip 909 A65 {
+  }
+
+  movieClip 911 A64 {
+  }
+
+  movieClip 913 A63 {
+  }
+
+  movieClip 915 A62 {
+  }
+
+  movieClip 917 A54 {
+  }
+
+  movieClip 919 A55 {
+  }
+
+  movieClip 921 A53 {
+  }
+
+  movieClip 923 A52 {
+  }
+
+  movieClip 925 A51 {
+  }
+
+  movieClip 926 A46 {
+  }
+
+  movieClip 928 A45 {
+  }
+
+  movieClip 930 A43 {
+  }
+
+  movieClip 932 A42 {
+  }
+
+  movieClip 933 A44 {
+  }
+
+  movieClip 935 A41 {
+  }
+
+  movieClip 937 A33 {
+  }
+
+  movieClip 939 A31 {
+  }
+
+  movieClip 941 A25 {
+  }
+
+  movieClip 942 A15 {
+  }
+
+  movieClip 944 A14 {
+  }
+
+  movieClip 946 A13 {
+  }
+
+  movieClip 947 A26 {
+  }
+
+  movieClip 948 A24 {
+  }
+
+  movieClip 949 A36 {
+  }
+
+  movieClip 950 A35 {
+  }
+
+  movieClip 951 A34 {
+  }
+
+  movieClip 952 A32 {
+  }
+
+  movieClip 953 A23 {
+  }
+
+  movieClip 954 A22 {
+  }
+
+  movieClip 955 A21 {
+  }
+
+  movieClip 956 A12 {
+  }
+
+  movieClip 958 A11 {
+  }
+
+  movieClip 965 Nav {
+
+    frame 1 {
+      stop();
+    }
+  }
+
+  movieClip 970 kuang {
+
+    frame 1 {
+      stop();
+    }
+  }
+
+  frame 1 {
+    function Tname(odn) {
+      var v1;
+      if (odn == 1) {
+        if (ch_1 >= 0 && ch_1 <= 7) {
+          ch1 = ch_1 + 1;
+          v1 = 'B' + ch1;
+        } else {
+          if (ch_1 > 7 && ch_1 <= 11) {
+            v1 = 'C' + (ch_1 - 7);
+          } else {
+            if (ch_1 > 11 && ch_1 <= 15) {
+              v1 = 'D' + (ch_1 - 11);
+            }
+          }
+        }
+      }
+      if (odn == 2) {
+        if (ch_2 >= 0 && ch_2 <= 4) {
+          ch2 = ch_2 + 5;
+          v1 = 'C' + ch2;
+          return v1;
+        }
+        if (ch_2 > 4 && ch_2 <= 9) {
+          v1 = 'D' + ch_2;
+          return v1;
+        }
+        if (ch_2 > 9 && ch_2 < 19) {
+          v1 = 'E' + (ch_2 - 9);
+        }
+      }
+      return v1;
+    }
+
+    function ShowTitle(odn) {
+      trace('答案：' + Answer_1[ch_1]);
+      trace('答案：' + Answer_2[ch_2]);
+      var v2 = Tname(odn);
+      _root.attachMovie('T-' + v2, 'PIC0', 3000);
+      PIC0._x = 300;
+      PIC0._y = 200;
+      PIC0._xscale = 80;
+      PIC0._yscale = 80;
+    }
+
+    function ShowOpt(odn) {
+      var v2 = Tname(odn);
+      _root.attachMovie('T-' + v2, 'PIC0', 3000);
+      PIC0._x = 300;
+      PIC0._y = 200;
+      PIC0._xscale = 80;
+      PIC0._yscale = 80;
+      if (odn == 1) {
+        if (ch_1 >= 0 && ch_1 <= 7) {
+          i = 1;
+          while (i <= 6) {
+            _root.attachMovie(v2 + i, 'PIC' + i, 3000 + i);
+            if (i <= 3) {
+              eval('PIC' + i)._x = i * 160;
+              eval('PIC' + i)._y = 380;
+              eval('OPT' + i)._x = i * 160;
+              eval('OPT' + i)._y = 380;
+            } else {
+              eval('PIC' + i)._x = (i - 3) * 160;
+              eval('PIC' + i)._y = 475;
+              eval('OPT' + i)._x = (i - 3) * 160;
+              eval('OPT' + i)._y = 475;
+            }
+            eval('PIC' + i)._xscale = 80;
+            eval('PIC' + i)._yscale = 80;
+            eval('OPT' + i)._xscale = 80;
+            eval('OPT' + i)._yscale = 80;
+            ++i;
+          }
+          OPT7._x = -200;
+          OPT8._y = -200;
+        } else {
+          if (ch_1 > 7 && ch_1 <= 15) {
+            i = 1;
+            while (i <= 8) {
+              _root.attachMovie(v2 + i, 'PIC' + i, 3000 + i);
+              if (i <= 4) {
+                eval('PIC' + i)._x = i * 115 + 25;
+                eval('PIC' + i)._y = 380;
+                eval('OPT' + i)._x = i * 115 + 25;
+                eval('OPT' + i)._y = 380;
+              } else {
+                eval('PIC' + i)._x = (i - 4) * 115 + 25;
+                eval('PIC' + i)._y = 475;
+                eval('OPT' + i)._x = (i - 4) * 115 + 25;
+                eval('OPT' + i)._y = 475;
+              }
+              eval('PIC' + i)._xscale = 80;
+              eval('PIC' + i)._yscale = 80;
+              eval('OPT' + i)._xscale = 70;
+              eval('OPT' + i)._yscale = 80;
+              ++i;
+            }
+          }
+        }
+      } else {
+        if (od == 2) {
+          i = 1;
+          while (i <= 8) {
+            _root.attachMovie(v2 + i, 'PIC' + i, 3000 + i);
+            if (i <= 4) {
+              eval('PIC' + i)._x = i * 115 + 25;
+              eval('PIC' + i)._y = 380;
+              eval('OPT' + i)._x = i * 115 + 25;
+              eval('OPT' + i)._y = 380;
+            } else {
+              eval('PIC' + i)._x = (i - 4) * 115 + 25;
+              eval('PIC' + i)._y = 475;
+              eval('OPT' + i)._x = (i - 4) * 115 + 25;
+              eval('OPT' + i)._y = 475;
+            }
+            eval('PIC' + i)._xscale = 80;
+            eval('PIC' + i)._yscale = 80;
+            eval('OPT' + i)._xscale = 70;
+            eval('OPT' + i)._yscale = 80;
+            ++i;
+          }
+        }
+      }
+      if (QN[odn] != 0) {
+        var v4 = 'OPT' + QN[odn];
+        tellTarget ('v4') {
+          gotoAndStop(3);
+        }
+      }
+    }
+
+    function RemoveTO() {
+      for (each in _root) {
+        var v2 = _root[each];
+        chknav = new String(v2._name);
+        ckn = chknav.slice(0, 3);
+        if (ckn == 'PIC') {
+          v2.removeMovieClip();
+        }
+      }
+    }
+
+    function NextTitle() {
+      if (od <= TsbN - 1) {
+        if (QN[od] != 0) {
+          var v3 = 'OPT' + QN[od];
+          tellTarget ('v3') {
+            gotoAndStop(1);
+          }
+        }
+        ++od;
+        ShowTitle(od);
+        ShowOpt(od);
+        if (od % 20 == 1) {
+          _root.Npage = int(od / 20) + 1;
+          i = 1;
+          while (i <= TsbN) {
+            var v2 = '_root.Nav' + i;
+            if (i >= (_root.Npage - 1) * 20 + 1 && i <= (_root.Npage - 1) * 20 + 10) {
+              eval(v2)._x = 670;
+              eval(v2)._y = 60 + (i - (_root.Npage - 1) * 20) * 35;
+            } else {
+              if (i >= (_root.Npage - 1) * 20 + 11 && i <= (_root.Npage - 1) * 20 + 20) {
+                eval(v2)._x = 720;
+                eval(v2)._y = 60 + (i - (_root.Npage - 1) * 20 - 10) * 35;
+              } else {
+                eval(v2)._x = i * 5;
+                eval(v2)._y = -30;
+              }
+            }
+            ++i;
+          }
+        }
+      } else {
+        if (od == TsbN) {
+          _root.gotoAndStop(_root._currentframe + 1);
+          clearInterval(lap);
+        }
+      }
+    }
+
+    function timebox() {
+      --_root.Time;
+      _root.timeMc.Ti._xscale = ((90 - _root.Time) / 90) * 100;
+      time = _root.Time;
+      trace('Time=' + Time);
+      updateAfterEvent();
+      if (_root.Time == 0) {
+        clearInterval(lap);
+        _root.gotoAndStop(8);
+      }
+    }
+
+    var my_sound = new Sound(my_mc);
+    var my1_sound = new Sound();
+    my_sound.attachSound('bgsound');
+    my1_sound.attachSound('tishiyin');
+    my1_sound.start(0, 99);
+    var kaiguan = true;
+    kaiguan_mc.onPress = function () {
+      if (kaiguan == true) {
+        this.gotoAndStop(2);
+        my1_sound.stop();
+        _root.kaiguan = false;
+      } else {
+        if (kaiguan == false) {
+          this.gotoAndStop(1);
+          my1_sound.start(0, 99);
+          _root.kaiguan = true;
+        }
+      }
+    };
+
+    var ChcN = 8;
+    var TsbN = 2;
+    var autoJ = false;
+    var Time = 90;
+    var Time2 = 0;
+    var N;
+    var K = 0;
+    stop();
+    var Answer_array = [4, 5, 1, 2, 6, 3, 6, 2, 1, 3, 4, 5, 2, 6, 1, 2, 1, 3, 5, 6, 4, 3, 4, 5, 8, 2, 3, 8, 7, 4, 5, 1, 7, 6, 1, 2, 3, 4, 3, 7, 8, 6, 5, 4, 1, 2, 5, 6, 7, 6, 8, 2, 1, 5, 1, 6, 3, 2, 4, 5];
+    var Answer_1 = [2, 6, 1, 1, 3, 5, 6, 4, 8, 2, 3, 8];
+    var Answer_2 = [7, 4, 5, 1, 7, 8, 6, 5, 4, 1, 7, 6, 8, 2, 1, 5, 1, 6, 3];
+    var ch_1;
+    var ch_2;
+    ch_1 = random(12);
+    ch_2 = random(19);
+    trace('ch_1=' + ch_1);
+    trace('ch_2=' + ch_2);
+    var ch_2;
+    var od = 1;
+    QN = new Array(TsbN);
+    var jx;
+    i = 1;
+    while (i <= TsbN) {
+      QN[i] = 0;
+      ++i;
+    }
+    var Npage = 1;
+  }
+
+  movieClip 975  {
+  }
+
+  movieClip 977  {
+  }
+
+  movieClip 980  {
+  }
+
+  movieClip 982  {
+  }
+
+  movieClip 986  {
+  }
+
+  button 994 {
+
+    on (press) {
+      my1_sound.stop();
+      gotoAndStop(6);
+    }
+  }
+
+  movieClip 999  {
+
+    frame 1 {
+      stop();
+    }
+  }
+
+  frame 2 {
+    stop();
+    btn1.onPress = function () {};
+
+    btn2.onPress = function () {
+      _root.gotoAndStop(6);
+      _root.Time2 = 0;
+    };
+
+    btn3.onPress = function () {
+      _root.nextFrame();
+      lap = setInterval(_root.timebox, 1000);
+    };
+
+    btn4.onPress = function () {
+      _root.prevFrame();
+    };
+
+  }
+
+  frame 3 {
+    _root.timeMc.Ti._xscale = 0;
+    lap = setInterval(_root.timebox, 1000);
+    i = 1;
+    while (i <= TsbN) {
+      _root.attachMovie('Nav', 'Nav' + i, 2000 + i);
+      var isf = '_root.Nav' + i;
+      if (i <= 10) {
+        eval(isf)._x = 670;
+        eval(isf)._y = 60 + i * 35;
+      } else {
+        if (i <= 20) {
+          eval(isf)._x = 720;
+          eval(isf)._y = 60 + (i - 10) * 35;
+        } else {
+          eval(isf)._x = i * 5;
+          eval(isf)._y = -30;
+        }
+      }
+      eval(isf + '.NavN') = i;
+      ++i;
+    }
+    i = 1;
+    while (i <= ChcN) {
+      _root.attachMovie('OPT', 'OPT' + i, 200 + i);
+      var isf = '_root.OPT' + i;
+      if (i <= 3) {
+        eval(isf)._x = i * 160;
+        eval(isf)._y = 380;
+      } else {
+        eval(isf)._x = (i - 3) * 160;
+        eval(isf)._y = 475;
+      }
+      ++i;
+    }
+    for (each in _root) {
+      var obj = _root[each];
+      chknav = new String(obj._name);
+      ckn = chknav.slice(0, 3);
+      switch (ckn) {
+        case 'OPT':
+          obj.onRollOver = function () {
+            this.gotoAndStop(2);
+          };
+
+          obj.onRollOut = function () {
+            if (this.getDepth() - 200 != QN[od]) {
+              this.gotoAndStop(1);
+            } else {
+              this.gotoAndStop(3);
+            }
+          };
+
+          obj.onPress = function () {
+            if (QN[od] != 0) {
+              var v3 = 'OPT' + QN[od];
+              tellTarget ('v3') {
+                gotoAndStop(1);
+              }
+            }
+            QN[od] = this.getDepth() - 200;
+            var v2 = 'Nav' + od;
+            tellTarget ('v2') {
+              gotoAndStop(3);
+            }
+            this.gotoAndStop(3);
+            if (autoJ == true) {
+              NextTitle();
+            }
+          };
+
+          break;
+        case 'ATJ':
+          obj.onRollOut = function () {
+            if (autoJ == true) {
+              this.gotoAndStop(2);
+            } else {
+              this.gotoAndStop(1);
+            }
+          };
+
+          obj.onPress = function () {
+            if (autoJ == true) {
+              this.gotoAndStop(1);
+              autoJ = false;
+              _root.btnNext._visible = true;
+            } else {
+              this.gotoAndStop(2);
+              autoJ = true;
+              _root.btnNext._visible = false;
+            }
+          };
+
+      }
+    }
+    ShowTitle(od);
+    ShowOpt(od);
+    nextFrame();
+  }
+
+  button 1015 {
+
+    on (press) {
+      if (QN[od] != 0) {
+        NextTitle();
+      }
+    }
+  }
+
+  movieClip 1017  {
+  }
+
+  movieClip 1018  {
+  }
+
+  movieClip 1020  {
+  }
+
+  frame 5 {
+    _root.clearInterval(lap);
+    for (each in _root) {
+      var obj = _root[each];
+      obj.removeMovieClip();
+    }
+    trace('QN=' + QN);
+    trace('Answer_array=' + Answer_1[ch_1]);
+    _root.clearInterval(lap);
+    if (QN[1] == Answer_1[ch_1]) {
+      QN[1] = 1;
+    } else {
+      QN[1] = 0;
+    }
+    if (QN[2] == Answer_2[ch_2]) {
+      QN[2] = 1;
+    } else {
+      QN[2] = 0;
+    }
+    k = QN[1] + '|' + QN[2];
+    trace('K=' + k);
+    fscommand('txtl', k);
+  }
+
+  frame 6 {
+    function timebox2() {
+      if (Time2 == 60) {
+        if (_root.kaiguan == true) {
+          pd = 3;
+        } else {
+          pd = 1;
+        }
+        _root.nextFrame();
+        clearInterval(lap2);
+      }
+      ++_root.Time2;
+      updateAfterEvent();
+    }
+
+    stop();
+    pd = 4;
+    var a = 0;
+    lap2 = setInterval(_root.timebox2, 1000);
+    i = 0;
+    while (i < 6) {
+      obj = this['btn' + i];
+      obj.onRollOver = function () {
+        attachMovie('kuang', 'kuang', 1000);
+        kuang._x = this._x;
+        kuang._y = this._y;
+      };
+
+      obj.onRollOut = function () {
+        if (this._name.charAt(3) != N) {
+          kuang.removeMovieClip();
+        } else {
+          kuang.gotoAndStop(2);
+        }
+      };
+
+      obj.onPress = function () {
+        attachMovie('kuang', 'kuang1', 1200);
+        kuang1._x = this._x;
+        kuang1._y = this._y;
+        N = this._name.charAt(3);
+        _root.kaiguan = true;
+        kuang1.gotoAndStop(2);
+      };
+
+      ++i;
+    }
+  }
+
+  movieClip 1022  {
+  }
+
+  button 1026 {
+
+    on (release) {
+      trace('0');
+      _root.a = 0;
+    }
+  }
+
+  button 1028 {
+
+    on (release) {
+      trace('0');
+      _root.a = 1;
+    }
+  }
+
+  button 1030 {
+
+    on (release) {
+      trace('0');
+      _root.a = 0;
+    }
+  }
+
+  button 1032 {
+
+    on (release) {
+      trace('0');
+      _root.a = 0;
+    }
+  }
+
+  button 1034 {
+
+    on (release) {
+      trace('0');
+      _root.a = 0;
+    }
+  }
+
+  button 1036 {
+
+    on (release) {
+      trace('0');
+      _root.a = 0;
+    }
+  }
+
+  button 1037 {
+
+    on (release) {
+      trace('0');
+      clearInterval(lap2);
+      nextFrame();
+    }
+  }
+
+  frame 7 {
+    _root.kuang.removeMovieClip();
+    _root.kuang1.removeMovieClip();
+    if (pd == 1) {
+      txt = '请在规定时间内作答！超时将自动进入下一题，该题分数被扣除！';
+    } else {
+      if (pd == 2) {
+        txt = '操作正确！';
+      } else {
+        if (pd == 3) {
+          txt = '超时！请在规定时间内作答！';
+        }
+      }
+    }
+    if (pd == 4) {
+      if (_root.a == 1) {
+        txt1 = '练习完毕，开始正式测试';
+        txt = '恭喜您，回答正确！';
+      } else {
+        txt1 = '点击“确定”按钮，观看正确的答题画面。';
+        txt = '很抱歉，您的回答有误。正确答案是图形2。';
+      }
+    }
+  }
+
+  button 1040 {
+
+    on (release) {
+      if (pd == 4) {
+        if (_root.a == 1) {
+          _root.gotoAndStop(3);
+        } else {
+          _root.gotoAndStop(10);
+        }
+      } else {
+        _root.gotoAndStop(3);
+      }
+    }
+  }
+
+  frame 8 {
+    stop();
+    _root.clearInterval(lap);
+    for (each in _root) {
+      var obj = _root[each];
+      obj.removeMovieClip();
+    }
+    trace('QN=' + QN);
+    trace('Answer_array=' + Answer_array);
+    if (QN[1] == Answer_1[ch_1]) {
+      QN[1] = 1;
+    } else {
+      QN[1] = 0;
+    }
+    if (QN[2] == Answer_2[ch_2]) {
+      QN[2] = 1;
+    } else {
+      QN[2] = 0;
+    }
+    k = QN[1] + '|' + QN[2];
+  }
+
+  button 1042 {
+
+    on (press) {
+      trace('K=' + k);
+      fscommand('txtl', k);
+    }
+  }
+
+  movieClip 1043  {
+  }
+
+  movieClip 1046  {
+  }
+
+  movieClip 1047  {
+  }
+
+  button 1053 {
+
+    on (release) {
+      _root.gotoAndStop(3);
+    }
+  }
+
+  movieClip 1054  {
+
+    frame 51 {
+      stop();
+    }
+  }
+}

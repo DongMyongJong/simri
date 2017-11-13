@@ -1,0 +1,5629 @@
+movie 'D:\csharp\simri\resources\pinggu\����.swf' {
+// flash 8, total frames: 4, frame rate: 30 fps, 1024x768 px, compressed
+
+  movieClip 5 C11 {
+
+    frame 1 {
+      stop();
+    }
+  }
+
+  movieClip 13 BoundingBox {
+  }
+
+  movieClip 14 Defaults {
+
+    #initclip
+      Object.registerClass('Defaults', mx.skins.halo.Defaults);
+    #endinitclip
+  }
+
+  movieClip 15 UIObjectExtensions {
+
+    #initclip
+      Object.registerClass('UIObjectExtensions', mx.core.ext.UIObjectExtensions);
+    #endinitclip
+  }
+
+  movieClip 16 UIObject {
+
+    #initclip
+      Object.registerClass('UIObject', mx.core.UIObject);
+    #endinitclip
+
+    frame 1 {
+      stop();
+    }
+  }
+
+  button 19 {
+
+    on (keyPress '<Tab>') {
+      this.tabHandler();
+    }
+  }
+
+  movieClip 20  {
+
+    #initclip
+      Object.registerClass('FocusManager', mx.managers.FocusManager);
+      if (_root.focusManager == undefined) {
+        _root.createClassObject(mx.managers.FocusManager, 'focusManager', mx.managers.DepthManager.highestDepth--);
+      }
+    #endinitclip
+
+    frame 1 {
+    }
+  }
+
+  movieClip 21 FocusRect {
+
+    #initclip
+      Object.registerClass('FocusRect', mx.skins.halo.FocusRect);
+    #endinitclip
+  }
+
+  movieClip 22 FocusManager {
+
+    #initclip
+      Object.registerClass('FocusManager', mx.managers.FocusManager);
+    #endinitclip
+
+    frame 1 {
+      stop();
+    }
+  }
+
+  movieClip 23 UIComponentExtensions {
+
+    #initclip
+      Object.registerClass('UIComponentExtensions', mx.core.ext.UIComponentExtensions);
+    #endinitclip
+  }
+
+  movieClip 24 UIComponent {
+
+    #initclip
+      Object.registerClass('UIComponent', mx.core.UIComponent);
+    #endinitclip
+
+    frame 1 {
+      stop();
+    }
+  }
+
+  movieClip 25 Border {
+
+    #initclip
+      Object.registerClass('Border', mx.skins.Border);
+    #endinitclip
+
+    frame 1 {
+      stop();
+    }
+  }
+
+  movieClip 26 RectBorder {
+
+    #initclip
+      mx.skins.SkinElement.registerElement(mx.skins.RectBorder.symbolName, Object(mx.skins.RectBorder));
+      Object.registerClass('RectBorder', mx.skins.halo.RectBorder);
+    #endinitclip
+
+    frame 1 {
+      stop();
+    }
+  }
+
+  movieClip 27 View {
+
+    #initclip
+      Object.registerClass('View', mx.core.View);
+    #endinitclip
+
+    frame 1 {
+      stop();
+    }
+  }
+
+  movieClip 28 Loader {
+
+    #initclip
+      Object.registerClass('Loader', mx.controls.Loader);
+    #endinitclip
+
+    frame 1 {
+      stop();
+    }
+  }
+
+  movieClip 52 C15 {
+
+    frame 1 {
+      stop();
+    }
+
+    instance E2 of movieClip 28 Loader {
+
+      onClipEvent (construct) {
+        autoLoad = true;
+        contentPath = 'pic/EE.png';
+        scaleContent = true;
+        enabled = true;
+        visible = true;
+        minHeight = 0;
+        minWidth = 0;
+      }
+    }
+
+    instance E1 of movieClip 28 Loader {
+
+      onClipEvent (construct) {
+        autoLoad = true;
+        contentPath = 'pic/E.png';
+        scaleContent = true;
+        enabled = true;
+        visible = true;
+        minHeight = 0;
+        minWidth = 0;
+      }
+    }
+  }
+
+  movieClip 57 C14 {
+
+    frame 1 {
+      stop();
+    }
+
+    instance D2 of movieClip 28 Loader {
+
+      onClipEvent (construct) {
+        autoLoad = true;
+        contentPath = 'pic/DD.png';
+        scaleContent = true;
+        enabled = true;
+        visible = true;
+        minHeight = 0;
+        minWidth = 0;
+      }
+    }
+
+    instance D1 of movieClip 28 Loader {
+
+      onClipEvent (construct) {
+        autoLoad = true;
+        contentPath = 'pic/D.png';
+        scaleContent = true;
+        enabled = true;
+        visible = true;
+        minHeight = 0;
+        minWidth = 0;
+      }
+    }
+  }
+
+  movieClip 62 C13 {
+
+    frame 1 {
+      stop();
+    }
+
+    instance C1 of movieClip 28 Loader {
+
+      onClipEvent (construct) {
+        autoLoad = true;
+        contentPath = 'pic/CC.png';
+        scaleContent = true;
+        enabled = true;
+        visible = true;
+        minHeight = 0;
+        minWidth = 0;
+      }
+    }
+
+    instance 11 of movieClip 28 Loader {
+
+      onClipEvent (construct) {
+        autoLoad = true;
+        contentPath = 'pic/C.png';
+        scaleContent = true;
+        enabled = true;
+        visible = true;
+        minHeight = 0;
+        minWidth = 0;
+      }
+    }
+  }
+
+  movieClip 65 C12 {
+
+    frame 1 {
+      stop();
+    }
+  }
+
+  movieClip 69 Label {
+
+    #initclip
+      Object.registerClass('Label', mx.controls.Label);
+    #endinitclip
+
+    frame 1 {
+      stop();
+    }
+  }
+
+  frame 1 {
+    var CNum;
+  }
+
+  movieClip 75  {
+  }
+
+  movieClip 77  {
+  }
+
+  movieClip 80  {
+  }
+
+  movieClip 82  {
+  }
+
+  movieClip 86  {
+  }
+
+  movieClip 89  {
+  }
+
+  movieClip 8 __Packages.mx.core.UIObject {
+
+    #initclip
+      if (!_global.mx) {
+        _global.mx = new Object();
+      }
+      if (!_global.mx.core) {
+        _global.mx.core = new Object();
+      }
+      if (!_global.mx.core.UIObject) {
+        var v1 = function () {
+          super();
+          this.constructObject();
+        };
+
+        mx.core.UIObject = v1;
+        var v2 = new MovieClip();
+        mx.core.UIObject.prototype = v2;
+        v2.__get__width = function () {
+          return this._width;
+        };
+
+        v2.__get__height = function () {
+          return this._height;
+        };
+
+        v2.__get__left = function () {
+          return this._x;
+        };
+
+        v2.__get__x = function () {
+          return this._x;
+        };
+
+        v2.__get__top = function () {
+          return this._y;
+        };
+
+        v2.__get__y = function () {
+          return this._y;
+        };
+
+        v2.__get__right = function () {
+          return this._parent.width - (this._x + this.__get__width());
+        };
+
+        v2.__get__bottom = function () {
+          return this._parent.height - (this._y + this.__get__height());
+        };
+
+        v2.getMinHeight = function (Void) {
+          return this._minHeight;
+        };
+
+        v2.setMinHeight = function (h) {
+          this._minHeight = h;
+        };
+
+        v2.__get__minHeight = function () {
+          return this.getMinHeight();
+        };
+
+        v2.__set__minHeight = function (h) {
+          this.setMinHeight(h);
+          return this.__get__minHeight();
+        };
+
+        v2.getMinWidth = function (Void) {
+          return this._minWidth;
+        };
+
+        v2.setMinWidth = function (w) {
+          this._minWidth = w;
+        };
+
+        v2.__get__minWidth = function () {
+          return this.getMinWidth();
+        };
+
+        v2.__set__minWidth = function (w) {
+          this.setMinWidth(w);
+          return this.__get__minWidth();
+        };
+
+        v2.setVisible = function (x, noEvent) {
+          if (x != this._visible) {
+            this._visible = x;
+            if (noEvent != true) {
+              this.dispatchEvent({'type': x ? 'reveal' : 'hide'});
+            }
+          }
+        };
+
+        v2.__get__visible = function () {
+          return this._visible;
+        };
+
+        v2.__set__visible = function (x) {
+          this.setVisible(x, false);
+          return this.__get__visible();
+        };
+
+        v2.__get__scaleX = function () {
+          return this._xscale;
+        };
+
+        v2.__set__scaleX = function (x) {
+          this._xscale = x;
+          return this.__get__scaleX();
+        };
+
+        v2.__get__scaleY = function () {
+          return this._yscale;
+        };
+
+        v2.__set__scaleY = function (y) {
+          this._yscale = y;
+          return this.__get__scaleY();
+        };
+
+        v2.doLater = function (obj, fn) {
+          if (this.methodTable == undefined) {
+            this.methodTable = new Array();
+          }
+          this.methodTable.push({'obj': obj, 'fn': fn});
+          this.onEnterFrame = this.doLaterDispatcher;
+        };
+
+        v2.doLaterDispatcher = function (Void) {
+          delete this.onEnterFrame;
+          if (this.invalidateFlag) {
+            this.redraw();
+          }
+          var v3 = this.methodTable;
+          this.methodTable = new Array();
+          if (v3.length > 0) {
+            var v2;
+            v2 = v3.shift();
+            while (v2 != undefined) {
+              v2.obj[v2.fn]();
+            }
+          }
+        };
+
+        v2.cancelAllDoLaters = function (Void) {
+          delete this.onEnterFrame;
+          this.methodTable = new Array();
+        };
+
+        v2.invalidate = function (Void) {
+          this.invalidateFlag = true;
+          this.onEnterFrame = this.doLaterDispatcher;
+        };
+
+        v2.invalidateStyle = function (Void) {
+          this.invalidate();
+        };
+
+        v2.redraw = function (bAlways) {
+          if (this.invalidateFlag || bAlways) {
+            this.invalidateFlag = false;
+            var v2;
+            for (v2 in this.tfList) {
+              this.tfList[v2].draw();
+            }
+            this.draw();
+            this.dispatchEvent({'type': 'draw'});
+          }
+        };
+
+        v2.draw = function (Void) {};
+
+        v2.move = function (x, y, noEvent) {
+          var v3 = this._x;
+          var v2 = this._y;
+          this._x = x;
+          this._y = y;
+          if (noEvent != true) {
+            this.dispatchEvent({'type': 'move', 'oldX': v3, 'oldY': v2});
+          }
+        };
+
+        v2.setSize = function (w, h, noEvent) {
+          var v2 = this.__width;
+          var v3 = this.__height;
+          this.__width = w;
+          this.__height = h;
+          this.size();
+          if (noEvent != true) {
+            this.dispatchEvent({'type': 'resize', 'oldWidth': v2, 'oldHeight': v3});
+          }
+        };
+
+        v2.size = function (Void) {
+          this._width = this.__width;
+          this._height = this.__height;
+        };
+
+        v2.drawRect = function (x1, y1, x2, y2) {
+          this.moveTo(x1, y1);
+          this.lineTo(x2, y1);
+          this.lineTo(x2, y2);
+          this.lineTo(x1, y2);
+          this.lineTo(x1, y1);
+        };
+
+        v2.createLabel = function (name, depth, text) {
+          this.createTextField(name, depth, 0, 0, 0, 0);
+          var v2 = this[name];
+          v2._color = mx.core.UIObject.textColorList;
+          v2._visible = false;
+          v2.__text = text;
+          if (this.tfList == undefined) {
+            this.tfList = new Object();
+          }
+          this.tfList[name] = v2;
+          v2.invalidateStyle();
+          this.invalidate();
+          v2.styleName = this;
+          return v2;
+        };
+
+        v2.createObject = function (linkageName, id, depth, initobj) {
+          return this.attachMovie(linkageName, id, depth, initobj);
+        };
+
+        v2.createClassObject = function (className, id, depth, initobj) {
+          var v3 = className.symbolName == undefined;
+          if (v3) {
+            Object.registerClass(className.symbolOwner.symbolName, className);
+          }
+          var v4 = this.createObject(className.symbolOwner.symbolName, id, depth, initobj);
+          if (v3) {
+            Object.registerClass(className.symbolOwner.symbolName, className.symbolOwner);
+          }
+          return v4;
+        };
+
+        v2.createEmptyObject = function (id, depth) {
+          return this.createClassObject(mx.core.UIObject, id, depth);
+        };
+
+        v2.destroyObject = function (id) {
+          var v2 = this[id];
+          if (v2.getDepth() < 0) {
+            var v4 = this.buildDepthTable();
+            var v5 = this.findNextAvailableDepth(0, v4, 'up');
+            var v3 = v5;
+            v2.swapDepths(v3);
+          }
+          v2.removeMovieClip();
+          delete this[id];
+        };
+
+        v2.getSkinIDName = function (tag) {
+          return this.idNames[tag];
+        };
+
+        v2.setSkin = function (tag, linkageName, initObj) {
+          if (_global.skinRegistry[linkageName] == undefined) {
+            mx.skins.SkinElement.registerElement(linkageName, mx.skins.SkinElement);
+          }
+          return this.createObject(linkageName, this.getSkinIDName(tag), tag, initObj);
+        };
+
+        v2.createSkin = function (tag) {
+          var v2 = this.getSkinIDName(tag);
+          this.createEmptyObject(v2, tag);
+          return this[v2];
+        };
+
+        v2.createChildren = function (Void) {};
+
+        v2._createChildren = function (Void) {
+          this.createChildren();
+          this.childrenCreated = true;
+        };
+
+        v2.constructObject = function (Void) {
+          if (this._name == undefined) {
+            return undefined;
+          }
+          this.init();
+          this._createChildren();
+          this.createAccessibilityImplementation();
+          this._endInit();
+          if (this.validateNow) {
+            this.redraw(true);
+          } else {
+            this.invalidate();
+          }
+        };
+
+        v2.initFromClipParameters = function (Void) {
+          var v4 = false;
+          var v2;
+          for (v2 in this.clipParameters) {
+            if (this.hasOwnProperty(v2)) {
+              v4 = true;
+              this['def_' + v2] = this[v2];
+              delete this[v2];
+            }
+          }
+          if (v4) {
+            for (v2 in this.clipParameters) {
+              var v3 = this['def_' + v2];
+              if (v3 != undefined) {
+                this[v2] = v3;
+              }
+            }
+          }
+        };
+
+        v2.init = function (Void) {
+          this.__width = this._width;
+          this.__height = this._height;
+          if (this.initProperties == undefined) {
+            this.initFromClipParameters();
+          } else {
+            this.initProperties();
+          }
+          if (_global.cascadingStyles == true) {
+            this.stylecache = new Object();
+          }
+        };
+
+        v2.getClassStyleDeclaration = function (Void) {
+          var v4 = this;
+          var v3 = this.className;
+          while (v3 != undefined) {
+            if (this.ignoreClassStyleDeclaration[v3] == undefined) {
+              if (_global.styles[v3] != undefined) {
+                return _global.styles[v3];
+              }
+            }
+            v4 = v4.__proto__;
+            v3 = v4.className;
+          }
+        };
+
+        v2.setColor = function (color) {};
+
+        v2.__getTextFormat = function (tf, bAll) {
+          var v8 = this.stylecache.tf;
+          if (v8 != undefined) {
+            var v3;
+            for (v3 in mx.styles.StyleManager.TextFormatStyleProps) {
+              if (bAll || mx.styles.StyleManager.TextFormatStyleProps[v3]) {
+                if (tf[v3] == undefined) {
+                  tf[v3] = v8[v3];
+                }
+              }
+            }
+            return false;
+          }
+          var v6 = false;
+          for (v3 in mx.styles.StyleManager.TextFormatStyleProps) {
+            if (bAll || mx.styles.StyleManager.TextFormatStyleProps[v3]) {
+              if (tf[v3] == undefined) {
+                var v5 = this._tf[v3];
+                if (v5 != undefined) {
+                  tf[v3] = v5;
+                } else {
+                  if (v3 == 'font' && this.fontFamily != undefined) {
+                    tf[v3] = this.fontFamily;
+                  } else {
+                    if (v3 == 'size' && this.fontSize != undefined) {
+                      tf[v3] = this.fontSize;
+                    } else {
+                      if (v3 == 'color' && this.color != undefined) {
+                        tf[v3] = this.color;
+                      } else {
+                        if (v3 == 'leftMargin' && this.marginLeft != undefined) {
+                          tf[v3] = this.marginLeft;
+                        } else {
+                          if (v3 == 'rightMargin' && this.marginRight != undefined) {
+                            tf[v3] = this.marginRight;
+                          } else {
+                            if (v3 == 'italic' && this.fontStyle != undefined) {
+                              tf[v3] = this.fontStyle == v3;
+                            } else {
+                              if (v3 == 'bold' && this.fontWeight != undefined) {
+                                tf[v3] = this.fontWeight == v3;
+                              } else {
+                                if (v3 == 'align' && this.textAlign != undefined) {
+                                  tf[v3] = this.textAlign;
+                                } else {
+                                  if (v3 == 'indent' && this.textIndent != undefined) {
+                                    tf[v3] = this.textIndent;
+                                  } else {
+                                    if (v3 == 'underline' && this.textDecoration != undefined) {
+                                      tf[v3] = this.textDecoration == v3;
+                                    } else {
+                                      if (v3 == 'embedFonts' && this.embedFonts != undefined) {
+                                        tf[v3] = this.embedFonts;
+                                      } else {
+                                        v6 = true;
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+          if (v6) {
+            var v9 = this.styleName;
+            if (v9 != undefined) {
+              if (typeof v9 != 'string') {
+                v6 = v9.__getTextFormat(tf, true, this);
+              } else {
+                if (_global.styles[v9] != undefined) {
+                  v6 = _global.styles[v9].__getTextFormat(tf, true, this);
+                }
+              }
+            }
+          }
+          if (v6) {
+            var v10 = this.getClassStyleDeclaration();
+            if (v10 != undefined) {
+              v6 = v10.__getTextFormat(tf, true, this);
+            }
+          }
+          if (v6) {
+            if (_global.cascadingStyles) {
+              if (this._parent != undefined) {
+                v6 = this._parent.__getTextFormat(tf, false);
+              }
+            }
+          }
+          if (v6) {
+            v6 = _global.style.__getTextFormat(tf, true, this);
+          }
+          return v6;
+        };
+
+        v2._getTextFormat = function (Void) {
+          var v2 = this.stylecache.tf;
+          if (v2 != undefined) {
+            return v2;
+          }
+          v2 = new TextFormat();
+          this.__getTextFormat(v2, true);
+          this.stylecache.tf = v2;
+          if (this.enabled == false) {
+            var v3 = this.getStyle('disabledColor');
+            v2.color = v3;
+          }
+          return v2;
+        };
+
+        v2.getStyleName = function (Void) {
+          var v2 = this.styleName;
+          if (v2 != undefined) {
+            if (typeof v2 != 'string') {
+              return v2.getStyleName();
+            } else {
+              return v2;
+            }
+          }
+          if (this._parent != undefined) {
+            return this._parent.getStyleName();
+          } else {
+            return undefined;
+          }
+        };
+
+        v2.getStyle = function (styleProp) {
+          var v3;
+          ++_global.getStyleCounter;
+          if (this[styleProp] != undefined) {
+            return this[styleProp];
+          }
+          var v6 = this.styleName;
+          if (v6 != undefined) {
+            if (typeof v6 != 'string') {
+              v3 = v6.getStyle(styleProp);
+            } else {
+              var v7 = _global.styles[v6];
+              v3 = v7.getStyle(styleProp);
+            }
+          }
+          if (v3 != undefined) {
+            return v3;
+          }
+          v7 = this.getClassStyleDeclaration();
+          if (v7 != undefined) {
+            v3 = v7[styleProp];
+          }
+          if (v3 != undefined) {
+            return v3;
+          }
+          if (_global.cascadingStyles) {
+            if (mx.styles.StyleManager.isInheritingStyle(styleProp) || mx.styles.StyleManager.isColorStyle(styleProp)) {
+              var v5 = this.stylecache;
+              if (v5 != undefined) {
+                if (v5[styleProp] != undefined) {
+                  return v5[styleProp];
+                }
+              }
+              if (this._parent != undefined) {
+                v3 = this._parent.getStyle(styleProp);
+              } else {
+                v3 = _global.style[styleProp];
+              }
+              if (v5 != undefined) {
+                v5[styleProp] = v3;
+              }
+              return v3;
+            }
+          }
+          if (v3 == undefined) {
+            v3 = _global.style[styleProp];
+          }
+          return v3;
+        };
+
+        v1.mergeClipParameters = function (o, p) {
+          for (var v3 in p) {
+            o[v3] = p[v3];
+          }
+          return true;
+        };
+
+        v1.symbolName = 'UIObject';
+        v1.symbolOwner = mx.core.UIObject;
+        v1.version = '2.0.2.126';
+        v1.textColorList = {'color': 1, 'disabledColor': 1};
+        v2.invalidateFlag = false;
+        v2.lineWidth = 1;
+        v2.lineColor = 0;
+        v2.tabEnabled = false;
+        v2.clipParameters = {'visible': 1, 'minHeight': 1, 'minWidth': 1, 'maxHeight': 1, 'maxWidth': 1, 'preferredHeight': 1, 'preferredWidth': 1};
+        v2.addProperty('bottom', v2.__get__bottom, function () {});
+        v2.addProperty('height', v2.__get__height, function () {});
+        v2.addProperty('left', v2.__get__left, function () {});
+        v2.addProperty('minHeight', v2.__get__minHeight, v2.__set__minHeight);
+        v2.addProperty('minWidth', v2.__get__minWidth, v2.__set__minWidth);
+        v2.addProperty('right', v2.__get__right, function () {});
+        v2.addProperty('scaleX', v2.__get__scaleX, v2.__set__scaleX);
+        v2.addProperty('scaleY', v2.__get__scaleY, v2.__set__scaleY);
+        v2.addProperty('top', v2.__get__top, function () {});
+        v2.addProperty('visible', v2.__get__visible, v2.__set__visible);
+        v2.addProperty('width', v2.__get__width, function () {});
+        v2.addProperty('x', v2.__get__x, function () {});
+        v2.addProperty('y', v2.__get__y, function () {});
+        ASSetPropFlags(mx.core.UIObject.prototype, null, 1);
+      }
+    #endinitclip
+  }
+
+  movieClip 9 __Packages.mx.core.UIComponent {
+
+    #initclip
+      if (!_global.mx) {
+        _global.mx = new Object();
+      }
+      if (!_global.mx.core) {
+        _global.mx.core = new Object();
+      }
+      if (!_global.mx.core.UIComponent) {
+        var v1 = function () {
+          super();
+        };
+
+        mx.core.UIComponent = v1;
+        var v2 = new mx.core.UIObject();
+        mx.core.UIComponent.prototype = v2;
+        v2.__get__width = function () {
+          return this.__width;
+        };
+
+        v2.__get__height = function () {
+          return this.__height;
+        };
+
+        v2.setVisible = function (x, noEvent) {
+          super.setVisible(x, noEvent);
+        };
+
+        v2.enabledChanged = function (id, oldValue, newValue) {
+          this.setEnabled(newValue);
+          this.invalidate();
+          delete this.stylecache.tf;
+          return newValue;
+        };
+
+        v2.setEnabled = function (enabled) {
+          this.invalidate();
+        };
+
+        v2.getFocus = function () {
+          var selFocus = Selection.getFocus();
+          return (selFocus === null) ? null : eval(selFocus);
+        };
+
+        v2.setFocus = function () {
+          Selection.setFocus(this);
+        };
+
+        v2.getFocusManager = function () {
+          var v2 = this;
+          while (v2 != undefined) {
+            if (v2.focusManager != undefined) {
+              return v2.focusManager;
+            }
+            v2 = v2._parent;
+          }
+          return undefined;
+        };
+
+        v2.onKillFocus = function (newFocus) {
+          this.removeEventListener('keyDown', this);
+          this.removeEventListener('keyUp', this);
+          this.dispatchEvent({'type': 'focusOut'});
+          this.drawFocus(false);
+        };
+
+        v2.onSetFocus = function (oldFocus) {
+          this.addEventListener('keyDown', this);
+          this.addEventListener('keyUp', this);
+          this.dispatchEvent({'type': 'focusIn'});
+          if ((this.getFocusManager()).bDrawFocus != false) {
+            this.drawFocus(true);
+          }
+        };
+
+        v2.findFocusInChildren = function (o) {
+          if (o.focusTextField != undefined) {
+            return o.focusTextField;
+          }
+          if (o.tabEnabled == true) {
+            return o;
+          }
+          return undefined;
+        };
+
+        v2.findFocusFromObject = function (o) {
+          if (o.tabEnabled != true) {
+            if (o._parent == undefined) {
+              return undefined;
+            }
+            if (o._parent.tabEnabled == true) {
+              o = o._parent;
+              return o;
+            }
+            if (o._parent.tabChildren) {
+              o = this.findFocusInChildren(o._parent);
+              return o;
+            }
+            o = this.findFocusFromObject(o._parent);
+          }
+          return o;
+        };
+
+        v2.pressFocus = function () {
+          var v3 = this.findFocusFromObject(this);
+          var v2 = this.getFocus();
+          if (v3 != v2) {
+            v2.drawFocus(false);
+            if ((this.getFocusManager()).bDrawFocus != false) {
+              v3.drawFocus(true);
+            }
+          }
+        };
+
+        v2.releaseFocus = function () {
+          var v2 = this.findFocusFromObject(this);
+          if (v2 != this.getFocus()) {
+            v2.setFocus();
+          }
+        };
+
+        v2.isParent = function (o) {
+          while (o != undefined) {
+            if (o == this) {
+              return true;
+            }
+            o = o._parent;
+          }
+          return false;
+        };
+
+        v2.size = function () {};
+
+        v2.init = function () {
+          super.init();
+          this._xscale = 100;
+          this._yscale = 100;
+          this._focusrect = _global.useFocusRect == false;
+          this.watch('enabled', this.enabledChanged);
+          if (this.enabled == false) {
+            this.setEnabled(false);
+          }
+        };
+
+        v2.dispatchValueChangedEvent = function (value) {
+          this.dispatchEvent({'type': 'valueChanged', 'value': value});
+        };
+
+        v1.symbolName = 'UIComponent';
+        v1.symbolOwner = mx.core.UIComponent;
+        v1.version = '2.0.2.126';
+        v1.kStretch = 5000;
+        v2.focusEnabled = true;
+        v2.tabEnabled = true;
+        v2.origBorderStyles = {'themeColor': 16711680};
+        v2.clipParameters = {};
+        v1.mergedClipParameters = mx.core.UIObject.mergeClipParameters(mx.core.UIComponent.prototype.clipParameters, mx.core.UIObject.prototype.clipParameters);
+        v2.addProperty('height', v2.__get__height, function () {});
+        v2.addProperty('width', v2.__get__width, function () {});
+        ASSetPropFlags(mx.core.UIComponent.prototype, null, 1);
+      }
+    #endinitclip
+  }
+
+  movieClip 10 __Packages.mx.core.View {
+
+    #initclip
+      if (!_global.mx) {
+        _global.mx = new Object();
+      }
+      if (!_global.mx.core) {
+        _global.mx.core = new Object();
+      }
+      if (!_global.mx.core.View) {
+        var v1 = function () {
+          super();
+        };
+
+        mx.core.View = v1;
+        var v2 = new mx.core.UIComponent();
+        mx.core.View.prototype = v2;
+        v2.init = function () {
+          super.init();
+          this.tabChildren = true;
+          this.tabEnabled = false;
+          this.boundingBox_mc._visible = false;
+          this.boundingBox_mc._height = 0;
+          this.boundingBox_mc._width = 0;
+        };
+
+        v2.size = function () {
+          this.border_mc.move(0, 0);
+          this.border_mc.setSize(this.__get__width(), this.__get__height());
+          this.doLayout();
+        };
+
+        v2.draw = function () {
+          this.size();
+        };
+
+        v2.__get__numChildren = function () {
+          var v3 = mx.core.View.childNameBase;
+          var v2 = 0;
+          while (!false) {
+            if (this[v3 + v2] == undefined) {
+              return v2;
+            }
+            ++v2;
+          }
+          return -1;
+        };
+
+        v2.__get__tabIndex = function () {
+          return this.tabEnabled ? this.__tabIndex : undefined;
+        };
+
+        v2.addLayoutObject = function (object) {};
+
+        v2.createChild = function (className, instanceName, initProps) {
+          if (this.depth == undefined) {
+            this.depth = 1;
+          }
+          var v2;
+          if (typeof className == 'string') {
+            v2 = this.createObject(className, instanceName, this.depth++, initProps);
+          } else {
+            v2 = this.createClassObject(className, instanceName, this.depth++, initProps);
+          }
+          if (v2 == undefined) {
+            v2 = this.loadExternal(className, this._loadExternalClass, instanceName, this.depth++, initProps);
+            this.addLayoutObject(v2);
+            return v2;
+          }
+          this[mx.core.View.childNameBase + this.__get__numChildren()] = v2;
+          v2._complete = true;
+          this.childLoaded(v2);
+          this.addLayoutObject(v2);
+          return v2;
+        };
+
+        v2.getChildAt = function (childIndex) {
+          return this[mx.core.View.childNameBase + childIndex];
+        };
+
+        v2.destroyChildAt = function (childIndex) {
+          if (!(childIndex >= 0 && childIndex < this.__get__numChildren())) {
+            return undefined;
+          }
+          var v4 = mx.core.View.childNameBase + childIndex;
+          var v6 = this.__get__numChildren();
+          var v3;
+          for (v3 in this) {
+            if (v3 == v4) {
+              v4 = '';
+              this.destroyObject(v3);
+              break;
+            }
+          }
+                    var v2 = Number(childIndex);
+          while (v2 < v6 - 1) {
+            this[mx.core.View.childNameBase + v2] = this[mx.core.View.childNameBase + (v2 + 1)];
+            ++v2;
+          }
+          delete this[mx.core.View.childNameBase + (v6 - 1)];
+          --this.depth;
+        };
+
+        v2.initLayout = function () {
+          if (!this.hasBeenLayedOut) {
+            this.doLayout();
+          }
+        };
+
+        v2.doLayout = function () {
+          this.hasBeenLayedOut = true;
+        };
+
+        v2.createChildren = function () {
+          if (this.border_mc == undefined) {
+            this.border_mc = this.createClassChildAtDepth(_global.styles.rectBorderClass, mx.managers.DepthManager.kBottom, {'styleName': this});
+          }
+          this.doLater(this, 'initLayout');
+        };
+
+        v2.convertToUIObject = function (obj) {};
+
+        v2.childLoaded = function (obj) {
+          this.convertToUIObject(obj);
+        };
+
+        v1.extension = function () {
+          mx.core.ExternalContent.enableExternalContent();
+        };
+
+        v1.symbolName = 'View';
+        v1.symbolOwner = mx.core.View;
+        v1.version = '2.0.2.126';
+        v2.className = 'View';
+        v1.childNameBase = '_child';
+        v2.hasBeenLayedOut = false;
+        v2._loadExternalClass = 'UIComponent';
+        v2.addProperty('numChildren', v2.__get__numChildren, function () {});
+        v2.addProperty('tabIndex', v2.__get__tabIndex, function () {});
+        ASSetPropFlags(mx.core.View.prototype, null, 1);
+      }
+    #endinitclip
+  }
+
+  movieClip 11 __Packages.mx.controls.Loader {
+
+    #initclip
+      if (!_global.mx) {
+        _global.mx = new Object();
+      }
+      if (!_global.mx.controls) {
+        _global.mx.controls = new Object();
+      }
+      if (!_global.mx.controls.Loader) {
+        var v1 = function () {
+          super();
+        };
+
+        mx.controls.Loader = v1;
+        var v2 = new mx.core.View();
+        mx.controls.Loader.prototype = v2;
+        v2.init = function () {
+          super.init();
+        };
+
+        v2.setSize = function (w, h, noEvent) {
+          this._origWidth = w;
+          this._origHeight = h;
+          super.setSize(w, h, noEvent);
+          if (_global.isLivePreview) {
+            this.livePreview._width = this.__width - 1;
+            this.livePreview._height = this.__height - 1;
+          }
+        };
+
+        v2.draw = function () {
+          this.size();
+        };
+
+        v2.size = function () {
+          super.size();
+          if (this.__scaleContent) {
+            this.doScaleContent();
+          } else {
+            this.doScaleLoader();
+          }
+        };
+
+        v2.createChildren = function () {
+          super.createChildren();
+          if (_global.isLivePreview) {
+            this.createTextField('livePreview', -1000, 0, 0, 99, 99);
+            this.livePreview.text = 'mx.controls.Loader';
+            this.livePreview.border = true;
+          }
+          if (this.__autoLoad) {
+            this.load();
+          }
+        };
+
+        v2.getAutoLoad = function () {
+          return this.__autoLoad;
+        };
+
+        v2.__get__autoLoad = function () {
+          return this.getAutoLoad();
+        };
+
+        v2.setAutoLoad = function (b) {
+          if (this.__autoLoad != b) {
+            this.__autoLoad = b;
+            if (this.__autoLoad && !this[mx.core.View.childNameBase + 0]._complete) {
+              this.load();
+            }
+          }
+        };
+
+        v2.__set__autoLoad = function (b) {
+          this.setAutoLoad(b);
+          return this.__get__autoLoad();
+        };
+
+        v2.getBytesLoaded = function () {
+          return this.__bytesLoaded;
+        };
+
+        v2.__get__bytesLoaded = function () {
+          return this.getBytesLoaded();
+        };
+
+        v2.getBytesTotal = function () {
+          return this.__bytesTotal;
+        };
+
+        v2.__get__bytesTotal = function () {
+          return this.getBytesTotal();
+        };
+
+        v2.getContent = function () {
+          return this.contentHolder;
+        };
+
+        v2.__get__content = function () {
+          return this.getContent();
+        };
+
+        v2.getContentPath = function () {
+          return this.__contentPath;
+        };
+
+        v2.__get__contentPath = function () {
+          return this.getContentPath();
+        };
+
+        v2.setContentPath = function (url) {
+          if (this.__contentPath != url) {
+            this.__contentPath = url;
+            if (this.childrenCreated) {
+              if (this.__autoLoad) {
+                this.load();
+              }
+            }
+          }
+        };
+
+        v2.__set__contentPath = function (c) {
+          this.setContentPath(c);
+          return this.__get__contentPath();
+        };
+
+        v2.getPercentLoaded = function () {
+          var v2 = 100 * (this.__bytesLoaded / this.__bytesTotal);
+          if (isNaN(v2)) {
+            v2 = 0;
+          }
+          return v2;
+        };
+
+        v2.__get__percentLoaded = function () {
+          return this.getPercentLoaded();
+        };
+
+        v2.__get__scaleContent = function () {
+          return this.getScaleContent();
+        };
+
+        v2.getScaleContent = function () {
+          return this.__scaleContent;
+        };
+
+        v2.setScaleContent = function (b) {
+          if (this.__scaleContent != b) {
+            this.__scaleContent = b;
+            if (this.__scaleContent) {
+              this.doScaleContent();
+            } else {
+              this.doScaleLoader();
+            }
+          }
+        };
+
+        v2.__set__scaleContent = function (b) {
+          this.setScaleContent(b);
+          return this.__get__scaleContent();
+        };
+
+        v2.load = function (url) {
+          if (url != undefined) {
+            this.__contentPath = url;
+          }
+          if (this[mx.core.View.childNameBase + 0] != undefined) {
+            if (this[mx.core.View.childNameBase + 0]._complete) {
+              this.setSize(this._origWidth, this._origHeight);
+            }
+            this.destroyChildAt(0);
+          }
+          if (this.__contentPath == undefined || this.__contentPath == '') {
+            return undefined;
+          }
+          this.createChild(this.__contentPath, 'contentHolder');
+        };
+
+        v2.childLoaded = function (obj) {
+          super.childLoaded(obj);
+          obj._rotation = 0;
+          this._origWidth = this.__width;
+          this._origHeight = this.__height;
+          if (this.__scaleContent) {
+            this.doScaleContent();
+          } else {
+            this.doScaleLoader();
+          }
+        };
+
+        v2.dispatchEvent = function (obj) {
+          if (obj.type == 'progress' || obj.type == 'complete') {
+            obj.target = this;
+            this.__bytesTotal = obj.total;
+            this.__bytesLoaded = obj.current;
+          }
+          super.dispatchEvent(obj);
+        };
+
+        v2.doScaleContent = function () {
+          if (!this[mx.core.View.childNameBase + 0]._complete) {
+            return undefined;
+          }
+          this.unScaleContent();
+          var v2 = this.border_mc.__get__borderMetrics();
+          var v7 = this._origWidth - v2.left - v2.right;
+          var v6 = this._origHeight - v2.top - v2.bottom;
+          var v9 = v2.left;
+          var v8 = v2.top;
+          var v5 = v7 / this.contentHolder._width;
+          var v3 = v6 / this.contentHolder._height;
+          var v4;
+          if (v5 > v3) {
+            v9 = v2.left + Math.floor((v7 - this.contentHolder._width * v3) / 2);
+            v4 = v3;
+          } else {
+            v8 = v2.top + Math.floor((v6 - this.contentHolder._height * v5) / 2);
+            v4 = v5;
+          }
+          v4 *= 100;
+          this.contentHolder._yscale = v4;
+          this.contentHolder._xscale = this.contentHolder._yscale;
+          this.contentHolder._x = v9;
+          this.contentHolder._y = v8;
+          if (this.__width != this._origWidth || this.__height != this._origHeight) {
+            this.setSize(this._origWidth, this._origHeight);
+          }
+        };
+
+        v2.doScaleLoader = function () {
+          if (!this[mx.core.View.childNameBase + 0]._complete) {
+            return undefined;
+          }
+          this.unScaleContent();
+          var v2 = this.border_mc.__get__borderMetrics();
+          var v4 = this.contentHolder._width + v2.left + v2.right;
+          var v3 = this.contentHolder._height + v2.top + v2.bottom;
+          if (this.__width != v4 || this.__height != v3) {
+            this.setSize(v4, v3);
+          }
+          this.contentHolder._x = v2.left;
+          this.contentHolder._y = v2.top;
+        };
+
+        v2.unScaleContent = function () {
+          this.contentHolder._yscale = 100;
+          this.contentHolder._xscale = 100;
+          this.contentHolder._y = 0;
+          this.contentHolder._x = 0;
+        };
+
+        v1.symbolName = 'Loader';
+        v1.symbolOwner = mx.controls.Loader;
+        v1.version = '2.0.2.126';
+        v2.className = 'Loader';
+        v2.clipParameters = {'autoLoad': 1, 'scaleContent': 1, 'contentPath': 1};
+        v1.mergedClipParameters = mx.core.UIObject.mergeClipParameters(mx.controls.Loader.prototype.clipParameters, mx.core.View.prototype.clipParameters);
+        v2.__autoLoad = true;
+        v2.__bytesLoaded = undefined;
+        v2.__bytesTotal = undefined;
+        v2.__contentPath = undefined;
+        v2.__scaleContent = true;
+        v2.addProperty('autoLoad', v2.__get__autoLoad, v2.__set__autoLoad);
+        v2.addProperty('bytesLoaded', v2.__get__bytesLoaded, function () {});
+        v2.addProperty('bytesTotal', v2.__get__bytesTotal, function () {});
+        v2.addProperty('content', v2.__get__content, function () {});
+        v2.addProperty('contentPath', v2.__get__contentPath, v2.__set__contentPath);
+        v2.addProperty('percentLoaded', v2.__get__percentLoaded, function () {});
+        v2.addProperty('scaleContent', v2.__get__scaleContent, v2.__set__scaleContent);
+        ASSetPropFlags(mx.controls.Loader.prototype, null, 1);
+      }
+    #endinitclip
+  }
+
+  movieClip 29 __Packages.mx.skins.SkinElement {
+
+    #initclip
+      if (!_global.mx) {
+        _global.mx = new Object();
+      }
+      if (!_global.mx.skins) {
+        _global.mx.skins = new Object();
+      }
+      if (!_global.mx.skins.SkinElement) {
+        var v1 = function () {
+          super();
+        };
+
+        mx.skins.SkinElement = v1;
+        var v2 = new MovieClip();
+        mx.skins.SkinElement.prototype = v2;
+        v1.registerElement = function (name, className) {
+          Object.registerClass(name, (className == undefined) ? mx.skins.SkinElement : className);
+          _global.skinRegistry[name] = true;
+        };
+
+        v2.__set__visible = function (visible) {
+          this._visible = visible;
+        };
+
+        v2.move = function (x, y) {
+          this._x = x;
+          this._y = y;
+        };
+
+        v2.setSize = function (w, h) {
+          this._width = w;
+          this._height = h;
+        };
+
+        ASSetPropFlags(mx.skins.SkinElement.prototype, null, 1);
+      }
+    #endinitclip
+  }
+
+  movieClip 30 __Packages.mx.styles.CSSTextStyles {
+
+    #initclip
+      if (!_global.mx) {
+        _global.mx = new Object();
+      }
+      if (!_global.mx.styles) {
+        _global.mx.styles = new Object();
+      }
+      if (!_global.mx.styles.CSSTextStyles) {
+        var v1 = function () {};
+
+        mx.styles.CSSTextStyles = v1;
+        var v2 = v1.prototype;
+        v1.addTextStyles = function (o, bColor) {
+          o.addProperty('textAlign', function () {
+            return this._tf.align;
+          }, function (x) {
+            if (this._tf == undefined) {
+              this._tf = new TextFormat();
+            }
+            this._tf.align = x;
+          });
+          o.addProperty('fontWeight', function () {
+            return (this._tf.bold != undefined) ? (this._tf.bold ? 'bold' : 'none') : undefined;
+          }, function (x) {
+            if (this._tf == undefined) {
+              this._tf = new TextFormat();
+            }
+            this._tf.bold = x == 'bold';
+          });
+          if (bColor) {
+            o.addProperty('color', function () {
+              return this._tf.color;
+            }, function (x) {
+              if (this._tf == undefined) {
+                this._tf = new TextFormat();
+              }
+              this._tf.color = x;
+            });
+          }
+          o.addProperty('fontFamily', function () {
+            return this._tf.font;
+          }, function (x) {
+            if (this._tf == undefined) {
+              this._tf = new TextFormat();
+            }
+            this._tf.font = x;
+          });
+          o.addProperty('textIndent', function () {
+            return this._tf.indent;
+          }, function (x) {
+            if (this._tf == undefined) {
+              this._tf = new TextFormat();
+            }
+            this._tf.indent = x;
+          });
+          o.addProperty('fontStyle', function () {
+            return (this._tf.italic != undefined) ? (this._tf.italic ? 'italic' : 'none') : undefined;
+          }, function (x) {
+            if (this._tf == undefined) {
+              this._tf = new TextFormat();
+            }
+            this._tf.italic = x == 'italic';
+          });
+          o.addProperty('marginLeft', function () {
+            return this._tf.leftMargin;
+          }, function (x) {
+            if (this._tf == undefined) {
+              this._tf = new TextFormat();
+            }
+            this._tf.leftMargin = x;
+          });
+          o.addProperty('marginRight', function () {
+            return this._tf.rightMargin;
+          }, function (x) {
+            if (this._tf == undefined) {
+              this._tf = new TextFormat();
+            }
+            this._tf.rightMargin = x;
+          });
+          o.addProperty('fontSize', function () {
+            return this._tf.size;
+          }, function (x) {
+            if (this._tf == undefined) {
+              this._tf = new TextFormat();
+            }
+            this._tf.size = x;
+          });
+          o.addProperty('textDecoration', function () {
+            return (this._tf.underline != undefined) ? (this._tf.underline ? 'underline' : 'none') : undefined;
+          }, function (x) {
+            if (this._tf == undefined) {
+              this._tf = new TextFormat();
+            }
+            this._tf.underline = x == 'underline';
+          });
+          o.addProperty('embedFonts', function () {
+            return this._tf.embedFonts;
+          }, function (x) {
+            if (this._tf == undefined) {
+              this._tf = new TextFormat();
+            }
+            this._tf.embedFonts = x;
+          });
+        };
+
+        ASSetPropFlags(mx.styles.CSSTextStyles.prototype, null, 1);
+      }
+    #endinitclip
+  }
+
+  movieClip 31 __Packages.mx.styles.StyleManager {
+
+    #initclip
+      if (!_global.mx) {
+        _global.mx = new Object();
+      }
+      if (!_global.mx.styles) {
+        _global.mx.styles = new Object();
+      }
+      if (!_global.mx.styles.StyleManager) {
+        var v1 = function () {};
+
+        mx.styles.StyleManager = v1;
+        var v2 = v1.prototype;
+        v1.registerInheritingStyle = function (styleName) {
+          mx.styles.StyleManager.inheritingStyles[styleName] = true;
+        };
+
+        v1.isInheritingStyle = function (styleName) {
+          return mx.styles.StyleManager.inheritingStyles[styleName] == true;
+        };
+
+        v1.registerColorStyle = function (styleName) {
+          mx.styles.StyleManager.colorStyles[styleName] = true;
+        };
+
+        v1.isColorStyle = function (styleName) {
+          return mx.styles.StyleManager.colorStyles[styleName] == true;
+        };
+
+        v1.registerColorName = function (colorName, colorValue) {
+          mx.styles.StyleManager.colorNames[colorName] = colorValue;
+        };
+
+        v1.isColorName = function (colorName) {
+          return mx.styles.StyleManager.colorNames[colorName] != undefined;
+        };
+
+        v1.getColorName = function (colorName) {
+          return mx.styles.StyleManager.colorNames[colorName];
+        };
+
+        v1.inheritingStyles = {'color': true, 'direction': true, 'fontFamily': true, 'fontSize': true, 'fontStyle': true, 'fontWeight': true, 'textAlign': true, 'textIndent': true};
+        v1.colorStyles = {'barColor': true, 'trackColor': true, 'borderColor': true, 'buttonColor': true, 'color': true, 'dateHeaderColor': true, 'dateRollOverColor': true, 'disabledColor': true, 'fillColor': true, 'highlightColor': true, 'scrollTrackColor': true, 'selectedDateColor': true, 'shadowColor': true, 'strokeColor': true, 'symbolBackgroundColor': true, 'symbolBackgroundDisabledColor': true, 'symbolBackgroundPressedColor': true, 'symbolColor': true, 'symbolDisabledColor': true, 'themeColor': true, 'todayIndicatorColor': true, 'shadowCapColor': true, 'borderCapColor': true, 'focusColor': true};
+        v1.colorNames = {'black': 0, 'white': 16777215, 'red': 16711680, 'green': 65280, 'blue': 255, 'magenta': 16711935, 'yellow': 16776960, 'cyan': 65535, 'haloGreen': 8453965, 'haloBlue': 2881013, 'haloOrange': 16761344};
+        v1.TextFormatStyleProps = {'font': true, 'size': true, 'color': true, 'leftMargin': false, 'rightMargin': false, 'italic': true, 'bold': true, 'align': true, 'indent': true, 'underline': false, 'embedFonts': false};
+        v1.TextStyleMap = {'textAlign': true, 'fontWeight': true, 'color': true, 'fontFamily': true, 'textIndent': true, 'fontStyle': true, 'lineHeight': true, 'marginLeft': true, 'marginRight': true, 'fontSize': true, 'textDecoration': true, 'embedFonts': true};
+        ASSetPropFlags(mx.styles.StyleManager.prototype, null, 1);
+      }
+    #endinitclip
+  }
+
+  movieClip 32 __Packages.mx.styles.CSSStyleDeclaration {
+
+    #initclip
+      if (!_global.mx) {
+        _global.mx = new Object();
+      }
+      if (!_global.mx.styles) {
+        _global.mx.styles = new Object();
+      }
+      if (!_global.mx.styles.CSSStyleDeclaration) {
+        var v1 = function () {};
+
+        mx.styles.CSSStyleDeclaration = v1;
+        var v2 = v1.prototype;
+        v2.__getTextFormat = function (tf, bAll) {
+          var v5 = false;
+          if (this._tf != undefined) {
+            var v2;
+            for (v2 in mx.styles.StyleManager.TextFormatStyleProps) {
+              if (bAll || mx.styles.StyleManager.TextFormatStyleProps[v2]) {
+                if (tf[v2] == undefined) {
+                  var v3 = this._tf[v2];
+                  if (v3 != undefined) {
+                    tf[v2] = v3;
+                  } else {
+                    v5 = true;
+                  }
+                }
+              }
+            }
+            return v5;
+          }
+          v5 = true;
+          return v5;
+        };
+
+        v2.getStyle = function (styleProp) {
+          var v2 = this[styleProp];
+          var v3 = mx.styles.StyleManager.getColorName(v2);
+          return (v3 == undefined) ? v2 : v3;
+        };
+
+        v1.classConstruct = function () {
+          mx.styles.CSSTextStyles.addTextStyles(mx.styles.CSSStyleDeclaration.prototype, true);
+          return true;
+        };
+
+        v1.classConstructed = mx.styles.CSSStyleDeclaration.classConstruct();
+        v1.CSSTextStylesDependency = mx.styles.CSSTextStyles;
+        ASSetPropFlags(mx.styles.CSSStyleDeclaration.prototype, null, 1);
+      }
+    #endinitclip
+  }
+
+  movieClip 33 __Packages.mx.skins.Border {
+
+    #initclip
+      if (!_global.mx) {
+        _global.mx = new Object();
+      }
+      if (!_global.mx.skins) {
+        _global.mx.skins = new Object();
+      }
+      if (!_global.mx.skins.Border) {
+        var v1 = function () {
+          super();
+        };
+
+        mx.skins.Border = v1;
+        var v2 = new mx.core.UIObject();
+        mx.skins.Border.prototype = v2;
+        v2.init = function (Void) {
+          super.init();
+        };
+
+        v1.symbolName = 'Border';
+        v1.symbolOwner = mx.skins.Border;
+        v2.className = 'Border';
+        v2.tagBorder = 0;
+        v2.idNames = new Array('border_mc');
+        ASSetPropFlags(mx.skins.Border.prototype, null, 1);
+      }
+    #endinitclip
+  }
+
+  movieClip 34 __Packages.mx.skins.RectBorder {
+
+    #initclip
+      if (!_global.mx) {
+        _global.mx = new Object();
+      }
+      if (!_global.mx.skins) {
+        _global.mx.skins = new Object();
+      }
+      if (!_global.mx.skins.RectBorder) {
+        var v1 = function () {
+          super();
+        };
+
+        mx.skins.RectBorder = v1;
+        var v2 = new mx.skins.Border();
+        mx.skins.RectBorder.prototype = v2;
+        v2.__get__width = function () {
+          return this.__width;
+        };
+
+        v2.__get__height = function () {
+          return this.__height;
+        };
+
+        v2.init = function (Void) {
+          super.init();
+        };
+
+        v2.draw = function (Void) {
+          this.size();
+        };
+
+        v2.getBorderMetrics = function (Void) {
+          var v2 = this.offset;
+          if (this.__borderMetrics == undefined) {
+            this.__borderMetrics = {'left': v2, 'top': v2, 'right': v2, 'bottom': v2};
+            return this.__borderMetrics;
+          }
+          this.__borderMetrics.left = v2;
+          this.__borderMetrics.top = v2;
+          this.__borderMetrics.right = v2;
+          this.__borderMetrics.bottom = v2;
+          return this.__borderMetrics;
+        };
+
+        v2.__get__borderMetrics = function () {
+          return this.getBorderMetrics();
+        };
+
+        v2.drawBorder = function (Void) {};
+
+        v2.size = function (Void) {
+          this.drawBorder();
+        };
+
+        v2.setColor = function (Void) {
+          this.drawBorder();
+        };
+
+        v1.symbolName = 'RectBorder';
+        v1.symbolOwner = mx.skins.RectBorder;
+        v1.version = '2.0.2.126';
+        v2.className = 'RectBorder';
+        v2.borderStyleName = 'borderStyle';
+        v2.borderColorName = 'borderColor';
+        v2.shadowColorName = 'shadowColor';
+        v2.highlightColorName = 'highlightColor';
+        v2.buttonColorName = 'buttonColor';
+        v2.backgroundColorName = 'backgroundColor';
+        v2.addProperty('borderMetrics', v2.__get__borderMetrics, function () {});
+        v2.addProperty('height', v2.__get__height, function () {});
+        v2.addProperty('width', v2.__get__width, function () {});
+        ASSetPropFlags(mx.skins.RectBorder.prototype, null, 1);
+      }
+    #endinitclip
+  }
+
+  movieClip 35 __Packages.mx.managers.DepthManager {
+
+    #initclip
+      if (!_global.mx) {
+        _global.mx = new Object();
+      }
+      if (!_global.mx.managers) {
+        _global.mx.managers = new Object();
+      }
+      if (!_global.mx.managers.DepthManager) {
+        var v1 = function () {
+          MovieClip.prototype.createClassChildAtDepth = this.createClassChildAtDepth;
+          MovieClip.prototype.createChildAtDepth = this.createChildAtDepth;
+          MovieClip.prototype.setDepthTo = this.setDepthTo;
+          MovieClip.prototype.setDepthAbove = this.setDepthAbove;
+          MovieClip.prototype.setDepthBelow = this.setDepthBelow;
+          MovieClip.prototype.findNextAvailableDepth = this.findNextAvailableDepth;
+          MovieClip.prototype.shuffleDepths = this.shuffleDepths;
+          MovieClip.prototype.getDepthByFlag = this.getDepthByFlag;
+          MovieClip.prototype.buildDepthTable = this.buildDepthTable;
+          _global.ASSetPropFlags(MovieClip.prototype, 'createClassChildAtDepth', 1);
+          _global.ASSetPropFlags(MovieClip.prototype, 'createChildAtDepth', 1);
+          _global.ASSetPropFlags(MovieClip.prototype, 'setDepthTo', 1);
+          _global.ASSetPropFlags(MovieClip.prototype, 'setDepthAbove', 1);
+          _global.ASSetPropFlags(MovieClip.prototype, 'setDepthBelow', 1);
+          _global.ASSetPropFlags(MovieClip.prototype, 'findNextAvailableDepth', 1);
+          _global.ASSetPropFlags(MovieClip.prototype, 'shuffleDepths', 1);
+          _global.ASSetPropFlags(MovieClip.prototype, 'getDepthByFlag', 1);
+          _global.ASSetPropFlags(MovieClip.prototype, 'buildDepthTable', 1);
+        };
+
+        mx.managers.DepthManager = v1;
+        var v2 = v1.prototype;
+        v1.sortFunction = function (a, b) {
+          if (a.getDepth() > b.getDepth()) {
+            return 1;
+          }
+          return -1;
+        };
+
+        v1.test = function (depth) {
+          if (depth == mx.managers.DepthManager.reservedDepth) {
+            return false;
+          } else {
+            return true;
+          }
+        };
+
+        v1.createClassObjectAtDepth = function (className, depthSpace, initObj) {
+          var v1;
+          switch (depthSpace) {
+            case mx.managers.DepthManager.kCursor:
+              v1 = mx.managers.DepthManager.holder.createClassChildAtDepth(className, mx.managers.DepthManager.kTopmost, initObj);
+              return v1;
+            case mx.managers.DepthManager.kTooltip:
+              v1 = mx.managers.DepthManager.holder.createClassChildAtDepth(className, mx.managers.DepthManager.kTop, initObj);
+              return v1;
+          }
+          return v1;
+        };
+
+        v1.createObjectAtDepth = function (linkageName, depthSpace, initObj) {
+          var v1;
+          switch (depthSpace) {
+            case mx.managers.DepthManager.kCursor:
+              v1 = mx.managers.DepthManager.holder.createChildAtDepth(linkageName, mx.managers.DepthManager.kTopmost, initObj);
+              return v1;
+            case mx.managers.DepthManager.kTooltip:
+              v1 = mx.managers.DepthManager.holder.createChildAtDepth(linkageName, mx.managers.DepthManager.kTop, initObj);
+              return v1;
+          }
+          return v1;
+        };
+
+        v2.createClassChildAtDepth = function (className, depthFlag, initObj) {
+          if (this._childCounter == undefined) {
+            this._childCounter = 0;
+          }
+          var v3 = this.buildDepthTable();
+          var v2 = this.getDepthByFlag(depthFlag, v3);
+          var v6 = 'down';
+          if (depthFlag == mx.managers.DepthManager.kBottom) {
+            v6 = 'up';
+          }
+          var v5;
+          if (v3[v2] != undefined) {
+            v5 = v2;
+            v2 = this.findNextAvailableDepth(v2, v3, v6);
+          }
+          var v4 = this.createClassObject(className, 'depthChild' + this._childCounter++, v2, initObj);
+          if (v5 != undefined) {
+            v3[v2] = v4;
+            this.shuffleDepths(v4, v5, v3, v6);
+          }
+          if (depthFlag == mx.managers.DepthManager.kTopmost) {
+            v4._topmost = true;
+          }
+          return v4;
+        };
+
+        v2.createChildAtDepth = function (linkageName, depthFlag, initObj) {
+          if (this._childCounter == undefined) {
+            this._childCounter = 0;
+          }
+          var v3 = this.buildDepthTable();
+          var v2 = this.getDepthByFlag(depthFlag, v3);
+          var v6 = 'down';
+          if (depthFlag == mx.managers.DepthManager.kBottom) {
+            v6 = 'up';
+          }
+          var v5;
+          if (v3[v2] != undefined) {
+            v5 = v2;
+            v2 = this.findNextAvailableDepth(v2, v3, v6);
+          }
+          var v4 = this.createObject(linkageName, 'depthChild' + this._childCounter++, v2, initObj);
+          if (v5 != undefined) {
+            v3[v2] = v4;
+            this.shuffleDepths(v4, v5, v3, v6);
+          }
+          if (depthFlag == mx.managers.DepthManager.kTopmost) {
+            v4._topmost = true;
+          }
+          return v4;
+        };
+
+        v2.setDepthTo = function (depthFlag) {
+          var v2 = this._parent.buildDepthTable();
+          var v3 = this._parent.getDepthByFlag(depthFlag, v2);
+          if (v2[v3] != undefined) {
+            this.shuffleDepths(this, v3, v2, undefined);
+          } else {
+            this.swapDepths(v3);
+          }
+          if (depthFlag == mx.managers.DepthManager.kTopmost) {
+            this._topmost = true;
+          } else {
+            delete this._topmost;
+          }
+        };
+
+        v2.setDepthAbove = function (targetInstance) {
+          if (targetInstance._parent != this._parent) {
+            return undefined;
+          }
+          var v2 = targetInstance.getDepth() + 1;
+          var v3 = this._parent.buildDepthTable();
+          if (v3[v2] != undefined && this.getDepth() < v2) {
+            v2 -= 1;
+          }
+          if (v2 > mx.managers.DepthManager.highestDepth) {
+            v2 = mx.managers.DepthManager.highestDepth;
+          }
+          if (v2 == mx.managers.DepthManager.highestDepth) {
+            this._parent.shuffleDepths(this, v2, v3, 'down');
+          } else {
+            if (v3[v2] != undefined) {
+              this._parent.shuffleDepths(this, v2, v3, undefined);
+            } else {
+              this.swapDepths(v2);
+            }
+          }
+        };
+
+        v2.setDepthBelow = function (targetInstance) {
+          if (targetInstance._parent != this._parent) {
+            return undefined;
+          }
+          var v6 = targetInstance.getDepth() - 1;
+          var v3 = this._parent.buildDepthTable();
+          if (v3[v6] != undefined && this.getDepth() > v6) {
+            v6 += 1;
+          }
+          var v4 = mx.managers.DepthManager.lowestDepth + mx.managers.DepthManager.numberOfAuthortimeLayers;
+          var v5;
+          for (v5 in v3) {
+            var v2 = v3[v5];
+            if (v2._parent != undefined) {
+              v4 = Math.min(v4, v2.getDepth());
+            }
+          }
+          if (v6 < v4) {
+            v6 = v4;
+          }
+          if (v6 == v4) {
+            this._parent.shuffleDepths(this, v6, v3, 'up');
+          } else {
+            if (v3[v6] != undefined) {
+              this._parent.shuffleDepths(this, v6, v3, undefined);
+            } else {
+              this.swapDepths(v6);
+            }
+          }
+        };
+
+        v2.findNextAvailableDepth = function (targetDepth, depthTable, direction) {
+          var v5 = mx.managers.DepthManager.lowestDepth + mx.managers.DepthManager.numberOfAuthortimeLayers;
+          if (targetDepth < v5) {
+            targetDepth = v5;
+          }
+          if (depthTable[targetDepth] == undefined) {
+            return targetDepth;
+          }
+          var v2 = targetDepth;
+          var v1 = targetDepth;
+          if (direction == 'down') {
+            while (depthTable[v1] != undefined) {
+              --v1;
+            }
+            return v1;
+          }
+          while (depthTable[v2] != undefined) {
+            ++v2;
+          }
+          return v2;
+        };
+
+        v2.shuffleDepths = function (subject, targetDepth, depthTable, direction) {
+          var v9 = mx.managers.DepthManager.lowestDepth + mx.managers.DepthManager.numberOfAuthortimeLayers;
+          var v8 = v9;
+          var v5;
+          for (v5 in depthTable) {
+            var v7 = depthTable[v5];
+            if (v7._parent != undefined) {
+              v9 = Math.min(v9, v7.getDepth());
+            }
+          }
+          if (direction == undefined) {
+            if (subject.getDepth() > targetDepth) {
+              direction = 'up';
+            } else {
+              direction = 'down';
+            }
+          }
+          var v1 = new Array();
+          for (v5 in depthTable) {
+            v7 = depthTable[v5];
+            if (v7._parent != undefined) {
+              v1.push(v7);
+            }
+          }
+          v1.sort(mx.managers.DepthManager.sortFunction);
+          if (direction == 'up') {
+            var v3;
+            var v11;
+            while (v1.length > 0) {
+              v3 = v1.pop();
+              if (v3 == subject) {
+                break;
+              }
+            }
+            while (v1.length > 0) {
+              v11 = subject.getDepth();
+              v3 = v1.pop();
+              var v4 = v3.getDepth();
+              if (v11 > v4 + 1) {
+                if (v4 >= 0) {
+                  subject.swapDepths(v4 + 1);
+                } else {
+                  if (v11 > v8 && v4 < v8) {
+                    subject.swapDepths(v8);
+                  }
+                }
+              }
+              subject.swapDepths(v3);
+              if (v4 == targetDepth) {
+                break;
+              }
+            }
+          } else {
+            if (direction == 'down') {
+              var v3;
+              while (v1.length > 0) {
+                v3 = v1.shift();
+                if (v3 == subject) {
+                  break;
+                }
+              }
+              while (v1.length > 0) {
+                var v11 = v3.getDepth();
+                v3 = v1.shift();
+                var v4 = v3.getDepth();
+                if (v11 < v4 - 1 && v4 > 0) {
+                  subject.swapDepths(v4 - 1);
+                }
+                subject.swapDepths(v3);
+                if (v4 == targetDepth) {
+                  break;
+                }
+              }
+            }
+          }
+        };
+
+        v2.getDepthByFlag = function (depthFlag, depthTable) {
+          var v2 = 0;
+          if (depthFlag == mx.managers.DepthManager.kTop || depthFlag == mx.managers.DepthManager.kNotopmost) {
+            var v5 = 0;
+            var v7 = false;
+            var v8;
+            for (v8 in depthTable) {
+              var v9 = depthTable[v8];
+              var v3 = typeof v9;
+              if (v3 == 'movieclip' || v3 == 'object' && v9.__getTextFormat != undefined) {
+                if (v9.getDepth() <= mx.managers.DepthManager.highestDepth) {
+                  if (!v9._topmost) {
+                    v2 = Math.max(v2, v9.getDepth());
+                  } else {
+                    if (!v7) {
+                      v5 = v9.getDepth();
+                      v7 = true;
+                    } else {
+                      v5 = Math.min(v5, v9.getDepth());
+                    }
+                  }
+                }
+              }
+            }
+            v2 += 20;
+            if (v7) {
+              if (v2 >= v5) {
+                v2 = v5 - 1;
+              }
+            }
+          } else {
+            if (depthFlag == mx.managers.DepthManager.kBottom) {
+              for (var v8 in depthTable) {
+                var v9 = depthTable[v8];
+                var v3 = typeof v9;
+                if (v3 == 'movieclip' || v3 == 'object' && v9.__getTextFormat != undefined) {
+                  if (v9.getDepth() <= mx.managers.DepthManager.highestDepth) {
+                    v2 = Math.min(v2, v9.getDepth());
+                  }
+                }
+              }
+              v2 -= 20;
+            } else {
+              if (depthFlag == mx.managers.DepthManager.kTopmost) {
+                for (var v8 in depthTable) {
+                  var v9 = depthTable[v8];
+                  var v3 = typeof v9;
+                  if (v3 == 'movieclip' || v3 == 'object' && v9.__getTextFormat != undefined) {
+                    if (v9.getDepth() <= mx.managers.DepthManager.highestDepth) {
+                      v2 = Math.max(v2, v9.getDepth());
+                    }
+                  }
+                }
+                v2 += 100;
+              }
+            }
+          }
+          if (v2 >= mx.managers.DepthManager.highestDepth) {
+            v2 = mx.managers.DepthManager.highestDepth;
+          }
+          var v6 = mx.managers.DepthManager.lowestDepth + mx.managers.DepthManager.numberOfAuthortimeLayers;
+          for (v9 in depthTable) {
+            var v4 = depthTable[v9];
+            if (v4._parent != undefined) {
+              v6 = Math.min(v6, v4.getDepth());
+            }
+          }
+          if (v2 <= v6) {
+            v2 = v6;
+          }
+          return v2;
+        };
+
+        v2.buildDepthTable = function (Void) {
+          var v5 = new Array();
+          var v4;
+          for (v4 in this) {
+            var v2 = this[v4];
+            var v3 = typeof v2;
+            if (v3 == 'movieclip' || v3 == 'object' && v2.__getTextFormat != undefined) {
+              if (v2._parent == this) {
+                v5[v2.getDepth()] = v2;
+              }
+            }
+          }
+          return v5;
+        };
+
+        v1.reservedDepth = 1048575;
+        v1.highestDepth = 1048574;
+        v1.lowestDepth = -16383;
+        v1.numberOfAuthortimeLayers = 383;
+        v1.kCursor = 101;
+        v1.kTooltip = 102;
+        v1.kTop = 201;
+        v1.kBottom = 202;
+        v1.kTopmost = 203;
+        v1.kNotopmost = 204;
+        v1.holder = _root.createEmptyMovieClip('reserved', mx.managers.DepthManager.reservedDepth);
+        v1.__depthManager = new mx.managers.DepthManager();
+        ASSetPropFlags(mx.managers.DepthManager.prototype, null, 1);
+      }
+    #endinitclip
+  }
+
+  movieClip 36 __Packages.mx.events.EventDispatcher {
+
+    #initclip
+      if (!_global.mx) {
+        _global.mx = new Object();
+      }
+      if (!_global.mx.events) {
+        _global.mx.events = new Object();
+      }
+      if (!_global.mx.events.EventDispatcher) {
+        var v1 = function () {};
+
+        mx.events.EventDispatcher = v1;
+        var v2 = v1.prototype;
+        v1._removeEventListener = function (queue, event, handler) {
+          if (queue != undefined) {
+            var v4 = queue.length;
+            var v1;
+            v1 = 0;
+            while (v1 < v4) {
+              var v2 = queue[v1];
+              if (v2 == handler) {
+                queue.splice(v1, 1);
+                return undefined;
+              }
+              ++v1;
+            }
+          }
+        };
+
+        v1.initialize = function (object) {
+          if (mx.events.EventDispatcher._fEventDispatcher == undefined) {
+            mx.events.EventDispatcher._fEventDispatcher = new mx.events.EventDispatcher();
+          }
+          object.addEventListener = mx.events.EventDispatcher._fEventDispatcher.addEventListener;
+          object.removeEventListener = mx.events.EventDispatcher._fEventDispatcher.removeEventListener;
+          object.dispatchEvent = mx.events.EventDispatcher._fEventDispatcher.dispatchEvent;
+          object.dispatchQueue = mx.events.EventDispatcher._fEventDispatcher.dispatchQueue;
+        };
+
+        v2.dispatchQueue = function (queueObj, eventObj) {
+          var v7 = '__q_' + eventObj.type;
+          var v4 = queueObj[v7];
+          if (v4 != undefined) {
+            var v5;
+            for (v5 in v4) {
+              var v1 = v4[v5];
+              var v3 = typeof v1;
+              if (v3 == 'object' || v3 == 'movieclip') {
+                if (v1.handleEvent != undefined) {
+                  v1.handleEvent(eventObj);
+                }
+                if (v1[eventObj.type] != undefined) {
+                  if (mx.events.EventDispatcher.exceptions[eventObj.type] == undefined) {
+                    v1[eventObj.type](eventObj);
+                  }
+                }
+              } else {
+                v1.apply(queueObj, [eventObj]);
+              }
+            }
+          }
+        };
+
+        v2.dispatchEvent = function (eventObj) {
+          if (eventObj.target == undefined) {
+            eventObj.target = this;
+          }
+          this[eventObj.type + 'Handler'](eventObj);
+          this.dispatchQueue(this, eventObj);
+        };
+
+        v2.addEventListener = function (event, handler) {
+          var v3 = '__q_' + event;
+          if (this[v3] == undefined) {
+            this[v3] = new Array();
+          }
+          _global.ASSetPropFlags(this, v3, 1);
+          mx.events.EventDispatcher._removeEventListener(this[v3], event, handler);
+          this[v3].push(handler);
+        };
+
+        v2.removeEventListener = function (event, handler) {
+          var v2 = '__q_' + event;
+          mx.events.EventDispatcher._removeEventListener(this[v2], event, handler);
+        };
+
+        v1._fEventDispatcher = undefined;
+        v1.exceptions = {'move': 1, 'draw': 1, 'load': 1};
+        ASSetPropFlags(mx.events.EventDispatcher.prototype, null, 1);
+      }
+    #endinitclip
+  }
+
+  movieClip 37 __Packages.mx.events.UIEventDispatcher {
+
+    #initclip
+      if (!_global.mx) {
+        _global.mx = new Object();
+      }
+      if (!_global.mx.events) {
+        _global.mx.events = new Object();
+      }
+      if (!_global.mx.events.UIEventDispatcher) {
+        var v1 = function () {
+          super();
+        };
+
+        mx.events.UIEventDispatcher = v1;
+        var v2 = new mx.events.EventDispatcher();
+        mx.events.UIEventDispatcher.prototype = v2;
+        v1.addKeyEvents = function (obj) {
+          if (obj.keyHandler == undefined) {
+            obj.keyHandler = new Object();
+            var v1 = obj.keyHandler;
+            v1.owner = obj;
+            v1.onKeyDown = mx.events.UIEventDispatcher._fEventDispatcher.onKeyDown;
+            v1.onKeyUp = mx.events.UIEventDispatcher._fEventDispatcher.onKeyUp;
+          }
+          Key.addListener(obj.keyHandler);
+        };
+
+        v1.removeKeyEvents = function (obj) {
+          Key.removeListener(obj.keyHandler);
+        };
+
+        v1.addLoadEvents = function (obj) {
+          if (obj.onLoad == undefined) {
+            obj.onLoad = mx.events.UIEventDispatcher._fEventDispatcher.onLoad;
+            obj.onUnload = mx.events.UIEventDispatcher._fEventDispatcher.onUnload;
+            if (obj.getBytesTotal() == obj.getBytesLoaded()) {
+              obj.doLater(obj, 'onLoad');
+            }
+          }
+        };
+
+        v1.removeLoadEvents = function (obj) {
+          delete obj.onLoad;
+          delete obj.onUnload;
+        };
+
+        v1.initialize = function (obj) {
+          if (mx.events.UIEventDispatcher._fEventDispatcher == undefined) {
+            mx.events.UIEventDispatcher._fEventDispatcher = new mx.events.UIEventDispatcher();
+          }
+          obj.addEventListener = mx.events.UIEventDispatcher._fEventDispatcher.__addEventListener;
+          obj.__origAddEventListener = mx.events.UIEventDispatcher._fEventDispatcher.addEventListener;
+          obj.removeEventListener = mx.events.UIEventDispatcher._fEventDispatcher.removeEventListener;
+          obj.dispatchEvent = mx.events.UIEventDispatcher._fEventDispatcher.dispatchEvent;
+          obj.dispatchQueue = mx.events.UIEventDispatcher._fEventDispatcher.dispatchQueue;
+        };
+
+        v2.dispatchEvent = function (eventObj) {
+          if (eventObj.target == undefined) {
+            eventObj.target = this;
+          }
+          this[eventObj.type + 'Handler'](eventObj);
+          this.dispatchQueue(mx.events.EventDispatcher, eventObj);
+          this.dispatchQueue(this, eventObj);
+        };
+
+        v2.onKeyDown = function (Void) {
+          this.owner.dispatchEvent({'type': 'keyDown', 'code': Key.getCode(), 'ascii': Key.getAscii(), 'shiftKey': Key.isDown(16), 'ctrlKey': Key.isDown(17)});
+        };
+
+        v2.onKeyUp = function (Void) {
+          this.owner.dispatchEvent({'type': 'keyUp', 'code': Key.getCode(), 'ascii': Key.getAscii(), 'shiftKey': Key.isDown(16), 'ctrlKey': Key.isDown(17)});
+        };
+
+        v2.onLoad = function (Void) {
+          if (this.__sentLoadEvent != true) {
+            this.dispatchEvent({'type': 'load'});
+          }
+          this.__sentLoadEvent = true;
+        };
+
+        v2.onUnload = function (Void) {
+          this.dispatchEvent({'type': 'unload'});
+        };
+
+        v2.__addEventListener = function (event, handler) {
+          this.__origAddEventListener(event, handler);
+          var v3 = mx.events.UIEventDispatcher.lowLevelEvents;
+          for (var v5 in v3) {
+            if (mx.events.UIEventDispatcher[v5][event] != undefined) {
+              var v2 = v3[v5][0];
+              mx.events.UIEventDispatcher[v2](this);
+            }
+          }
+        };
+
+        v2.removeEventListener = function (event, handler) {
+          var v6 = '__q_' + event;
+          mx.events.EventDispatcher._removeEventListener(this[v6], event, handler);
+          if (this[v6].length == 0) {
+            var v2 = mx.events.UIEventDispatcher.lowLevelEvents;
+            for (var v5 in v2) {
+              if (mx.events.UIEventDispatcher[v5][event] != undefined) {
+                var v3 = v2[v5][1];
+                mx.events.UIEventDispatcher[v2[v5][1]](this);
+              }
+            }
+          }
+        };
+
+        v1.keyEvents = {'keyDown': 1, 'keyUp': 1};
+        v1.loadEvents = {'load': 1, 'unload': 1};
+        v1.lowLevelEvents = {'keyEvents': ['addKeyEvents', 'removeKeyEvents'], 'loadEvents': ['addLoadEvents', 'removeLoadEvents']};
+        v1._fEventDispatcher = undefined;
+        ASSetPropFlags(mx.events.UIEventDispatcher.prototype, null, 1);
+      }
+    #endinitclip
+  }
+
+  movieClip 38 __Packages.mx.core.ExternalContent {
+
+    #initclip
+      if (!_global.mx) {
+        _global.mx = new Object();
+      }
+      if (!_global.mx.core) {
+        _global.mx.core = new Object();
+      }
+      if (!_global.mx.core.ExternalContent) {
+        var v1 = function () {};
+
+        mx.core.ExternalContent = v1;
+        var v2 = v1.prototype;
+        v2.loadExternal = function (url, placeholderClassName, instanceName, depth, initProps) {
+          var v2;
+          v2 = this.createObject(placeholderClassName, instanceName, depth, initProps);
+          this[mx.core.View.childNameBase + this.numChildren] = v2;
+          if (this.prepList == undefined) {
+            this.prepList = new Object();
+          }
+          this.prepList[instanceName] = {'obj': v2, 'url': url, 'complete': false, 'initProps': initProps};
+          this.prepareToLoadMovie(v2);
+          return v2;
+        };
+
+        v2.prepareToLoadMovie = function (obj) {
+          obj.unloadMovie();
+          this.doLater(this, 'waitForUnload');
+        };
+
+        v2.waitForUnload = function () {
+          var v3;
+          for (v3 in this.prepList) {
+            var v2 = this.prepList[v3];
+            if (v2.obj.getBytesTotal() == 0) {
+              if (this.loadList == undefined) {
+                this.loadList = new Object();
+              }
+              this.loadList[v3] = v2;
+              v2.obj.loadMovie(v2.url);
+              delete this.prepList[v3];
+              this.doLater(this, 'checkLoadProgress');
+            } else {
+              this.doLater(this, 'waitForUnload');
+            }
+          }
+        };
+
+        v2.checkLoadProgress = function () {
+          var v8 = false;
+          var v3;
+          for (v3 in this.loadList) {
+            var v2 = this.loadList[v3];
+            v2.loaded = v2.obj.getBytesLoaded();
+            v2.total = v2.obj.getBytesTotal();
+            if (v2.total > 0) {
+              v2.obj._visible = false;
+              this.dispatchEvent({'type': 'progress', 'target': v2.obj, 'current': v2.loaded, 'total': v2.total});
+              if (v2.loaded == v2.total) {
+                if (this.loadedList == undefined) {
+                  this.loadedList = new Object();
+                }
+                this.loadedList[v3] = v2;
+                delete this.loadList[v3];
+                this.doLater(this, 'contentLoaded');
+              }
+            } else {
+              if (v2.total == -1) {
+                if (v2.failedOnce != undefined) {
+                  ++v2.failedOnce;
+                  if (v2.failedOnce > 3) {
+                    this.dispatchEvent({'type': 'complete', 'target': v2.obj, 'current': v2.loaded, 'total': v2.total});
+                    delete this.loadList[v3];
+                    false;
+                  }
+                } else {
+                  v2.failedOnce = 0;
+                }
+              }
+            }
+            v8 = true;
+          }
+          if (v8) {
+            this.doLater(this, 'checkLoadProgress');
+          }
+        };
+
+        v2.contentLoaded = function () {
+          var v4;
+          for (v4 in this.loadedList) {
+            var v2 = this.loadedList[v4];
+            v2.obj._visible = true;
+            v2.obj._complete = true;
+            var v3;
+            for (v3 in v2.initProps) {
+              v2.obj[v3] = v2.initProps[v3];
+            }
+            this.childLoaded(v2.obj);
+            this.dispatchEvent({'type': 'complete', 'target': v2.obj, 'current': v2.loaded, 'total': v2.total});
+            delete this.loadedList[v4];
+            false;
+          }
+        };
+
+        v2.convertToUIObject = function (obj) {
+          if (obj.setSize == undefined) {
+            var v2 = mx.core.UIObject.prototype;
+            obj.addProperty('width', v2.__get__width, null);
+            obj.addProperty('height', v2.__get__height, null);
+            obj.addProperty('left', v2.__get__left, null);
+            obj.addProperty('x', v2.__get__x, null);
+            obj.addProperty('top', v2.__get__top, null);
+            obj.addProperty('y', v2.__get__y, null);
+            obj.addProperty('right', v2.__get__right, null);
+            obj.addProperty('bottom', v2.__get__bottom, null);
+            obj.addProperty('visible', v2.__get__visible, v2.__set__visible);
+            obj.move = mx.core.UIObject.prototype.move;
+            obj.setSize = mx.core.UIObject.prototype.setSize;
+            obj.size = mx.core.UIObject.prototype.size;
+            mx.events.UIEventDispatcher.initialize(obj);
+          }
+        };
+
+        v1.enableExternalContent = function () {};
+
+        v1.classConstruct = function () {
+          var v1 = mx.core.View.prototype;
+          var v2 = mx.core.ExternalContent.prototype;
+          v1.loadExternal = v2.loadExternal;
+          v1.prepareToLoadMovie = v2.prepareToLoadMovie;
+          v1.waitForUnload = v2.waitForUnload;
+          v1.checkLoadProgress = v2.checkLoadProgress;
+          v1.contentLoaded = v2.contentLoaded;
+          v1.convertToUIObject = v2.convertToUIObject;
+          return true;
+        };
+
+        v1.classConstructed = mx.core.ExternalContent.classConstruct();
+        v1.ViewDependency = mx.core.View;
+        ASSetPropFlags(mx.core.ExternalContent.prototype, null, 1);
+      }
+    #endinitclip
+  }
+
+  movieClip 39 __Packages.mx.skins.ColoredSkinElement {
+
+    #initclip
+      if (!_global.mx) {
+        _global.mx = new Object();
+      }
+      if (!_global.mx.skins) {
+        _global.mx.skins = new Object();
+      }
+      if (!_global.mx.skins.ColoredSkinElement) {
+        var v1 = function () {};
+
+        mx.skins.ColoredSkinElement = v1;
+        var v2 = v1.prototype;
+        v2.setColor = function (c) {
+          if (c != undefined) {
+            var v2 = new Color(this);
+            v2.setRGB(c);
+          }
+        };
+
+        v2.draw = function (Void) {
+          this.setColor(this.getStyle(this._color));
+          this.onEnterFrame = undefined;
+        };
+
+        v2.invalidateStyle = function (Void) {
+          this.onEnterFrame = this.draw;
+        };
+
+        v1.setColorStyle = function (p, colorStyle) {
+          if (p._color == undefined) {
+            p._color = colorStyle;
+          }
+          p.setColor = mx.skins.ColoredSkinElement.mixins.setColor;
+          p.invalidateStyle = mx.skins.ColoredSkinElement.mixins.invalidateStyle;
+          p.draw = mx.skins.ColoredSkinElement.mixins.draw;
+          p.setColor(p.getStyle(colorStyle));
+        };
+
+        v1.mixins = new mx.skins.ColoredSkinElement();
+        ASSetPropFlags(mx.skins.ColoredSkinElement.prototype, null, 1);
+      }
+    #endinitclip
+  }
+
+  movieClip 40 __Packages.mx.core.ext.UIObjectExtensions {
+
+    #initclip
+      if (!_global.mx) {
+        _global.mx = new Object();
+      }
+      if (!_global.mx.core) {
+        _global.mx.core = new Object();
+      }
+      if (!_global.mx.core.ext) {
+        _global.mx.core.ext = new Object();
+      }
+      if (!_global.mx.core.ext.UIObjectExtensions) {
+        var v1 = function () {};
+
+        mx.core.ext.UIObjectExtensions = v1;
+        var v2 = v1.prototype;
+        v1.addGeometry = function (tf, ui) {
+          tf.addProperty('width', ui.__get__width, null);
+          tf.addProperty('height', ui.__get__height, null);
+          tf.addProperty('left', ui.__get__left, null);
+          tf.addProperty('x', ui.__get__x, null);
+          tf.addProperty('top', ui.__get__top, null);
+          tf.addProperty('y', ui.__get__y, null);
+          tf.addProperty('right', ui.__get__right, null);
+          tf.addProperty('bottom', ui.__get__bottom, null);
+          tf.addProperty('visible', ui.__get__visible, ui.__set__visible);
+        };
+
+        v1.Extensions = function () {
+          if (mx.core.ext.UIObjectExtensions.bExtended == true) {
+            return true;
+          }
+          mx.core.ext.UIObjectExtensions.bExtended = true;
+          var v6 = mx.core.UIObject.prototype;
+          var v9 = mx.skins.SkinElement.prototype;
+          mx.core.ext.UIObjectExtensions.addGeometry(v9, v6);
+          mx.events.UIEventDispatcher.initialize(v6);
+          var v13 = mx.skins.ColoredSkinElement;
+          mx.styles.CSSTextStyles.addTextStyles(v6);
+          var v5 = MovieClip.prototype;
+          v5.getTopLevel = v6.getTopLevel;
+          v5.createLabel = v6.createLabel;
+          v5.createObject = v6.createObject;
+          v5.createClassObject = v6.createClassObject;
+          v5.createEmptyObject = v6.createEmptyObject;
+          v5.destroyObject = v6.destroyObject;
+          _global.ASSetPropFlags(v5, 'getTopLevel', 1);
+          _global.ASSetPropFlags(v5, 'createLabel', 1);
+          _global.ASSetPropFlags(v5, 'createObject', 1);
+          _global.ASSetPropFlags(v5, 'createClassObject', 1);
+          _global.ASSetPropFlags(v5, 'createEmptyObject', 1);
+          _global.ASSetPropFlags(v5, 'destroyObject', 1);
+          v5.__getTextFormat = v6.__getTextFormat;
+          v5._getTextFormat = v6._getTextFormat;
+          v5.getStyleName = v6.getStyleName;
+          v5.getStyle = v6.getStyle;
+          _global.ASSetPropFlags(v5, '__getTextFormat', 1);
+          _global.ASSetPropFlags(v5, '_getTextFormat', 1);
+          _global.ASSetPropFlags(v5, 'getStyleName', 1);
+          _global.ASSetPropFlags(v5, 'getStyle', 1);
+          var v7 = TextField.prototype;
+          mx.core.ext.UIObjectExtensions.addGeometry(v7, v6);
+          v7.addProperty('enabled', function () {
+            return this.__enabled;
+          }, function (x) {
+            this.__enabled = x;
+            this.invalidateStyle();
+          });
+          v7.move = v9.move;
+          v7.setSize = v9.setSize;
+          v7.invalidateStyle = function () {
+            this.invalidateFlag = true;
+          };
+
+          v7.draw = function () {
+            if (this.invalidateFlag) {
+              this.invalidateFlag = false;
+              var v2 = this._getTextFormat();
+              this.setTextFormat(v2);
+              this.setNewTextFormat(v2);
+              this.embedFonts = v2.embedFonts == true;
+              if (this.__text != undefined) {
+                if (this.text == '') {
+                  this.text = this.__text;
+                }
+                delete this.__text;
+              }
+              this._visible = true;
+            }
+          };
+
+          v7.setColor = function (color) {
+            this.textColor = color;
+          };
+
+          v7.getStyle = v5.getStyle;
+          v7.__getTextFormat = v6.__getTextFormat;
+          v7.setValue = function (v) {
+            this.text = v;
+          };
+
+          v7.getValue = function () {
+            return this.text;
+          };
+
+          v7.addProperty('value', function () {
+            return this.getValue();
+          }, function (v) {
+            this.setValue(v);
+          });
+          v7._getTextFormat = function () {
+            var v2 = this.stylecache.tf;
+            if (v2 != undefined) {
+              return v2;
+            }
+            v2 = new TextFormat();
+            this.__getTextFormat(v2);
+            this.stylecache.tf = v2;
+            if (this.__enabled == false) {
+              if (this.enabledColor == undefined) {
+                var v4 = this.getTextFormat();
+                this.enabledColor = v4.color;
+              }
+              var v3 = this.getStyle('disabledColor');
+              v2.color = v3;
+              return v2;
+            }
+            if (this.enabledColor != undefined) {
+              if (v2.color == undefined) {
+                v2.color = this.enabledColor;
+              }
+            }
+            return v2;
+          };
+
+          v7.getPreferredWidth = function () {
+            this.draw();
+            return this.textWidth + 4;
+          };
+
+          v7.getPreferredHeight = function () {
+            this.draw();
+            return this.textHeight + 4;
+          };
+
+          TextFormat.prototype.getTextExtent2 = function (s) {
+            var v3 = _root._getTextExtent;
+            if (v3 == undefined) {
+              _root.createTextField('_getTextExtent', -2, 0, 0, 1000, 100);
+              v3 = _root._getTextExtent;
+              v3._visible = false;
+            }
+            _root._getTextExtent.text = s;
+            var v4 = this.align;
+            this.align = 'left';
+            _root._getTextExtent.setTextFormat(this);
+            this.align = v4;
+            return {'width': v3.textWidth, 'height': v3.textHeight};
+          };
+
+          if (_global.style == undefined) {
+            _global.style = new mx.styles.CSSStyleDeclaration();
+            _global.cascadingStyles = true;
+            _global.styles = new Object();
+            _global.skinRegistry = new Object();
+            if (_global._origWidth == undefined) {
+              _global.origWidth = Stage.width;
+              _global.origHeight = Stage.height;
+            }
+          }
+          var v4 = _root;
+          while (v4._parent != undefined) {
+            v4 = v4._parent;
+          }
+          v4.addProperty('width', function () {
+            return Stage.width;
+          }, null);
+          v4.addProperty('height', function () {
+            return Stage.height;
+          }, null);
+          _global.ASSetPropFlags(v4, 'width', 1);
+          _global.ASSetPropFlags(v4, 'height', 1);
+          return true;
+        };
+
+        v1.bExtended = false;
+        v1.UIObjectExtended = mx.core.ext.UIObjectExtensions.Extensions();
+        v1.UIObjectDependency = mx.core.UIObject;
+        v1.SkinElementDependency = mx.skins.SkinElement;
+        v1.CSSTextStylesDependency = mx.styles.CSSTextStyles;
+        v1.UIEventDispatcherDependency = mx.events.UIEventDispatcher;
+        ASSetPropFlags(mx.core.ext.UIObjectExtensions.prototype, null, 1);
+      }
+    #endinitclip
+  }
+
+  movieClip 41 __Packages.mx.skins.halo.Defaults {
+
+    #initclip
+      if (!_global.mx) {
+        _global.mx = new Object();
+      }
+      if (!_global.mx.skins) {
+        _global.mx.skins = new Object();
+      }
+      if (!_global.mx.skins.halo) {
+        _global.mx.skins.halo = new Object();
+      }
+      if (!_global.mx.skins.halo.Defaults) {
+        var v1 = function () {};
+
+        mx.skins.halo.Defaults = v1;
+        var v2 = v1.prototype;
+        v1.setThemeDefaults = function () {
+          var v2 = _global.style;
+          v2.themeColor = 8453965;
+          v2.disabledColor = 8684164;
+          v2.modalTransparency = 0;
+          v2.filled = true;
+          v2.stroked = true;
+          v2.strokeWidth = 1;
+          v2.strokeColor = 0;
+          v2.fillColor = 16777215;
+          v2.repeatInterval = 35;
+          v2.repeatDelay = 500;
+          v2.fontFamily = '_sans';
+          v2.fontSize = 12;
+          v2.selectionColor = 13500353;
+          v2.rollOverColor = 14942166;
+          v2.useRollOver = true;
+          v2.backgroundDisabledColor = 14540253;
+          v2.selectionDisabledColor = 14540253;
+          v2.selectionDuration = 200;
+          v2.openDuration = 250;
+          v2.borderStyle = 'inset';
+          v2.color = 734012;
+          v2.textSelectedColor = 24371;
+          v2.textRollOverColor = 2831164;
+          v2.textDisabledColor = 16777215;
+          v2.vGridLines = true;
+          v2.hGridLines = false;
+          v2.vGridLineColor = 6710886;
+          v2.hGridLineColor = 6710886;
+          v2.headerColor = 15395562;
+          v2.indentation = 17;
+          v2.folderOpenIcon = 'TreeFolderOpen';
+          v2.folderClosedIcon = 'TreeFolderClosed';
+          v2.defaultLeafIcon = 'TreeNodeIcon';
+          v2.disclosureOpenIcon = 'TreeDisclosureOpen';
+          v2.disclosureClosedIcon = 'TreeDisclosureClosed';
+          v2.popupDuration = 150;
+          v2.todayColor = 6710886;
+          _global.styles.ScrollSelectList = new mx.styles.CSSStyleDeclaration();
+          v2 = _global.styles.ScrollSelectList;
+          v2.backgroundColor = 16777215;
+          v2.borderColor = 13290186;
+          v2.borderStyle = 'inset';
+          _global.styles.ComboBox = new mx.styles.CSSStyleDeclaration();
+          v2 = _global.styles.ComboBox;
+          v2.borderStyle = 'inset';
+          _global.styles.NumericStepper = new mx.styles.CSSStyleDeclaration();
+          v2 = _global.styles.NumericStepper;
+          v2.textAlign = 'center';
+          _global.styles.RectBorder = new mx.styles.CSSStyleDeclaration();
+          v2 = _global.styles.RectBorder;
+          v2.borderColor = 14015965;
+          v2.buttonColor = 7305079;
+          v2.shadowColor = 15658734;
+          v2.highlightColor = 12897484;
+          v2.shadowCapColor = 14015965;
+          v2.borderCapColor = 9542041;
+          var v4 = new Object();
+          v4.borderColor = 16711680;
+          v4.buttonColor = 16711680;
+          v4.shadowColor = 16711680;
+          v4.highlightColor = 16711680;
+          v4.shadowCapColor = 16711680;
+          v4.borderCapColor = 16711680;
+          mx.core.UIComponent.prototype.origBorderStyles = v4;
+          var v3;
+          _global.styles.TextInput = new mx.styles.CSSStyleDeclaration();
+          v3 = _global.styles.TextInput;
+          v3.backgroundColor = 16777215;
+          v3.borderStyle = 'inset';
+          _global.styles.TextArea = _global.styles.TextInput;
+          _global.styles.Window = new mx.styles.CSSStyleDeclaration();
+          v3 = _global.styles.Window;
+          v3.borderStyle = 'default';
+          _global.styles.windowStyles = new mx.styles.CSSStyleDeclaration();
+          v3 = _global.styles.windowStyles;
+          v3.fontWeight = 'bold';
+          _global.styles.dataGridStyles = new mx.styles.CSSStyleDeclaration();
+          v3 = _global.styles.dataGridStyles;
+          v3.fontWeight = 'bold';
+          _global.styles.Alert = new mx.styles.CSSStyleDeclaration();
+          v3 = _global.styles.Alert;
+          v3.borderStyle = 'alert';
+          _global.styles.ScrollView = new mx.styles.CSSStyleDeclaration();
+          v3 = _global.styles.ScrollView;
+          v3.borderStyle = 'inset';
+          _global.styles.View = new mx.styles.CSSStyleDeclaration();
+          v3 = _global.styles.View;
+          v3.borderStyle = 'none';
+          _global.styles.ProgressBar = new mx.styles.CSSStyleDeclaration();
+          v3 = _global.styles.ProgressBar;
+          v3.color = 11187123;
+          v3.fontWeight = 'bold';
+          _global.styles.AccordionHeader = new mx.styles.CSSStyleDeclaration();
+          v3 = _global.styles.AccordionHeader;
+          v3.fontWeight = 'bold';
+          v3.fontSize = '11';
+          _global.styles.Accordion = new mx.styles.CSSStyleDeclaration();
+          v3 = _global.styles.Accordion;
+          v3.borderStyle = 'solid';
+          v3.backgroundColor = 16777215;
+          v3.borderColor = 9081738;
+          v3.headerHeight = 22;
+          v3.marginBottom = -1;
+          v3.marginTop = -1;
+          v3.marginRight = -1;
+          v3.marginLeft = -1;
+          v3.verticalGap = -1;
+          _global.styles.DateChooser = new mx.styles.CSSStyleDeclaration();
+          v3 = _global.styles.DateChooser;
+          v3.borderColor = 9542041;
+          v3.headerColor = 16777215;
+          _global.styles.CalendarLayout = new mx.styles.CSSStyleDeclaration();
+          v3 = _global.styles.CalendarLayout;
+          v3.fontSize = 10;
+          v3.textAlign = 'right';
+          v3.color = 2831164;
+          _global.styles.WeekDayStyle = new mx.styles.CSSStyleDeclaration();
+          v3 = _global.styles.WeekDayStyle;
+          v3.fontWeight = 'bold';
+          v3.fontSize = 11;
+          v3.textAlign = 'center';
+          v3.color = 2831164;
+          _global.styles.TodayStyle = new mx.styles.CSSStyleDeclaration();
+          v3 = _global.styles.TodayStyle;
+          v3.color = 16777215;
+          _global.styles.HeaderDateText = new mx.styles.CSSStyleDeclaration();
+          v3 = _global.styles.HeaderDateText;
+          v3.fontSize = 12;
+          v3.fontWeight = 'bold';
+          v3.textAlign = 'center';
+        };
+
+        v2.drawRoundRect = function (x, y, w, h, r, c, alpha, rot, gradient, ratios) {
+          if (typeof r == 'object') {
+            var v18 = r.br;
+            var v16 = r.bl;
+            var v15 = r.tl;
+            var v10 = r.tr;
+          } else {
+            var v10 = r;
+            var v15 = v10;
+            var v16 = v15;
+            var v18 = v16;
+          }
+          if (typeof c == 'object') {
+            if (typeof alpha != 'object') {
+              var v9 = [alpha, alpha];
+            } else {
+              var v9 = alpha;
+            }
+            if (ratios == undefined) {
+              ratios = [0, 255];
+            }
+            var v14 = h * 0.7;
+            if (typeof rot != 'object') {
+              var v11 = {'matrixType': 'box', 'x': -v14, 'y': v14, 'w': w * 2, 'h': h * 4, 'r': rot * 0.0174532925199433};
+            } else {
+              var v11 = rot;
+            }
+            if (gradient == 'radial') {
+              this.beginGradientFill('radial', c, v9, ratios, v11);
+            } else {
+              this.beginGradientFill('linear', c, v9, ratios, v11);
+            }
+          } else {
+            if (c != undefined) {
+              this.beginFill(c, alpha);
+            }
+          }
+          r = v18;
+          var v13 = r - r * Math.SQRT1_2;
+          var v12 = r - r * 0.414213562373095;
+          this.moveTo(x + w, y + h - r);
+          this.lineTo(x + w, y + h - r);
+          this.curveTo(x + w, y + h - v12, x + w - v13, y + h - v13);
+          this.curveTo(x + w - v12, y + h, x + w - r, y + h);
+          r = v16;
+          v13 = r - r * Math.SQRT1_2;
+          v12 = r - r * 0.414213562373095;
+          this.lineTo(x + r, y + h);
+          this.curveTo(x + v12, y + h, x + v13, y + h - v13);
+          this.curveTo(x, y + h - v12, x, y + h - r);
+          r = v15;
+          v13 = r - r * Math.SQRT1_2;
+          v12 = r - r * 0.414213562373095;
+          this.lineTo(x, y + r);
+          this.curveTo(x, y + v12, x + v13, y + v13);
+          this.curveTo(x + v12, y, x + r, y);
+          r = v10;
+          v13 = r - r * Math.SQRT1_2;
+          v12 = r - r * 0.414213562373095;
+          this.lineTo(x + w - r, y);
+          this.curveTo(x + w - v12, y, x + w - v13, y + v13);
+          this.curveTo(x + w, y + v12, x + w, y + r);
+          this.lineTo(x + w, y + h - r);
+          if (c != undefined) {
+            this.endFill();
+          }
+        };
+
+        v1.classConstruct = function () {
+          mx.core.ext.UIObjectExtensions.Extensions();
+          mx.skins.halo.Defaults.setThemeDefaults();
+          mx.core.UIObject.prototype.drawRoundRect = mx.skins.halo.Defaults.prototype.drawRoundRect;
+          return true;
+        };
+
+        v1.classConstructed = mx.skins.halo.Defaults.classConstruct();
+        v1.CSSStyleDeclarationDependency = mx.styles.CSSStyleDeclaration;
+        v1.UIObjectExtensionsDependency = mx.core.ext.UIObjectExtensions;
+        v1.UIObjectDependency = mx.core.UIObject;
+        ASSetPropFlags(mx.skins.halo.Defaults.prototype, null, 1);
+      }
+    #endinitclip
+  }
+
+  movieClip 42 __Packages.mx.controls.SimpleButton {
+
+    #initclip
+      if (!_global.mx) {
+        _global.mx = new Object();
+      }
+      if (!_global.mx.controls) {
+        _global.mx.controls = new Object();
+      }
+      if (!_global.mx.controls.SimpleButton) {
+        var v1 = function () {
+          super();
+        };
+
+        mx.controls.SimpleButton = v1;
+        var v2 = new mx.core.UIComponent();
+        mx.controls.SimpleButton.prototype = v2;
+        v2.init = function (Void) {
+          super.init();
+          if (this.preset == undefined) {
+            this.boundingBox_mc._visible = false;
+            this.boundingBox_mc._height = 0;
+            this.boundingBox_mc._width = 0;
+          }
+          this.useHandCursor = false;
+        };
+
+        v2.createChildren = function (Void) {
+          if (this.preset != undefined) {
+            var v2 = this[this.idNames[this.preset]];
+            this[this.refNames[this.preset]] = v2;
+            this.skinName = v2;
+            if (this.falseOverSkin.length == 0) {
+              this.rolloverSkin = this.fus;
+            }
+            if (this.falseOverIcon.length == 0) {
+              this.rolloverIcon = this.fui;
+            }
+            this.initializing = false;
+          } else {
+            if (this.__state == true) {
+              this.setStateVar(true);
+            } else {
+              if (this.falseOverSkin.length == 0) {
+                this.rolloverSkin = this.fus;
+              }
+              if (this.falseOverIcon.length == 0) {
+                this.rolloverIcon = this.fui;
+              }
+            }
+          }
+        };
+
+        v2.setIcon = function (tag, linkageName) {
+          return this.setSkin(tag + 8, linkageName);
+        };
+
+        v2.changeIcon = function (tag, linkageName) {
+          this.linkLength = linkageName.length;
+          var v2 = this.stateNames[tag] + 'Icon';
+          this[v2] = linkageName;
+          this[this.idNames[tag + 8]] = v2;
+          this.setStateVar(this.getState());
+        };
+
+        v2.changeSkin = function (tag, linkageName) {
+          var v2 = this.stateNames[tag] + 'Skin';
+          this[v2] = linkageName;
+          this[this.idNames[tag]] = v2;
+          this.setStateVar(this.getState());
+        };
+
+        v2.viewIcon = function (varName) {
+          var v4 = varName + 'Icon';
+          var v3 = this[v4];
+          if (typeof v3 == 'string') {
+            var v5 = v3;
+            if (this.__emphasized) {
+              if (this[v3 + 'Emphasized'].length > 0) {
+                v3 += 'Emphasized';
+              }
+            }
+            if (this[v3].length == 0) {
+              return undefined;
+            }
+            v3 = this.setIcon(this.tagMap[v5], this[v3]);
+            if (v3 == undefined && _global.isLivePreview) {
+              v3 = this.setIcon(0, 'ButtonIcon');
+            }
+            this[v4] = v3;
+          }
+          this.iconName._visible = false;
+          this.iconName = v3;
+          this.iconName._visible = true;
+        };
+
+        v2.removeIcons = function () {
+          var v3 = 0;
+          while (v3 < 2) {
+            var v2 = 8;
+            while (v2 < 16) {
+              this.destroyObject(this.idNames[v2]);
+              this[this.stateNames[v2 - 8] + 'Icon'] = '';
+              ++v2;
+            }
+            ++v3;
+          }
+          this.refresh();
+        };
+
+        v2.setSkin = function (tag, linkageName, initobj) {
+          if (initobj == undefined) {
+            var v3 = super.setSkin(tag, linkageName, {'styleName': this});
+            this.calcSize(tag, v3);
+            return v3;
+          }
+          var v3 = super.setSkin(tag, linkageName, initobj);
+          this.calcSize(tag, v3);
+          return v3;
+        };
+
+        v2.calcSize = function (Void) {
+          this.__width = this._width;
+          this.__height = this._height;
+        };
+
+        v2.viewSkin = function (varName, initObj) {
+          var v3 = varName + 'Skin';
+          var v2 = this[v3];
+          if (typeof v2 == 'string') {
+            var v4 = v2;
+            if (this.__emphasized) {
+              if (this[v2 + 'Emphasized'].length > 0) {
+                v2 += 'Emphasized';
+              }
+            }
+            if (this[v2].length == 0) {
+              return undefined;
+            }
+            v2 = this.setSkin(this.tagMap[v4], this[v2], (initObj != undefined) ? initObj : {'styleName': this});
+            this[v3] = v2;
+          }
+          this.skinName._visible = false;
+          this.skinName = v2;
+          this.skinName._visible = true;
+        };
+
+        v2.showEmphasized = function (e) {
+          if (e && !this.__emphatic) {
+            if (mx.controls.SimpleButton.emphasizedStyleDeclaration != undefined) {
+              this.__emphaticStyleName = this.styleName;
+              this.styleName = mx.controls.SimpleButton.emphasizedStyleDeclaration;
+            }
+            this.__emphatic = true;
+          } else {
+            if (this.__emphatic) {
+              this.styleName = this.__emphaticStyleName;
+            }
+            this.__emphatic = false;
+          }
+        };
+
+        v2.refresh = function (Void) {
+          var v2 = this.getState();
+          if (this.enabled == false) {
+            this.viewIcon('disabled');
+            this.viewSkin('disabled');
+          } else {
+            this.viewSkin(this.phase);
+            this.viewIcon(this.phase);
+          }
+          this.setView(this.phase == 'down');
+          this.iconName.enabled = this.enabled;
+        };
+
+        v2.setView = function (offset) {
+          if (this.iconName == undefined) {
+            return undefined;
+          }
+          var v2 = offset ? this.btnOffset : 0;
+          this.iconName._x = (this.__width - this.iconName._width) / 2 + v2;
+          this.iconName._y = (this.__height - this.iconName._height) / 2 + v2;
+        };
+
+        v2.setStateVar = function (state) {
+          if (state) {
+            if (this.trueOverSkin.length == 0) {
+              this.rolloverSkin = this.tus;
+            } else {
+              this.rolloverSkin = this.trs;
+            }
+            if (this.trueOverIcon.length == 0) {
+              this.rolloverIcon = this.tui;
+            } else {
+              this.rolloverIcon = this.tri;
+            }
+            this.upSkin = this.tus;
+            this.downSkin = this.tds;
+            this.disabledSkin = this.dts;
+            this.upIcon = this.tui;
+            this.downIcon = this.tdi;
+            this.disabledIcon = this.dti;
+          } else {
+            if (this.falseOverSkin.length == 0) {
+              this.rolloverSkin = this.fus;
+            } else {
+              this.rolloverSkin = this.frs;
+            }
+            if (this.falseOverIcon.length == 0) {
+              this.rolloverIcon = this.fui;
+            } else {
+              this.rolloverIcon = this.fri;
+            }
+            this.upSkin = this.fus;
+            this.downSkin = this.fds;
+            this.disabledSkin = this.dfs;
+            this.upIcon = this.fui;
+            this.downIcon = this.fdi;
+            this.disabledIcon = this.dfi;
+          }
+          this.__state = state;
+        };
+
+        v2.setState = function (state) {
+          if (state != this.__state) {
+            this.setStateVar(state);
+            this.invalidate();
+          }
+        };
+
+        v2.size = function (Void) {
+          this.refresh();
+        };
+
+        v2.draw = function (Void) {
+          if (this.initializing) {
+            this.initializing = false;
+            this.skinName.visible = true;
+            this.iconName.visible = true;
+          }
+          this.size();
+        };
+
+        v2.getState = function (Void) {
+          return this.__state;
+        };
+
+        v2.setToggle = function (val) {
+          this.__toggle = val;
+          if (this.__toggle == false) {
+            this.setState(false);
+          }
+        };
+
+        v2.getToggle = function (Void) {
+          return this.__toggle;
+        };
+
+        v2.__set__toggle = function (val) {
+          this.setToggle(val);
+          return this.__get__toggle();
+        };
+
+        v2.__get__toggle = function () {
+          return this.getToggle();
+        };
+
+        v2.__set__value = function (val) {
+          this.setSelected(val);
+          return this.__get__value();
+        };
+
+        v2.__get__value = function () {
+          return this.getSelected();
+        };
+
+        v2.__set__selected = function (val) {
+          this.setSelected(val);
+          return this.__get__selected();
+        };
+
+        v2.__get__selected = function () {
+          return this.getSelected();
+        };
+
+        v2.setSelected = function (val) {
+          if (this.__toggle) {
+            this.setState(val);
+          } else {
+            this.setState(this.initializing ? val : this.__state);
+          }
+        };
+
+        v2.getSelected = function () {
+          return this.__state;
+        };
+
+        v2.setEnabled = function (val) {
+          if (this.enabled != val) {
+            super.setEnabled(val);
+            this.invalidate();
+          }
+        };
+
+        v2.onPress = function (Void) {
+          this.pressFocus();
+          this.phase = 'down';
+          this.refresh();
+          this.dispatchEvent({'type': 'buttonDown'});
+          if (this.autoRepeat) {
+            this.interval = setInterval(this, 'onPressDelay', this.getStyle('repeatDelay'));
+          }
+        };
+
+        v2.onPressDelay = function (Void) {
+          this.dispatchEvent({'type': 'buttonDown'});
+          if (this.autoRepeat) {
+            clearInterval(this.interval);
+            this.interval = setInterval(this, 'onPressRepeat', this.getStyle('repeatInterval'));
+          }
+        };
+
+        v2.onPressRepeat = function (Void) {
+          this.dispatchEvent({'type': 'buttonDown'});
+          updateAfterEvent();
+        };
+
+        v2.onRelease = function (Void) {
+          this.releaseFocus();
+          this.phase = 'rollover';
+          if (this.interval != undefined) {
+            clearInterval(this.interval);
+            delete this.interval;
+          }
+          if (this.getToggle()) {
+            this.setState(!this.getState());
+          } else {
+            this.refresh();
+          }
+          this.dispatchEvent({'type': 'click'});
+        };
+
+        v2.onDragOut = function (Void) {
+          this.phase = 'up';
+          this.refresh();
+          this.dispatchEvent({'type': 'buttonDragOut'});
+        };
+
+        v2.onDragOver = function (Void) {
+          if (this.phase != 'up') {
+            this.onPress();
+            return undefined;
+          } else {
+            this.phase = 'down';
+            this.refresh();
+          }
+        };
+
+        v2.onReleaseOutside = function (Void) {
+          this.releaseFocus();
+          this.phase = 'up';
+          if (this.interval != undefined) {
+            clearInterval(this.interval);
+            delete this.interval;
+          }
+        };
+
+        v2.onRollOver = function (Void) {
+          this.phase = 'rollover';
+          this.refresh();
+        };
+
+        v2.onRollOut = function (Void) {
+          this.phase = 'up';
+          this.refresh();
+        };
+
+        v2.getLabel = function (Void) {
+          return this.fui.text;
+        };
+
+        v2.setLabel = function (val) {
+          if (typeof this.fui == 'string') {
+            this.createLabel('fui', 8, val);
+            this.fui.styleName = this;
+          } else {
+            this.fui.text = val;
+          }
+          var v4 = this.fui._getTextFormat();
+          var v2 = v4.getTextExtent2(val);
+          this.fui._width = v2.width + 5;
+          this.fui._height = v2.height + 5;
+          this.iconName = this.fui;
+          this.setView(this.__state);
+        };
+
+        v2.__get__emphasized = function () {
+          return this.__emphasized;
+        };
+
+        v2.__set__emphasized = function (val) {
+          this.__emphasized = val;
+          var v2 = 0;
+          while (v2 < 8) {
+            this[this.idNames[v2]] = this.stateNames[v2] + 'Skin';
+            if (typeof this[this.idNames[v2 + 8]] == 'movieclip') {
+              this[this.idNames[v2 + 8]] = this.stateNames[v2] + 'Icon';
+            }
+            ++v2;
+          }
+          this.showEmphasized(this.__emphasized);
+          this.setStateVar(this.__state);
+          this.invalidateStyle();
+          return this.__get__emphasized();
+        };
+
+        v2.keyDown = function (e) {
+          if (e.code == 32) {
+            this.onPress();
+          }
+        };
+
+        v2.keyUp = function (e) {
+          if (e.code == 32) {
+            this.onRelease();
+          }
+        };
+
+        v2.onKillFocus = function (newFocus) {
+          super.onKillFocus();
+          if (this.phase != 'up') {
+            this.phase = 'up';
+            this.refresh();
+          }
+        };
+
+        v1.symbolName = 'SimpleButton';
+        v1.symbolOwner = mx.controls.SimpleButton;
+        v1.version = '2.0.2.126';
+        v2.className = 'SimpleButton';
+        v2.style3dInset = 4;
+        v2.btnOffset = 1;
+        v2.__toggle = false;
+        v2.__state = false;
+        v2.__emphasized = false;
+        v2.__emphatic = false;
+        v1.falseUp = 0;
+        v1.falseDown = 1;
+        v1.falseOver = 2;
+        v1.falseDisabled = 3;
+        v1.trueUp = 4;
+        v1.trueDown = 5;
+        v1.trueOver = 6;
+        v1.trueDisabled = 7;
+        v2.falseUpSkin = 'SimpleButtonUp';
+        v2.falseDownSkin = 'SimpleButtonIn';
+        v2.falseOverSkin = '';
+        v2.falseDisabledSkin = 'SimpleButtonUp';
+        v2.trueUpSkin = 'SimpleButtonIn';
+        v2.trueDownSkin = '';
+        v2.trueOverSkin = '';
+        v2.trueDisabledSkin = 'SimpleButtonIn';
+        v2.falseUpIcon = '';
+        v2.falseDownIcon = '';
+        v2.falseOverIcon = '';
+        v2.falseDisabledIcon = '';
+        v2.trueUpIcon = '';
+        v2.trueDownIcon = '';
+        v2.trueOverIcon = '';
+        v2.trueDisabledIcon = '';
+        v2.phase = 'up';
+        v2.fui = 'falseUpIcon';
+        v2.fus = 'falseUpSkin';
+        v2.fdi = 'falseDownIcon';
+        v2.fds = 'falseDownSkin';
+        v2.frs = 'falseOverSkin';
+        v2.fri = 'falseOverIcon';
+        v2.dfi = 'falseDisabledIcon';
+        v2.dfs = 'falseDisabledSkin';
+        v2.tui = 'trueUpIcon';
+        v2.tus = 'trueUpSkin';
+        v2.tdi = 'trueDownIcon';
+        v2.tds = 'trueDownSkin';
+        v2.trs = 'trueOverSkin';
+        v2.tri = 'trueOverIcon';
+        v2.dts = 'trueDisabledSkin';
+        v2.dti = 'trueDisabledIcon';
+        v2.rolloverSkin = mx.controls.SimpleButton.prototype.frs;
+        v2.rolloverIcon = mx.controls.SimpleButton.prototype.fri;
+        v2.upSkin = mx.controls.SimpleButton.prototype.fus;
+        v2.downSkin = mx.controls.SimpleButton.prototype.fds;
+        v2.disabledSkin = mx.controls.SimpleButton.prototype.dfs;
+        v2.upIcon = mx.controls.SimpleButton.prototype.fui;
+        v2.downIcon = mx.controls.SimpleButton.prototype.fdi;
+        v2.disabledIcon = mx.controls.SimpleButton.prototype.dfi;
+        v2.initializing = true;
+        v2.idNames = ['fus', 'fds', 'frs', 'dfs', 'tus', 'tds', 'trs', 'dts', 'fui', 'fdi', 'fri', 'dfi', 'tui', 'tdi', 'tri', 'dti'];
+        v2.stateNames = ['falseUp', 'falseDown', 'falseOver', 'falseDisabled', 'trueUp', 'trueDown', 'trueOver', 'trueDisabled'];
+        v2.refNames = ['upSkin', 'downSkin', 'rolloverSkin', 'disabledSkin'];
+        v2.tagMap = {'falseUpSkin': 0, 'falseDownSkin': 1, 'falseOverSkin': 2, 'falseDisabledSkin': 3, 'trueUpSkin': 4, 'trueDownSkin': 5, 'trueOverSkin': 6, 'trueDisabledSkin': 7, 'falseUpIcon': 0, 'falseDownIcon': 1, 'falseOverIcon': 2, 'falseDisabledIcon': 3, 'trueUpIcon': 4, 'trueDownIcon': 5, 'trueOverIcon': 6, 'trueDisabledIcon': 7};
+        v2.addProperty('emphasized', v2.__get__emphasized, v2.__set__emphasized);
+        v2.addProperty('selected', v2.__get__selected, v2.__set__selected);
+        v2.addProperty('toggle', v2.__get__toggle, v2.__set__toggle);
+        v2.addProperty('value', v2.__get__value, v2.__set__value);
+        ASSetPropFlags(mx.controls.SimpleButton.prototype, null, 1);
+      }
+    #endinitclip
+  }
+
+  movieClip 43 __Packages.mx.managers.SystemManager {
+
+    #initclip
+      if (!_global.mx) {
+        _global.mx = new Object();
+      }
+      if (!_global.mx.managers) {
+        _global.mx.managers = new Object();
+      }
+      if (!_global.mx.managers.SystemManager) {
+        var v1 = function () {};
+
+        mx.managers.SystemManager = v1;
+        var v2 = v1.prototype;
+        v1.init = function (Void) {
+          if (mx.managers.SystemManager._initialized == false) {
+            mx.managers.SystemManager._initialized = true;
+            mx.events.EventDispatcher.initialize(mx.managers.SystemManager);
+            Mouse.addListener(mx.managers.SystemManager);
+            Stage.addListener(mx.managers.SystemManager);
+            mx.managers.SystemManager._xAddEventListener = mx.managers.SystemManager.addEventListener;
+            mx.managers.SystemManager.addEventListener = mx.managers.SystemManager.__addEventListener;
+            mx.managers.SystemManager._xRemoveEventListener = mx.managers.SystemManager.removeEventListener;
+            mx.managers.SystemManager.removeEventListener = mx.managers.SystemManager.__removeEventListener;
+          }
+        };
+
+        v1.addFocusManager = function (f) {
+          mx.managers.SystemManager.form = f;
+          f.focusManager.activate();
+        };
+
+        v1.removeFocusManager = function (f) {};
+
+        v1.onMouseDown = function (Void) {
+          var v1 = mx.managers.SystemManager.form;
+          v1.focusManager._onMouseDown();
+        };
+
+        v1.onResize = function (Void) {
+          var v7 = Stage.width;
+          var v6 = Stage.height;
+          var v9 = _global.origWidth;
+          var v8 = _global.origHeight;
+          var v3 = Stage.align;
+          var v5 = (v9 - v7) / 2;
+          var v4 = (v8 - v6) / 2;
+          if (v3 == 'T') {
+            v4 = 0;
+          } else {
+            if (v3 == 'B') {
+              v4 = v8 - v6;
+            } else {
+              if (v3 == 'L') {
+                v5 = 0;
+              } else {
+                if (v3 == 'R') {
+                  v5 = v9 - v7;
+                } else {
+                  if (v3 == 'LT') {
+                    v4 = 0;
+                    v5 = 0;
+                  } else {
+                    if (v3 == 'TR') {
+                      v4 = 0;
+                      v5 = v9 - v7;
+                    } else {
+                      if (v3 == 'LB') {
+                        v4 = v8 - v6;
+                        v5 = 0;
+                      } else {
+                        if (v3 == 'RB') {
+                          v4 = v8 - v6;
+                          v5 = v9 - v7;
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+          if (mx.managers.SystemManager.__screen == undefined) {
+            mx.managers.SystemManager.__screen = new Object();
+          }
+          mx.managers.SystemManager.__screen.x = v5;
+          mx.managers.SystemManager.__screen.y = v4;
+          mx.managers.SystemManager.__screen.width = v7;
+          mx.managers.SystemManager.__screen.height = v6;
+          _root.focusManager.relocate();
+          mx.managers.SystemManager.dispatchEvent({'type': 'resize'});
+        };
+
+        v1.__get__screen = function () {
+          mx.managers.SystemManager.init();
+          if (mx.managers.SystemManager.__screen == undefined) {
+            mx.managers.SystemManager.onResize();
+          }
+          return mx.managers.SystemManager.__screen;
+        };
+
+        v1._initialized = false;
+        v1.idleFrames = 0;
+        v1.isMouseDown = false;
+        v1.forms = new Array();
+        v1.addProperty('screen', v1.__get__screen, function () {});
+        ASSetPropFlags(mx.managers.SystemManager.prototype, null, 1);
+      }
+    #endinitclip
+  }
+
+  movieClip 44 __Packages.mx.managers.FocusManager {
+
+    #initclip
+      if (!_global.mx) {
+        _global.mx = new Object();
+      }
+      if (!_global.mx.managers) {
+        _global.mx.managers = new Object();
+      }
+      if (!_global.mx.managers.FocusManager) {
+        var v1 = function () {
+          super();
+        };
+
+        mx.managers.FocusManager = v1;
+        var v2 = new mx.core.UIComponent();
+        mx.managers.FocusManager.prototype = v2;
+        v2.__get__defaultPushButton = function () {
+          return this.__defaultPushButton;
+        };
+
+        v2.__set__defaultPushButton = function (x) {
+          if (x != this.__defaultPushButton) {
+            this.__defaultPushButton.__set__emphasized(false);
+            this.__defaultPushButton = x;
+            this.defPushButton = x;
+            x.__set__emphasized(true);
+          }
+          return this.__get__defaultPushButton();
+        };
+
+        v2.getMaxTabIndex = function (o) {
+          var v3 = 0;
+          var v6;
+          for (v6 in o) {
+            var v2 = o[v6];
+            if (v2._parent == o) {
+              if (v2.tabIndex != undefined) {
+                if (v2.tabIndex > v3) {
+                  v3 = v2.tabIndex;
+                }
+              }
+              if (v2.tabChildren == true) {
+                var v4 = this.getMaxTabIndex(v2);
+                if (v4 > v3) {
+                  v3 = v4;
+                }
+              }
+            }
+          }
+          return v3;
+        };
+
+        v2.getNextTabIndex = function (Void) {
+          return this.getMaxTabIndex(this.form) + 1;
+        };
+
+        v2.__get__nextTabIndex = function () {
+          return this.getNextTabIndex();
+        };
+
+        v2.relocate = function (Void) {
+          var v2 = mx.managers.SystemManager.__get__screen();
+          this.move(v2.x - 1, v2.y - 1);
+        };
+
+        v2.init = function (Void) {
+          super.init();
+          this.tabEnabled = false;
+          this._height = 1;
+          this._width = 1;
+          this._y = -1;
+          this._x = -1;
+          this._alpha = 0;
+          this._parent.focusManager = this;
+          this._parent.tabChildren = true;
+          this._parent.tabEnabled = false;
+          this.form = this._parent;
+          this._parent.addEventListener('hide', this);
+          this._parent.addEventListener('reveal', this);
+          mx.managers.SystemManager.init();
+          mx.managers.SystemManager.addFocusManager(this.form);
+          this.tabCapture.tabIndex = 0;
+          this.watch('enabled', this.enabledChanged);
+          Selection.addListener(this);
+          this.lastMouse = new Object();
+          _global.ASSetPropFlags(this._parent, 'focusManager', 1);
+          _global.ASSetPropFlags(this._parent, 'tabChildren', 1);
+          _global.ASSetPropFlags(this._parent, 'tabEnabled', 1);
+        };
+
+        v2.enabledChanged = function (id, oldValue, newValue) {
+          this._visible = newValue;
+          return newValue;
+        };
+
+        v2.activate = function (Void) {
+          Key.addListener(this);
+          this._visible = true;
+          this.activated = this._visible;
+          if (this.lastFocus != undefined) {
+            this.bNeedFocus = true;
+            if (!mx.managers.SystemManager.isMouseDown) {
+              this.doLater(this, 'restoreFocus');
+            }
+          }
+        };
+
+        v2.deactivate = function (Void) {
+          Key.removeListener(this);
+          this._visible = false;
+          this.activated = this._visible;
+          var v2 = this.getSelectionFocus();
+          var v3 = this.getActualFocus(v2);
+          if (this.isOurFocus(v3)) {
+            this.lastSelFocus = v2;
+            this.lastFocus = v3;
+          }
+          this.cancelAllDoLaters();
+        };
+
+        v2.isOurFocus = function (o) {
+          if (o.focusManager == this) {
+            return true;
+          }
+          while (o != undefined) {
+            if (o.focusManager != undefined) {
+              return false;
+            }
+            if (o._parent == this._parent) {
+              return true;
+            }
+            o = o._parent;
+          }
+          return false;
+        };
+
+        v2.onSetFocus = function (o, n) {
+          if (n == null) {
+            if (this.activated) {
+              this.bNeedFocus = true;
+            }
+          } else {
+            var v2 = this.getFocus();
+            if (this.isOurFocus(v2)) {
+              this.bNeedFocus = false;
+              this.lastFocus = v2;
+              this.lastSelFocus = n;
+            }
+          }
+        };
+
+        v2.restoreFocus = function (Void) {
+          var v2 = this.lastSelFocus.hscroll;
+          if (v2 != undefined) {
+            var v5 = this.lastSelFocus.scroll;
+            var v4 = this.lastSelFocus.background;
+          }
+          this.lastFocus.setFocus();
+          var v3 = Selection;
+          Selection.setSelection(v3.lastBeginIndex, v3.lastEndIndex);
+          if (v2 != undefined) {
+            this.lastSelFocus.scroll = v5;
+            this.lastSelFocus.hscroll = v2;
+            this.lastSelFocus.background = v4;
+          }
+        };
+
+        v2.onUnload = function (Void) {
+          mx.managers.SystemManager.removeFocusManager(this.form);
+        };
+
+        v2.setFocus = function (o) {
+          if (o == null) {
+            Selection.setFocus(null);
+          } else {
+            if (o.setFocus == undefined) {
+              Selection.setFocus(o);
+            } else {
+              o.setFocus();
+            }
+          }
+        };
+
+        v2.getActualFocus = function (o) {
+          var v1 = o._parent;
+          while (v1 != undefined) {
+            if (v1.focusTextField != undefined) {
+              while (v1.focusTextField != undefined) {
+                o = v1;
+                v1 = v1._parent;
+                if (v1 == undefined) {
+                  return undefined;
+                }
+                if (v1.focusTextField == undefined) {
+                  return o;
+                }
+              }
+            }
+            if (v1.tabEnabled != true) {
+              return o;
+            }
+            o = v1;
+            v1 = o._parent;
+          }
+          return undefined;
+        };
+
+        v2.getSelectionFocus = function () {
+          var m = Selection.getFocus();
+          var o = eval(m);
+          return o;
+        };
+
+        v2.getFocus = function (Void) {
+          var v2 = this.getSelectionFocus();
+          return this.getActualFocus(v2);
+        };
+
+        v2.walkTree = function (p, index, groupName, dir, lookup, firstChild) {
+          var v5 = true;
+          var v11;
+          for (v11 in p) {
+            var v2 = p[v11];
+            if (v2._parent == p && v2.enabled != false && v2._visible != false && (v2.tabEnabled == true || v2.tabEnabled != false && (v2.onPress != undefined || v2.onRelease != undefined || v2.onReleaseOutside != undefined || v2.onDragOut != undefined || v2.onDragOver != undefined || v2.onRollOver != undefined || v2.onRollOut != undefined || v2 instanceof TextField))) {
+              if (v2._searchKey == this._searchKey) {
+                continue;
+              }
+              v2._searchKey = this._searchKey;
+              if (v2 != this._lastTarget) {
+                if ((v2.groupName != undefined || groupName != undefined) && v2.groupName == groupName) {
+                  continue;
+                }
+                if (v2 instanceof TextField && v2.selectable == false) {
+                  continue;
+                }
+                if (v5 || v2.groupName != undefined && v2.groupName == this._firstNode.groupName && v2.selected == true) {
+                  if (firstChild) {
+                    this._firstNode = v2;
+                    firstChild = false;
+                  }
+                }
+                if (this._nextIsNext == true) {
+                  if (v2.groupName != undefined && v2.groupName == this._nextNode.groupName && v2.selected == true || this._nextNode == undefined && (v2.groupName == undefined || v2.groupName != undefined && v2.groupName != groupName)) {
+                    this._nextNode = v2;
+                  }
+                }
+                if (v2.groupName == undefined || groupName != v2.groupName) {
+                  if (this._lastx.groupName != undefined && v2.groupName == this._lastx.groupName && this._lastx.selected == true) {
+                  } else {
+                    this._lastx = v2;
+                  }
+                }
+              } else {
+                this._prevNode = this._lastx;
+                this._needPrev = false;
+                this._nextIsNext = true;
+              }
+              if (v2.tabIndex != undefined) {
+                if (v2.tabIndex == index) {
+                  if (this._foundList[v2._name] == undefined) {
+                    if (this._needPrev) {
+                      this._prevObj = v2;
+                      this._needPrev = false;
+                    }
+                    this._nextObj = v2;
+                  }
+                }
+                if (dir && v2.tabIndex > index) {
+                  if (this._nextObj == undefined || this._nextObj.tabIndex > v2.tabIndex && (v2.groupName == undefined || this._nextObj.groupName == undefined || v2.groupName != this._nextObj.groupName) || this._nextObj.groupName != undefined && this._nextObj.groupName == v2.groupName && this._nextObj.selected != true && (v2.selected == true || this._nextObj.tabIndex > v2.tabIndex)) {
+                    this._nextObj = v2;
+                  }
+                } else {
+                  if (!dir && v2.tabIndex < index) {
+                    if (this._prevObj == undefined || this._prevObj.tabIndex < v2.tabIndex && (v2.groupName == undefined || this._prevObj.groupName == undefined || v2.groupName != this._prevObj.groupName) || this._prevObj.groupName != undefined && this._prevObj.groupName == v2.groupName && this._prevObj.selected != true && (v2.selected == true || this._prevObj.tabIndex < v2.tabIndex)) {
+                      this._prevObj = v2;
+                    }
+                  }
+                }
+                if (this._firstObj == undefined || v2.tabIndex < this._firstObj.tabIndex && (v2.groupName == undefined || this._firstObj.groupName == undefined || v2.groupName != this._firstObj.groupName) || this._firstObj.groupName != undefined && this._firstObj.groupName == v2.groupName && this._firstObj.selected != true && (v2.selected == true || v2.tabIndex < this._firstObj.tabIndex)) {
+                  this._firstObj = v2;
+                }
+                if (this._lastObj == undefined || v2.tabIndex > this._lastObj.tabIndex && (v2.groupName == undefined || this._lastObj.groupName == undefined || v2.groupName != this._lastObj.groupName) || this._lastObj.groupName != undefined && this._lastObj.groupName == v2.groupName && this._lastObj.selected != true && (v2.selected == true || v2.tabIndex > this._lastObj.tabIndex)) {
+                  this._lastObj = v2;
+                }
+              }
+              if (v2.tabChildren) {
+                this.getTabCandidateFromChildren(v2, index, groupName, dir, v5 && firstChild);
+              }
+              v5 = false;
+            } else {
+              if (v2._parent == p && v2.tabChildren == true && v2._visible != false) {
+                if (v2 == this._lastTarget) {
+                  if (v2._searchKey == this._searchKey) {
+                    continue;
+                  }
+                  v2._searchKey = this._searchKey;
+                  if (this._prevNode == undefined) {
+                    var v3 = this._lastx;
+                    var v7 = false;
+                    while (v3 != undefined) {
+                      if (v3 == v2) {
+                        v7 = true;
+                        break;
+                      }
+                      v3 = v3._parent;
+                    }
+                    if (v7 == false) {
+                      this._prevNode = this._lastx;
+                    }
+                  }
+                  this._needPrev = false;
+                  if (this._nextNode == undefined) {
+                    this._nextIsNext = true;
+                  }
+                } else {
+                  if (!(v2.focusManager != undefined && v2.focusManager._parent == v2)) {
+                    if (v2._searchKey == this._searchKey) {
+                      continue;
+                    }
+                    v2._searchKey = this._searchKey;
+                    this.getTabCandidateFromChildren(v2, index, groupName, dir, v5 && firstChild);
+                  }
+                }
+                v5 = false;
+              }
+            }
+          }
+          this._lastNode = this._lastx;
+          if (lookup) {
+            if (p._parent != undefined) {
+              if (p != this._parent) {
+                if (this._prevNode == undefined && dir) {
+                  this._needPrev = true;
+                } else {
+                  if (this._nextNode == undefined && !dir) {
+                    this._nextIsNext = false;
+                  }
+                }
+                this._lastTarget = this._lastTarget._parent;
+                this.getTabCandidate(p._parent, index, groupName, dir, true);
+              }
+            }
+          }
+        };
+
+        v2.getTabCandidate = function (o, index, groupName, dir, firstChild) {
+          var v2;
+          var v3 = true;
+          if (o == this._parent) {
+            v2 = o;
+            v3 = false;
+          } else {
+            v2 = o._parent;
+            if (v2 == undefined) {
+              v2 = o;
+              v3 = false;
+            }
+          }
+          this.walkTree(v2, index, groupName, dir, v3, firstChild);
+        };
+
+        v2.getTabCandidateFromChildren = function (o, index, groupName, dir, firstChild) {
+          this.walkTree(o, index, groupName, dir, false, firstChild);
+        };
+
+        v2.getFocusManagerFromObject = function (o) {
+          while (o != undefined) {
+            if (o.focusManager != undefined) {
+              return o.focusManager;
+            }
+            o = o._parent;
+          }
+          return undefined;
+        };
+
+        v2.tabHandler = function (Void) {
+          this.bDrawFocus = true;
+          var v5 = this.getSelectionFocus();
+          var v4 = this.getActualFocus(v5);
+          if (v4 != v5) {
+            v5 = v4;
+          }
+          if (this.getFocusManagerFromObject(v5) != this) {
+            v5 == undefined;
+          }
+          if (v5 == undefined) {
+            v5 = this.form;
+          } else {
+            if (v5.tabIndex != undefined) {
+              if (this._foundList != undefined || this._foundList.tabIndex != v5.tabIndex) {
+                this._foundList = new Object();
+                this._foundList.tabIndex = v5.tabIndex;
+              }
+              this._foundList[v5._name] = v5;
+            }
+          }
+          var v3 = Key.isDown(16) != true;
+          this._searchKey = getTimer();
+          this._needPrev = true;
+          this._nextIsNext = false;
+          this._lastx = undefined;
+          this._firstNode = undefined;
+          this._lastNode = undefined;
+          this._nextNode = undefined;
+          this._prevNode = undefined;
+          this._firstObj = undefined;
+          this._lastObj = undefined;
+          this._nextObj = undefined;
+          this._prevObj = undefined;
+          this._lastTarget = v5;
+          var v6 = v5;
+          this.getTabCandidate(v6, (v5.tabIndex == undefined) ? 0 : v5.tabIndex, v5.groupName, v3, true);
+          var v2;
+          if (v3) {
+            if (this._nextObj != undefined) {
+              v2 = this._nextObj;
+            } else {
+              v2 = this._firstObj;
+            }
+          } else {
+            if (this._prevObj != undefined) {
+              v2 = this._prevObj;
+            } else {
+              v2 = this._lastObj;
+            }
+          }
+          if (v2.tabIndex != v5.tabIndex) {
+            this._foundList = new Object();
+            this._foundList.tabIndex = v2.tabIndex;
+            this._foundList[v2._name] = v2;
+          } else {
+            if (this._foundList == undefined) {
+              this._foundList = new Object();
+              this._foundList.tabIndex = v2.tabIndex;
+            }
+            this._foundList[v2._name] = v2;
+          }
+          if (v2 == undefined) {
+            if (v3 == false) {
+              if (this._nextNode != undefined) {
+                v2 = this._nextNode;
+              } else {
+                v2 = this._firstNode;
+              }
+            } else {
+              if (this._prevNode == undefined || v5 == this.form) {
+                v2 = this._lastNode;
+              } else {
+                v2 = this._prevNode;
+              }
+            }
+          }
+          if (v2 == undefined) {
+            return undefined;
+          }
+          this.lastTabFocus = v2;
+          this.setFocus(v2);
+          if (v2.emphasized != undefined) {
+            if (this.defPushButton != undefined) {
+              v5 = this.defPushButton;
+              this.defPushButton = v2;
+              v5.emphasized = false;
+              v2.emphasized = true;
+            }
+          } else {
+            if (this.defPushButton != undefined && this.defPushButton != this.__defaultPushButton) {
+              v5 = this.defPushButton;
+              this.defPushButton = this.__defaultPushButton;
+              v5.emphasized = false;
+              this.__defaultPushButton.__set__emphasized(true);
+            }
+          }
+        };
+
+        v2.onKeyDown = function (Void) {
+          mx.managers.SystemManager.idleFrames = 0;
+          if (this.defaultPushButtonEnabled) {
+            if (Key.getCode() == 13) {
+              if (this.__get__defaultPushButton() != undefined) {
+                this.doLater(this, 'sendDefaultPushButtonEvent');
+              }
+            }
+          }
+        };
+
+        v2.sendDefaultPushButtonEvent = function (Void) {
+          this.defPushButton.dispatchEvent({'type': 'click'});
+        };
+
+        v2.getMousedComponentFromChildren = function (x, y, o) {
+          for (var v7 in o) {
+            var v2 = o[v7];
+            if (v2._visible && v2.enabled && v2._parent == o && v2._searchKey != this._searchKey) {
+              v2._searchKey = this._searchKey;
+              if (v2.hitTest(x, y, true)) {
+                if (v2.onPress != undefined || v2.onRelease != undefined) {
+                                    return v2;
+                }
+                var v3 = this.getMousedComponentFromChildren(x, y, v2);
+                if (v3 != undefined) {
+                                    return v3;
+                }
+                                return v2;
+              }
+            }
+          }
+          return undefined;
+        };
+
+        v2.mouseActivate = function (Void) {
+          if (!this.bNeedFocus) {
+            return undefined;
+          }
+          this._searchKey = getTimer();
+          var v2 = this.getMousedComponentFromChildren(this.lastMouse.x, this.lastMouse.y, this.form);
+          if (v2 instanceof mx.core.UIComponent) {
+            return undefined;
+          }
+          v2 = this.findFocusFromObject(v2);
+          if (v2 == this.lastFocus) {
+            return undefined;
+          }
+          if (v2 == undefined) {
+            this.doLater(this, 'restoreFocus');
+            return undefined;
+          }
+          var v3 = v2.hscroll;
+          if (v3 != undefined) {
+            var v6 = v2.scroll;
+            var v5 = v2.background;
+          }
+          this.setFocus(v2);
+          var v4 = Selection;
+          Selection.setSelection(v4.lastBeginIndex, v4.lastEndIndex);
+          if (v3 != undefined) {
+            v2.scroll = v6;
+            v2.hscroll = v3;
+            v2.background = v5;
+          }
+        };
+
+        v2._onMouseDown = function (Void) {
+          this.bDrawFocus = false;
+          if (this.lastFocus != undefined) {
+            this.lastFocus.drawFocus(false);
+          }
+          mx.managers.SystemManager.idleFrames = 0;
+          var v3 = Selection;
+          v3.lastBeginIndex = Selection.getBeginIndex();
+          v3.lastEndIndex = Selection.getEndIndex();
+          this.lastMouse.x = _root._xmouse;
+          this.lastMouse.y = _root._ymouse;
+          _root.localToGlobal(this.lastMouse);
+        };
+
+        v2.onMouseUp = function (Void) {
+          if (this._visible) {
+            this.doLater(this, 'mouseActivate');
+          }
+        };
+
+        v2.handleEvent = function (e) {
+          if (e.type == 'reveal') {
+            mx.managers.SystemManager.activate(this.form);
+          } else {
+            mx.managers.SystemManager.deactivate(this.form);
+          }
+        };
+
+        v1.enableFocusManagement = function () {
+          if (!mx.managers.FocusManager.initialized) {
+            mx.managers.FocusManager.initialized = true;
+            Object.registerClass('FocusManager', mx.managers.FocusManager);
+            if (_root.focusManager == undefined) {
+              _root.createClassObject(mx.managers.FocusManager, 'focusManager', mx.managers.DepthManager.highestDepth--);
+            }
+          }
+        };
+
+        v1.symbolName = 'FocusManager';
+        v1.symbolOwner = mx.managers.FocusManager;
+        v1.version = '2.0.2.126';
+        v2.className = 'FocusManager';
+        v2.bNeedFocus = false;
+        v2.bDrawFocus = false;
+        v2.defaultPushButtonEnabled = true;
+        v2.activated = true;
+        v1.initialized = false;
+        v1.UIObjectExtensionsDependency = mx.core.ext.UIObjectExtensions;
+        v2.addProperty('defaultPushButton', v2.__get__defaultPushButton, v2.__set__defaultPushButton);
+        v2.addProperty('nextTabIndex', v2.__get__nextTabIndex, function () {});
+        ASSetPropFlags(mx.managers.FocusManager.prototype, null, 1);
+      }
+    #endinitclip
+  }
+
+  movieClip 45 __Packages.mx.skins.halo.FocusRect {
+
+    #initclip
+      if (!_global.mx) {
+        _global.mx = new Object();
+      }
+      if (!_global.mx.skins) {
+        _global.mx.skins = new Object();
+      }
+      if (!_global.mx.skins.halo) {
+        _global.mx.skins.halo = new Object();
+      }
+      if (!_global.mx.skins.halo.FocusRect) {
+        var v1 = function () {
+          super();
+          this.boundingBox_mc._visible = false;
+          this.boundingBox_mc._height = 0;
+          this.boundingBox_mc._width = 0;
+        };
+
+        mx.skins.halo.FocusRect = v1;
+        var v2 = new mx.skins.SkinElement();
+        mx.skins.halo.FocusRect.prototype = v2;
+        v2.draw = function (o) {
+          o.adjustFocusRect();
+        };
+
+        v2.setSize = function (w, h, r, a, rectCol) {
+          this._yscale = 100;
+          this._xscale = 100;
+          this.clear();
+          if (typeof r == 'object') {
+            r.br = r.br > 2 ? r.br - 2 : 0;
+            r.bl = r.bl > 2 ? r.bl - 2 : 0;
+            r.tr = r.tr > 2 ? r.tr - 2 : 0;
+            r.tl = r.tl > 2 ? r.tl - 2 : 0;
+            this.beginFill(rectCol, a * 0.3);
+            this.drawRoundRect(0, 0, w, h, r);
+            this.drawRoundRect(2, 2, w - 4, h - 4, r);
+            this.endFill();
+            r.br = r.br > 1 ? r.br + 1 : 0;
+            r.bl = r.bl > 1 ? r.bl + 1 : 0;
+            r.tr = r.tr > 1 ? r.tr + 1 : 0;
+            r.tl = r.tl > 1 ? r.tl + 1 : 0;
+            this.beginFill(rectCol, a * 0.3);
+            this.drawRoundRect(1, 1, w - 2, h - 2, r);
+            r.br = r.br > 1 ? r.br - 1 : 0;
+            r.bl = r.bl > 1 ? r.bl - 1 : 0;
+            r.tr = r.tr > 1 ? r.tr - 1 : 0;
+            r.tl = r.tl > 1 ? r.tl - 1 : 0;
+            this.drawRoundRect(2, 2, w - 4, h - 4, r);
+            this.endFill();
+          } else {
+            var v5;
+            if (r != 0) {
+              v5 = r - 2;
+            } else {
+              v5 = 0;
+            }
+            this.beginFill(rectCol, a * 0.3);
+            this.drawRoundRect(0, 0, w, h, r);
+            this.drawRoundRect(2, 2, w - 4, h - 4, v5);
+            this.endFill();
+            this.beginFill(rectCol, a * 0.3);
+            if (r != 0) {
+              v5 = r - 2;
+              r -= 1;
+            } else {
+              v5 = 0;
+              r = 0;
+            }
+            this.drawRoundRect(1, 1, w - 2, h - 2, r);
+            this.drawRoundRect(2, 2, w - 4, h - 4, v5);
+            this.endFill();
+          }
+        };
+
+        v2.handleEvent = function (e) {
+          if (e.type == 'unload') {
+            this._visible = true;
+          } else {
+            if (e.type == 'resize') {
+              e.target.adjustFocusRect();
+            } else {
+              if (e.type == 'move') {
+                e.target.adjustFocusRect();
+              }
+            }
+          }
+        };
+
+        v1.classConstruct = function () {
+          mx.core.UIComponent.prototype.drawFocus = function (focused) {
+            var v2 = this._parent.focus_mc;
+            if (!focused) {
+              v2._visible = false;
+              this.removeEventListener('unload', v2);
+              this.removeEventListener('move', v2);
+              this.removeEventListener('resize', v2);
+            } else {
+              if (v2 == undefined) {
+                v2 = this._parent.createChildAtDepth('FocusRect', mx.managers.DepthManager.kTop);
+                v2.tabEnabled = false;
+                this._parent.focus_mc = v2;
+              } else {
+                v2._visible = true;
+              }
+              v2.draw(this);
+              if (v2.getDepth() < this.getDepth()) {
+                v2.setDepthAbove(this);
+              }
+              this.addEventListener('unload', v2);
+              this.addEventListener('move', v2);
+              this.addEventListener('resize', v2);
+            }
+          };
+
+          mx.core.UIComponent.prototype.adjustFocusRect = function () {
+            var v2 = this.getStyle('themeColor');
+            if (v2 == undefined) {
+              v2 = 8453965;
+            }
+            var v3 = this._parent.focus_mc;
+            v3.setSize(this.width + 4, this.height + 4, 0, 100, v2);
+            v3.move(this.x - 2, this.y - 2);
+          };
+
+          TextField.prototype.drawFocus = mx.core.UIComponent.prototype.drawFocus;
+          TextField.prototype.adjustFocusRect = mx.core.UIComponent.prototype.adjustFocusRect;
+          mx.skins.halo.FocusRect.prototype.drawRoundRect = mx.skins.halo.Defaults.prototype.drawRoundRect;
+          return true;
+        };
+
+        v1.classConstructed = mx.skins.halo.FocusRect.classConstruct();
+        v1.DefaultsDependency = mx.skins.halo.Defaults;
+        v1.UIComponentDependency = mx.core.UIComponent;
+        ASSetPropFlags(mx.skins.halo.FocusRect.prototype, null, 1);
+      }
+    #endinitclip
+  }
+
+  movieClip 46 __Packages.mx.managers.OverlappedWindows {
+
+    #initclip
+      if (!_global.mx) {
+        _global.mx = new Object();
+      }
+      if (!_global.mx.managers) {
+        _global.mx.managers = new Object();
+      }
+      if (!_global.mx.managers.OverlappedWindows) {
+        var v1 = function () {};
+
+        mx.managers.OverlappedWindows = v1;
+        var v2 = v1.prototype;
+        v1.checkIdle = function (Void) {
+          if (mx.managers.SystemManager.idleFrames > 10) {
+            mx.managers.SystemManager.dispatchEvent({'type': 'idle'});
+          } else {
+            ++mx.managers.SystemManager.idleFrames;
+          }
+        };
+
+        v1.__addEventListener = function (e, o, l) {
+          if (e == 'idle') {
+            if (mx.managers.SystemManager.interval == undefined) {
+              mx.managers.SystemManager.interval = setInterval(mx.managers.SystemManager.checkIdle, 100);
+            }
+          }
+          mx.managers.SystemManager._xAddEventListener(e, o, l);
+        };
+
+        v1.__removeEventListener = function (e, o, l) {
+          if (e == 'idle') {
+            if (mx.managers.SystemManager._xRemoveEventListener(e, o, l) == 0) {
+              clearInterval(mx.managers.SystemManager.interval);
+            }
+          } else {
+            mx.managers.SystemManager._xRemoveEventListener(e, o, l);
+          }
+        };
+
+        v1.onMouseDown = function (Void) {
+          mx.managers.SystemManager.idleFrames = 0;
+          mx.managers.SystemManager.isMouseDown = true;
+          var v5 = _root;
+          var v3;
+          var v8 = _root._xmouse;
+          var v7 = _root._ymouse;
+          if (mx.managers.SystemManager.form.modalWindow == undefined) {
+            if (mx.managers.SystemManager.forms.length > 1) {
+              var v6 = mx.managers.SystemManager.forms.length;
+              var v4;
+              v4 = 0;
+              while (v4 < v6) {
+                var v2 = mx.managers.SystemManager.forms[v4];
+                if (v2._visible) {
+                  if (v2.hitTest(v8, v7)) {
+                    if (v3 == undefined) {
+                      v3 = v2.getDepth();
+                      v5 = v2;
+                    } else {
+                      if (v3 < v2.getDepth()) {
+                        v3 = v2.getDepth();
+                        v5 = v2;
+                      }
+                    }
+                  }
+                }
+                ++v4;
+              }
+              if (v5 != mx.managers.SystemManager.form) {
+                mx.managers.SystemManager.activate(v5);
+              }
+            }
+          }
+          var v9 = mx.managers.SystemManager.form;
+          v9.focusManager._onMouseDown();
+        };
+
+        v1.onMouseMove = function (Void) {
+          mx.managers.SystemManager.idleFrames = 0;
+        };
+
+        v1.onMouseUp = function (Void) {
+          mx.managers.SystemManager.isMouseDown = false;
+          mx.managers.SystemManager.idleFrames = 0;
+        };
+
+        v1.activate = function (f) {
+          if (mx.managers.SystemManager.form != undefined) {
+            if (mx.managers.SystemManager.form != f && mx.managers.SystemManager.forms.length > 1) {
+              var v1 = mx.managers.SystemManager.form;
+              v1.focusManager.deactivate();
+            }
+          }
+          mx.managers.SystemManager.form = f;
+          f.focusManager.activate();
+        };
+
+        v1.deactivate = function (f) {
+          if (mx.managers.SystemManager.form != undefined) {
+            if (mx.managers.SystemManager.form == f && mx.managers.SystemManager.forms.length > 1) {
+              var v5 = mx.managers.SystemManager.form;
+              v5.focusManager.deactivate();
+              var v3 = mx.managers.SystemManager.forms.length;
+              var v1;
+              var v2;
+              v1 = 0;
+              while (v1 < v3) {
+                if (mx.managers.SystemManager.forms[v1] == f) {
+                  v1 += 1;
+                  while (v1 < v3) {
+                    if (mx.managers.SystemManager.forms[v1]._visible == true) {
+                      v2 = mx.managers.SystemManager.forms[v1];
+                    }
+                    ++v1;
+                  }
+                  mx.managers.SystemManager.form = v2;
+                  break;
+                } else {
+                  if (mx.managers.SystemManager.forms[v1]._visible == true) {
+                    v2 = mx.managers.SystemManager.forms[v1];
+                  }
+                }
+                ++v1;
+              }
+              v5 = mx.managers.SystemManager.form;
+              v5.focusManager.activate();
+            }
+          }
+        };
+
+        v1.addFocusManager = function (f) {
+          mx.managers.SystemManager.forms.push(f);
+          mx.managers.SystemManager.activate(f);
+        };
+
+        v1.removeFocusManager = function (f) {
+          var v3 = mx.managers.SystemManager.forms.length;
+          var v1;
+          v1 = 0;
+          while (v1 < v3) {
+            if (mx.managers.SystemManager.forms[v1] == f) {
+              if (mx.managers.SystemManager.form == f) {
+                mx.managers.SystemManager.deactivate(f);
+              }
+              mx.managers.SystemManager.forms.splice(v1, 1);
+              return undefined;
+            }
+            ++v1;
+          }
+        };
+
+        v1.enableOverlappedWindows = function () {
+          if (!mx.managers.OverlappedWindows.initialized) {
+            mx.managers.OverlappedWindows.initialized = true;
+            mx.managers.SystemManager.checkIdle = mx.managers.OverlappedWindows.checkIdle;
+            mx.managers.SystemManager.__addEventListener = mx.managers.OverlappedWindows.__addEventListener;
+            mx.managers.SystemManager.__removeEventListener = mx.managers.OverlappedWindows.__removeEventListener;
+            mx.managers.SystemManager.onMouseDown = mx.managers.OverlappedWindows.onMouseDown;
+            mx.managers.SystemManager.onMouseMove = mx.managers.OverlappedWindows.onMouseMove;
+            mx.managers.SystemManager.onMouseUp = mx.managers.OverlappedWindows.onMouseUp;
+            mx.managers.SystemManager.activate = mx.managers.OverlappedWindows.activate;
+            mx.managers.SystemManager.deactivate = mx.managers.OverlappedWindows.deactivate;
+            mx.managers.SystemManager.addFocusManager = mx.managers.OverlappedWindows.addFocusManager;
+            mx.managers.SystemManager.removeFocusManager = mx.managers.OverlappedWindows.removeFocusManager;
+          }
+        };
+
+        v1.initialized = false;
+        v1.SystemManagerDependency = mx.managers.SystemManager;
+        ASSetPropFlags(mx.managers.OverlappedWindows.prototype, null, 1);
+      }
+    #endinitclip
+  }
+
+  movieClip 47 __Packages.mx.styles.CSSSetStyle {
+
+    #initclip
+      if (!_global.mx) {
+        _global.mx = new Object();
+      }
+      if (!_global.mx.styles) {
+        _global.mx.styles = new Object();
+      }
+      if (!_global.mx.styles.CSSSetStyle) {
+        var v1 = function () {};
+
+        mx.styles.CSSSetStyle = v1;
+        var v2 = v1.prototype;
+        v2._setStyle = function (styleProp, newValue) {
+          this[styleProp] = newValue;
+          if (mx.styles.StyleManager.TextStyleMap[styleProp] != undefined) {
+            if (styleProp == 'color') {
+              if (isNaN(newValue)) {
+                newValue = mx.styles.StyleManager.getColorName(newValue);
+                this[styleProp] = newValue;
+                if (newValue == undefined) {
+                  return undefined;
+                }
+              }
+            }
+            _level0.changeTextStyleInChildren(styleProp);
+            return undefined;
+          }
+          if (mx.styles.StyleManager.isColorStyle(styleProp)) {
+            if (isNaN(newValue)) {
+              newValue = mx.styles.StyleManager.getColorName(newValue);
+              this[styleProp] = newValue;
+              if (newValue == undefined) {
+                return undefined;
+              }
+            }
+            if (styleProp == 'themeColor') {
+              var v7 = mx.styles.StyleManager.colorNames.haloBlue;
+              var v6 = mx.styles.StyleManager.colorNames.haloGreen;
+              var v8 = mx.styles.StyleManager.colorNames.haloOrange;
+              var v4 = {};
+              v4[v7] = 12188666;
+              v4[v6] = 13500353;
+              v4[v8] = 16766319;
+              var v5 = {};
+              v5[v7] = 13958653;
+              v5[v6] = 14942166;
+              v5[v8] = 16772787;
+              var v9 = v4[newValue];
+              var v10 = v5[newValue];
+              if (v9 == undefined) {
+                v9 = newValue;
+              }
+              if (v10 == undefined) {
+                v10 = newValue;
+              }
+              this.setStyle('selectionColor', v9);
+              this.setStyle('rollOverColor', v10);
+            }
+            _level0.changeColorStyleInChildren(this.styleName, styleProp, newValue);
+          } else {
+            if (styleProp == 'backgroundColor' && isNaN(newValue)) {
+              newValue = mx.styles.StyleManager.getColorName(newValue);
+              this[styleProp] = newValue;
+              if (newValue == undefined) {
+                return undefined;
+              }
+            }
+            _level0.notifyStyleChangeInChildren(this.styleName, styleProp, newValue);
+          }
+        };
+
+        v2.changeTextStyleInChildren = function (styleProp) {
+          var v4 = getTimer();
+          var v5;
+          for (v5 in this) {
+            var v2 = this[v5];
+            if (v2._parent == this) {
+              if (v2.searchKey != v4) {
+                if (v2.stylecache != undefined) {
+                  delete v2.stylecache.tf;
+                  delete v2.stylecache[styleProp];
+                }
+                v2.invalidateStyle(styleProp);
+                v2.changeTextStyleInChildren(styleProp);
+                v2.searchKey = v4;
+              }
+            }
+          }
+        };
+
+        v2.changeColorStyleInChildren = function (sheetName, colorStyle, newValue) {
+          var v6 = getTimer();
+          var v7;
+          for (v7 in this) {
+            var v2 = this[v7];
+            if (v2._parent == this) {
+              if (v2.searchKey != v6) {
+                if (v2.getStyleName() == sheetName || sheetName == undefined || sheetName == '_global') {
+                  if (v2.stylecache != undefined) {
+                    delete v2.stylecache[colorStyle];
+                  }
+                  if (typeof v2._color == 'string') {
+                    if (v2._color == colorStyle) {
+                      var v4 = v2.getStyle(colorStyle);
+                      if (colorStyle == 'color') {
+                        if (this.stylecache.tf.color != undefined) {
+                          this.stylecache.tf.color = v4;
+                        }
+                      }
+                      v2.setColor(v4);
+                    }
+                  } else {
+                    if (v2._color[colorStyle] != undefined) {
+                      if (typeof v2 != 'movieclip') {
+                        v2._parent.invalidateStyle();
+                      } else {
+                        v2.invalidateStyle(colorStyle);
+                      }
+                    }
+                  }
+                }
+                v2.changeColorStyleInChildren(sheetName, colorStyle, newValue);
+                v2.searchKey = v6;
+              }
+            }
+          }
+        };
+
+        v2.notifyStyleChangeInChildren = function (sheetName, styleProp, newValue) {
+          var v5 = getTimer();
+          var v6;
+          for (v6 in this) {
+            var v2 = this[v6];
+            if (v2._parent == this) {
+              if (v2.searchKey != v5) {
+                if (v2.styleName == sheetName || v2.styleName != undefined && typeof v2.styleName == 'movieclip' || sheetName == undefined) {
+                  if (v2.stylecache != undefined) {
+                    delete v2.stylecache[styleProp];
+                    delete v2.stylecache.tf;
+                  }
+                  delete v2.enabledColor;
+                  v2.invalidateStyle(styleProp);
+                }
+                v2.notifyStyleChangeInChildren(sheetName, styleProp, newValue);
+                v2.searchKey = v5;
+              }
+            }
+          }
+        };
+
+        v2.setStyle = function (styleProp, newValue) {
+          if (this.stylecache != undefined) {
+            delete this.stylecache[styleProp];
+            delete this.stylecache.tf;
+          }
+          this[styleProp] = newValue;
+          if (mx.styles.StyleManager.isColorStyle(styleProp)) {
+            if (isNaN(newValue)) {
+              newValue = mx.styles.StyleManager.getColorName(newValue);
+              this[styleProp] = newValue;
+              if (newValue == undefined) {
+                return undefined;
+              }
+            }
+            if (styleProp == 'themeColor') {
+              var v10 = mx.styles.StyleManager.colorNames.haloBlue;
+              var v9 = mx.styles.StyleManager.colorNames.haloGreen;
+              var v11 = mx.styles.StyleManager.colorNames.haloOrange;
+              var v6 = {};
+              v6[v10] = 12188666;
+              v6[v9] = 13500353;
+              v6[v11] = 16766319;
+              var v7 = {};
+              v7[v10] = 13958653;
+              v7[v9] = 14942166;
+              v7[v11] = 16772787;
+              var v12 = v6[newValue];
+              var v13 = v7[newValue];
+              if (v12 == undefined) {
+                v12 = newValue;
+              }
+              if (v13 == undefined) {
+                v13 = newValue;
+              }
+              this.setStyle('selectionColor', v12);
+              this.setStyle('rollOverColor', v13);
+            }
+            if (typeof this._color == 'string') {
+              if (this._color == styleProp) {
+                if (styleProp == 'color') {
+                  if (this.stylecache.tf.color != undefined) {
+                    this.stylecache.tf.color = newValue;
+                  }
+                }
+                this.setColor(newValue);
+              }
+            } else {
+              if (this._color[styleProp] != undefined) {
+                this.invalidateStyle(styleProp);
+              }
+            }
+            this.changeColorStyleInChildren(undefined, styleProp, newValue);
+          } else {
+            if (styleProp == 'backgroundColor' && isNaN(newValue)) {
+              newValue = mx.styles.StyleManager.getColorName(newValue);
+              this[styleProp] = newValue;
+              if (newValue == undefined) {
+                return undefined;
+              }
+            }
+            this.invalidateStyle(styleProp);
+          }
+          if (mx.styles.StyleManager.isInheritingStyle(styleProp) || styleProp == 'styleName') {
+            var v8;
+            var v5 = newValue;
+            if (styleProp == 'styleName') {
+              v8 = (typeof newValue == 'string') ? _global.styles[newValue] : v5;
+              v5 = v8.themeColor;
+              if (v5 != undefined) {
+                v8.selectionColor = v5;
+                v8.rollOverColor = v8.selectionColor;
+              }
+            }
+            this.notifyStyleChangeInChildren(undefined, styleProp, newValue);
+          }
+        };
+
+        v1.enableRunTimeCSS = function () {};
+
+        v1.classConstruct = function () {
+          var v2 = MovieClip.prototype;
+          var v3 = mx.styles.CSSSetStyle.prototype;
+          mx.styles.CSSStyleDeclaration.prototype.setStyle = v3._setStyle;
+          v2.changeTextStyleInChildren = v3.changeTextStyleInChildren;
+          v2.changeColorStyleInChildren = v3.changeColorStyleInChildren;
+          v2.notifyStyleChangeInChildren = v3.notifyStyleChangeInChildren;
+          v2.setStyle = v3.setStyle;
+          _global.ASSetPropFlags(v2, 'changeTextStyleInChildren', 1);
+          _global.ASSetPropFlags(v2, 'changeColorStyleInChildren', 1);
+          _global.ASSetPropFlags(v2, 'notifyStyleChangeInChildren', 1);
+          _global.ASSetPropFlags(v2, 'setStyle', 1);
+          var v4 = TextField.prototype;
+          v4.setStyle = v2.setStyle;
+          v4.changeTextStyleInChildren = v3.changeTextStyleInChildren;
+          return true;
+        };
+
+        v1.classConstructed = mx.styles.CSSSetStyle.classConstruct();
+        v1.CSSStyleDeclarationDependency = mx.styles.CSSStyleDeclaration;
+        ASSetPropFlags(mx.styles.CSSSetStyle.prototype, null, 1);
+      }
+    #endinitclip
+  }
+
+  movieClip 48 __Packages.mx.core.ext.UIComponentExtensions {
+
+    #initclip
+      if (!_global.mx) {
+        _global.mx = new Object();
+      }
+      if (!_global.mx.core) {
+        _global.mx.core = new Object();
+      }
+      if (!_global.mx.core.ext) {
+        _global.mx.core.ext = new Object();
+      }
+      if (!_global.mx.core.ext.UIComponentExtensions) {
+        var v1 = function () {};
+
+        mx.core.ext.UIComponentExtensions = v1;
+        var v2 = v1.prototype;
+        v1.Extensions = function () {
+          if (mx.core.ext.UIComponentExtensions.bExtended == true) {
+            return true;
+          }
+          mx.core.ext.UIComponentExtensions.bExtended = true;
+          TextField.prototype.setFocus = function () {
+            Selection.setFocus(this);
+          };
+
+          TextField.prototype.onSetFocus = function (oldFocus) {
+            if (this.tabEnabled != false) {
+              if ((this.getFocusManager()).bDrawFocus) {
+                this.drawFocus(true);
+              }
+            }
+          };
+
+          TextField.prototype.onKillFocus = function (oldFocus) {
+            if (this.tabEnabled != false) {
+              this.drawFocus(false);
+            }
+          };
+
+          TextField.prototype.drawFocus = mx.core.UIComponent.prototype.drawFocus;
+          TextField.prototype.getFocusManager = mx.core.UIComponent.prototype.getFocusManager;
+          mx.managers.OverlappedWindows.enableOverlappedWindows();
+          mx.styles.CSSSetStyle.enableRunTimeCSS();
+          mx.managers.FocusManager.enableFocusManagement();
+        };
+
+        v1.bExtended = false;
+        v1.UIComponentExtended = mx.core.ext.UIComponentExtensions.Extensions();
+        v1.UIComponentDependency = mx.core.UIComponent;
+        v1.FocusManagerDependency = mx.managers.FocusManager;
+        v1.OverlappedWindowsDependency = mx.managers.OverlappedWindows;
+        ASSetPropFlags(mx.core.ext.UIComponentExtensions.prototype, null, 1);
+      }
+    #endinitclip
+  }
+
+  movieClip 49 __Packages.mx.skins.halo.RectBorder {
+
+    #initclip
+      if (!_global.mx) {
+        _global.mx = new Object();
+      }
+      if (!_global.mx.skins) {
+        _global.mx.skins = new Object();
+      }
+      if (!_global.mx.skins.halo) {
+        _global.mx.skins.halo = new Object();
+      }
+      if (!_global.mx.skins.halo.RectBorder) {
+        var v1 = function () {
+          super();
+        };
+
+        mx.skins.halo.RectBorder = v1;
+        var v2 = new mx.skins.RectBorder();
+        mx.skins.halo.RectBorder.prototype = v2;
+        v2.init = function (Void) {
+          this.borderWidths.default = 3;
+          super.init();
+        };
+
+        v2.getBorderMetrics = function (Void) {
+          if (this.offset == undefined) {
+            var v3 = this.getStyle(this.borderStyleName);
+            this.offset = this.borderWidths[v3];
+          }
+          if (this.getStyle(this.borderStyleName) == 'default' || this.getStyle(this.borderStyleName) == 'alert') {
+            this.__borderMetrics = {'left': 3, 'top': 1, 'right': 3, 'bottom': 3};
+            return this.__borderMetrics;
+          }
+          return super.getBorderMetrics();
+        };
+
+        v2.drawBorder = function (Void) {
+          var v6 = _global.styles[this.className];
+          if (v6 == undefined) {
+            v6 = _global.styles.RectBorder;
+          }
+          var v5 = this.getStyle(this.borderStyleName);
+          var v7 = this.getStyle(this.borderColorName);
+          if (v7 == undefined) {
+            v7 = v6[this.borderColorName];
+          }
+          var v8 = this.getStyle(this.backgroundColorName);
+          if (v8 == undefined) {
+            v8 = v6[this.backgroundColorName];
+          }
+          var v16 = this.getStyle('backgroundImage');
+          if (v5 != 'none') {
+            var v14 = this.getStyle(this.shadowColorName);
+            if (v14 == undefined) {
+              v14 = v6[this.shadowColorName];
+            }
+            var v13 = this.getStyle(this.highlightColorName);
+            if (v13 == undefined) {
+              v13 = v6[this.highlightColorName];
+            }
+            var v12 = this.getStyle(this.buttonColorName);
+            if (v12 == undefined) {
+              v12 = v6[this.buttonColorName];
+            }
+            var v11 = this.getStyle(this.borderCapColorName);
+            if (v11 == undefined) {
+              v11 = v6[this.borderCapColorName];
+            }
+            var v10 = this.getStyle(this.shadowCapColorName);
+            if (v10 == undefined) {
+              v10 = v6[this.shadowCapColorName];
+            }
+          }
+          this.offset = this.borderWidths[v5];
+          var v9 = this.offset;
+          var v3 = this.__get__width();
+          var v4 = this.__get__height();
+          this.clear();
+          this._color = undefined;
+          if (v5 == 'none') {
+          } else {
+            if (v5 == 'inset') {
+              this._color = this.colorList;
+              this.draw3dBorder(v11, v12, v7, v13, v14, v10);
+            } else {
+              if (v5 == 'outset') {
+                this._color = this.colorList;
+                this.draw3dBorder(v11, v7, v12, v14, v13, v10);
+              } else {
+                if (v5 == 'alert') {
+                  var v15 = this.getStyle('themeColor');
+                  this.drawRoundRect(0, 5, v3, v4 - 5, 5, 6184542, 10);
+                  this.drawRoundRect(1, 4, v3 - 2, v4 - 5, 4, [6184542, 6184542], 10, 0, 'radial');
+                  this.drawRoundRect(2, 0, v3 - 4, v4 - 2, 3, [0, 14342874], 100, 0, 'radial');
+                  this.drawRoundRect(2, 0, v3 - 4, v4 - 2, 3, v15, 50);
+                  this.drawRoundRect(3, 1, v3 - 6, v4 - 4, 2, 16777215, 100);
+                } else {
+                  if (v5 == 'default') {
+                    this.drawRoundRect(0, 5, v3, v4 - 5, {'tl': 5, 'tr': 5, 'br': 0, 'bl': 0}, 6184542, 10);
+                    this.drawRoundRect(1, 4, v3 - 2, v4 - 5, {'tl': 4, 'tr': 4, 'br': 0, 'bl': 0}, [6184542, 6184542], 10, 0, 'radial');
+                    this.drawRoundRect(2, 0, v3 - 4, v4 - 2, {'tl': 3, 'tr': 3, 'br': 0, 'bl': 0}, [12897484, 11844796], 100, 0, 'radial');
+                    this.drawRoundRect(3, 1, v3 - 6, v4 - 4, {'tl': 2, 'tr': 2, 'br': 0, 'bl': 0}, 16777215, 100);
+                  } else {
+                    if (v5 == 'dropDown') {
+                      this.drawRoundRect(0, 0, v3 + 1, v4, {'tl': 4, 'tr': 0, 'br': 0, 'bl': 4}, [13290186, 7895160], 100, -10, 'linear');
+                      this.drawRoundRect(1, 1, v3 - 1, v4 - 2, {'tl': 3, 'tr': 0, 'br': 0, 'bl': 3}, 16777215, 100);
+                    } else {
+                      if (v5 == 'menuBorder') {
+                        var v15 = this.getStyle('themeColor');
+                        this.drawRoundRect(4, 4, v3 - 2, v4 - 3, 0, [6184542, 6184542], 10, 0, 'radial');
+                        this.drawRoundRect(4, 4, v3 - 1, v4 - 2, 0, 6184542, 10);
+                        this.drawRoundRect(0, 0, v3 + 1, v4, 0, [0, 14342874], 100, 250, 'linear');
+                        this.drawRoundRect(0, 0, v3 + 1, v4, 0, v15, 50);
+                        this.drawRoundRect(2, 2, v3 - 3, v4 - 4, 0, 16777215, 100);
+                      } else {
+                        if (v5 == 'comboNonEdit') {
+                        } else {
+                          this.beginFill(v7);
+                          this.drawRect(0, 0, v3, v4);
+                          this.drawRect(1, 1, v3 - 1, v4 - 1);
+                          this.endFill();
+                          this._color = this.borderColorName;
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+          if (v8 != undefined) {
+            this.beginFill(v8);
+            this.drawRect(v9, v9, this.__get__width() - v9, this.__get__height() - v9);
+            this.endFill();
+          }
+        };
+
+        v2.draw3dBorder = function (c1, c2, c3, c4, c5, c6) {
+          var v3 = this.__get__width();
+          var v2 = this.__get__height();
+          this.beginFill(c1);
+          this.drawRect(0, 0, v3, v2);
+          this.drawRect(1, 0, v3 - 1, v2);
+          this.endFill();
+          this.beginFill(c2);
+          this.drawRect(1, 0, v3 - 1, 1);
+          this.endFill();
+          this.beginFill(c3);
+          this.drawRect(1, v2 - 1, v3 - 1, v2);
+          this.endFill();
+          this.beginFill(c4);
+          this.drawRect(1, 1, v3 - 1, 2);
+          this.endFill();
+          this.beginFill(c5);
+          this.drawRect(1, v2 - 2, v3 - 1, v2 - 1);
+          this.endFill();
+          this.beginFill(c6);
+          this.drawRect(1, 2, v3 - 1, v2 - 2);
+          this.drawRect(2, 2, v3 - 2, v2 - 2);
+          this.endFill();
+        };
+
+        v1.classConstruct = function () {
+          mx.core.ext.UIObjectExtensions.Extensions();
+          _global.styles.rectBorderClass = mx.skins.halo.RectBorder;
+          _global.skinRegistry.RectBorder = true;
+          return true;
+        };
+
+        v1.symbolName = 'RectBorder';
+        v1.symbolOwner = mx.skins.halo.RectBorder;
+        v1.version = '2.0.2.126';
+        v2.borderCapColorName = 'borderCapColor';
+        v2.shadowCapColorName = 'shadowCapColor';
+        v2.colorList = {'highlightColor': 0, 'borderColor': 0, 'buttonColor': 0, 'shadowColor': 0, 'borderCapColor': 0, 'shadowCapColor': 0};
+        v2.borderWidths = {'none': 0, 'solid': 1, 'inset': 2, 'outset': 2, 'alert': 3, 'dropDown': 2, 'menuBorder': 2, 'comboNonEdit': 2};
+        v1.classConstructed = mx.skins.halo.RectBorder.classConstruct();
+        v1.UIObjectExtensionsDependency = mx.core.ext.UIObjectExtensions;
+        ASSetPropFlags(mx.skins.halo.RectBorder.prototype, null, 1);
+      }
+    #endinitclip
+  }
+
+  movieClip 66 __Packages.mx.controls.Label {
+
+    #initclip
+      if (!_global.mx) {
+        _global.mx = new Object();
+      }
+      if (!_global.mx.controls) {
+        _global.mx.controls = new Object();
+      }
+      if (!_global.mx.controls.Label) {
+        var v1 = function () {
+          super();
+        };
+
+        mx.controls.Label = v1;
+        var v2 = new mx.core.UIObject();
+        mx.controls.Label.prototype = v2;
+        v2.init = function (Void) {
+          super.init();
+          this._yscale = 100;
+          this._xscale = 100;
+          this.labelField.selectable = false;
+          this.labelField.styleName = this;
+          this.tabEnabled = false;
+          this.tabChildren = false;
+          this.useHandCursor = false;
+          this._color = mx.core.UIObject.textColorList;
+        };
+
+        v2.__get__html = function () {
+          return this.getHtml();
+        };
+
+        v2.__set__html = function (value) {
+          this.setHtml(value);
+          return this.__get__html();
+        };
+
+        v2.getHtml = function () {
+          return this.labelField.html;
+        };
+
+        v2.setHtml = function (value) {
+          if (value != this.labelField.html) {
+            this.labelField.html = value;
+          }
+        };
+
+        v2.__get__text = function () {
+          return this.getText();
+        };
+
+        v2.__set__text = function (t) {
+          this.setText(t);
+          return this.__get__text();
+        };
+
+        v2.getText = function () {
+          if (this.initializing) {
+            return this.initText;
+          }
+          var v2 = this.labelField;
+          if (v2.html == true) {
+            return v2.htmlText;
+          }
+          return v2.text;
+        };
+
+        v2.setText = function (t) {
+          if (this.initializing) {
+            this.initText = t;
+          } else {
+            var v2 = this.labelField;
+            if (v2.html == true) {
+              v2.htmlText = t;
+            } else {
+              v2.text = t;
+            }
+            this.adjustForAutoSize();
+          }
+        };
+
+        v2.__get__autoSize = function () {
+          return this.__autoSize;
+        };
+
+        v2.__set__autoSize = function (v) {
+          if (_global.isLivePreview == true) {
+            v = 'none';
+          }
+          this.__autoSize = v;
+          if (!this.initializing) {
+            this.draw();
+          }
+          return this.__get__autoSize();
+        };
+
+        v2.draw = function (Void) {
+          var v2 = this.labelField;
+          if (this.initializing) {
+            var v4 = this.__get__text();
+            this.initializing = false;
+            this.setText(v4);
+            delete this.initText;
+          }
+          if (v2.html) {
+            v4 = v2.htmlText;
+          }
+          var v3 = this._getTextFormat();
+          v2.embedFonts = v3.embedFonts == true;
+          if (v3 != undefined) {
+            v2.setTextFormat(v3);
+            v2.setNewTextFormat(v3);
+          }
+          if (v2.html) {
+            v2.htmlText = v4;
+          }
+          this.adjustForAutoSize();
+        };
+
+        v2.adjustForAutoSize = function () {
+          var v2 = this.labelField;
+          var v3 = this.__autoSize;
+          if (v3 != undefined && v3 != 'none') {
+            v2._height = v2.textHeight + 3;
+            var v4 = this.__width;
+            this.setSize(v2.textWidth + 4, v2._height);
+            if (v3 == 'right') {
+              this._x += v4 - this.__width;
+            } else {
+              if (v3 == 'center') {
+                this._x += (v4 - this.__width) / 2;
+              } else {
+                if (v3 == 'left') {
+                  this._x += 0;
+                }
+              }
+            }
+          } else {
+            v2._x = 0;
+            v2._width = this.__width;
+            v2._height = this.__height;
+          }
+        };
+
+        v2.size = function (Void) {
+          var v2 = this.labelField;
+          v2._width = this.__width;
+          v2._height = this.__height;
+        };
+
+        v2.setEnabled = function (enable) {
+          var v2 = this.getStyle(enable ? 'color' : 'disabledColor');
+          if (v2 == undefined) {
+            v2 = enable ? 0 : 8947848;
+          }
+          this.setColor(v2);
+        };
+
+        v2.setColor = function (col) {
+          this.labelField.textColor = col;
+        };
+
+        v2.__get__styleSheet = function () {
+          return this.labelField.styleSheet;
+        };
+
+        v2.__set__styleSheet = function (v) {
+          this.labelField.styleSheet = v;
+          return this.__get__styleSheet();
+        };
+
+        v1.symbolName = 'Label';
+        v1.symbolOwner = Object(mx.controls.Label);
+        v2.className = 'Label';
+        v1.version = '2.0.2.126';
+        v2.initializing = true;
+        v2.clipParameters = {'text': 1, 'html': 1, 'autoSize': 1};
+        v1.mergedClipParameters = mx.core.UIObject.mergeClipParameters(mx.controls.Label.prototype.clipParameters, mx.core.UIObject.prototype.clipParameters);
+        v2.addProperty('autoSize', v2.__get__autoSize, v2.__set__autoSize);
+        v2.addProperty('html', v2.__get__html, v2.__set__html);
+        v2.addProperty('styleSheet', v2.__get__styleSheet, v2.__set__styleSheet);
+        v2.addProperty('text', v2.__get__text, v2.__set__text);
+        ASSetPropFlags(mx.controls.Label.prototype, null, 1);
+      }
+    #endinitclip
+  }
+
+  frame 2 {
+    var my_sound = new Sound(my_mc);
+    var my1_sound = new Sound();
+    my_sound.attachSound('bgsound');
+    my_sound.start(0, 999);
+    var kaiguan1 = true;
+    kaiguan1_mc.onPress = function () {
+      if (kaiguan1 == true) {
+        this.gotoAndStop(2);
+        my_sound.stop();
+        _root.Ti_kaiguan = false;
+        _root.kaiguan1 = false;
+      } else {
+        if (kaiguan1 == false) {
+          this.gotoAndStop(1);
+          my_sound.start(0, 9999);
+          my_sound.setVolume(80);
+          _root.kaiguan1 = true;
+          _root.Ti_kaiguan = true;
+        }
+      }
+    };
+
+  }
+
+  frame 2 {
+    function ShowTitle(odn) {
+      var v3 = myXML.firstChild.childNodes[0];
+      trace('mp3=' + v3.childNodes[odn - 1].attributes.mp3);
+      var v5 = v3.childNodes[odn - 1].attributes.mp3;
+      timu = v3.childNodes[odn - 1].attributes.title;
+      Num2_view.text = timu;
+      clearInterval(lap);
+      if (_root.Ti_kaiguan == true) {
+        this['TS' + odn].start();
+      }
+      _root.t = 121;
+      lap = setInterval(_root.Time, 1000);
+    }
+
+    function DisOpt() {
+      i = 1;
+      while (i <= ChcN) {
+        _root.attachMovie('C1' + i, 'btn' + i, 3000 + i, {'_xscale': 0, '_yscale': 0, 'enabled': false});
+        DT();
+        eval('btn' + i)._x = i * 300 - 30;
+        eval('btn' + i)._y = 370;
+        ++i;
+      }
+    }
+
+    function DT() {
+      _root.createEmptyMovieClip('Temp_mc', 2008);
+      Temp_mc.onEnterFrame = function () {
+        i = 1;
+        while (i <= 5) {
+          obj = _root['btn' + i];
+          obj._xscale += 5;
+          obj._yscale += 5;
+          if (_root.btn1._yscale >= 100) {
+            obj.enabled = true;
+            delete Temp_mc.onEnterFrame;
+          }
+          ++i;
+        }
+      };
+
+    }
+
+    function ShowOpt(odn) {
+      if (QN[odn] != 0) {
+        var v1 = 'btn' + QN[odn];
+        tellTarget ('v1') {
+          gotoAndStop(3);
+        }
+      }
+    }
+
+    function PrevTitle() {
+      if (od <= TsbN) {
+        if (QN[od] != 0) {
+          var v1 = 'btn' + QN[od];
+          tellTarget ('v1') {
+            gotoAndStop(1);
+          }
+        }
+        --od;
+        if (od <= 0) {
+          od = 1;
+        }
+        i = od + 1;
+        while (i <= TsbN) {
+          QN[i] = 0;
+          ++i;
+        }
+        ShowTitle(od);
+        ShowOpt(od);
+        BTN();
+      }
+    }
+
+    function NextTitle() {
+      _root['TS' + od].stop();
+      if (od <= TsbN - 1) {
+        if (QN[od] != 0) {
+          var v2 = 'btn' + QN[od];
+          tellTarget ('v2') {
+            gotoAndStop(1);
+          }
+        }
+        ++od;
+        Id.text = od;
+        ShowTitle(od);
+        DisOpt(od);
+        BTN();
+      } else {
+        if (od == TsbN) {
+          clearInterval(lap);
+          _root.gotoAndStop(_root._currentframe + 1);
+        }
+      }
+    }
+
+    function Time() {
+      --t;
+      updateAfterEvent();
+      if (t == 0) {
+        clearInterval(lap);
+        fscommand('Back');
+      }
+    }
+
+    stop();
+    var RanNum;
+    RanNum = 1;
+    var TsbN = 2;
+    trace(RanNum);
+    var myXML = new XML();
+    if (RanNum == 1) {
+      trace('you pressed 1');
+      myXML.load('xml/3个题的.xml');
+    } else {
+      if (RanNum == 2) {
+        trace('you pressed 2');
+        myXML.load('xml/管理人员male2.xml');
+      } else {
+        if (RanNum == 3) {
+          trace('you pressed 3');
+          myXML.load('xml/管理人员male3.xml');
+        } else {
+          if (RanNum == 4) {
+            trace('you pressed 4');
+            myXML.load('xml/管理人员male4.xml');
+          }
+        }
+      }
+    }
+    myXML.ignoreWhite = true;
+    myXML.onLoad = function (success) {
+      if (success) {
+        trace('oK');
+        trace('intro=' + myXML.firstChild.childNodes[0].attributes.intro);
+        intro = myXML.firstChild.childNodes[0].attributes.intro;
+        introtitle = myXML.firstChild.childNodes[0].attributes.introtitle;
+        _root.TsbN = myXML.firstChild.childNodes[0].attributes.total;
+      } else {
+        trace('false');
+      }
+    };
+
+    trace('myXML.firstChild=' + myXML.firstChild);
+    var kaiguan = true;
+    kaiguan_mc.onPress = function () {
+      if (kaiguan == true) {
+        this.gotoAndStop(2);
+        my_sound.stop();
+        _root.kaiguan = false;
+      } else {
+        if (kaiguan == false) {
+          this.gotoAndStop(1);
+          my_sound.start(0, 99);
+          _root.kaiguan = true;
+        }
+      }
+    };
+
+    var ChcN = 2;
+    var od = 1;
+    var t = 240;
+    var QN = new Array(TsbN);
+    i = 1;
+    while (i <= TsbN) {
+      QN[i] = 0;
+      ++i;
+    }
+    var TiJ = 0;
+    var Ti_kaiguan = true;
+    lapN = setInterval(_root.Time, 1000);
+  }
+
+  movieClip 92  {
+  }
+
+  movieClip 94  {
+  }
+
+  movieClip 96  {
+  }
+
+  movieClip 97  {
+
+    frame 1 {
+      time = new Date(year, month, date, hour, min, sec, ms);
+      second-p._rotation = time.getSeconds() * 6;
+      minutes-p._rotation = time.getMinutes() * 6;
+      hours-p._rotation = time.getHours() * 30 + time.getMinutes() / 2;
+    }
+
+    frame 2 {
+      gotoAndPlay(1);
+    }
+  }
+
+  movieClip 98  {
+  }
+
+  movieClip 102  {
+
+    instance enterBtn of movieClip 28 Loader {
+
+      onClipEvent (construct) {
+        autoLoad = true;
+        contentPath = 'pic/enterBtn.png';
+        scaleContent = true;
+        enabled = true;
+        visible = true;
+        minHeight = 0;
+        minWidth = 0;
+      }
+    }
+  }
+
+  button 105 {
+
+    on (press) {
+      fscommand('Chart');
+      _root.nextFrame();
+    }
+  }
+
+  movieClip 110  {
+
+    frame 1 {
+      stop();
+    }
+
+    instance of movieClip 28 Loader {
+
+      onClipEvent (construct) {
+        autoLoad = true;
+        contentPath = 'pic\\声音A.png';
+        scaleContent = true;
+        enabled = true;
+        visible = true;
+        minHeight = 0;
+        minWidth = 0;
+      }
+    }
+
+    instance of movieClip 28 Loader {
+
+      onClipEvent (construct) {
+        autoLoad = true;
+        contentPath = 'pic\\声音B.png';
+        scaleContent = true;
+        enabled = true;
+        visible = true;
+        minHeight = 0;
+        minWidth = 0;
+      }
+    }
+  }
+
+  frame 3 {
+    function BTN() {
+      i = 1;
+      while (i <= 5) {
+        obj = _root['btn' + i];
+        obj.onPress = function () {
+          if (QN[od] != 0) {
+            var v2 = 'btn' + QN[od];
+            tellTarget ('v2') {
+              gotoAndStop(1);
+            }
+          }
+          QN[od] = Number(this._name.charAt(3)) - 1;
+          this.gotoAndStop(3);
+          Dis();
+        };
+
+        ++i;
+      }
+    }
+
+    function Dis() {
+      _root.createEmptyMovieClip('TempDis', 2008);
+      var i = 0;
+      TempDis.onEnterFrame = function () {
+        ++i;
+        if (i >= 5) {
+          delete i;
+          NextTitle();
+        }
+      };
+
+    }
+
+    stop();
+    trace('total=' + myXML.firstChild.childNodes[0].attributes.total);
+    total = '/' + myXML.firstChild.childNodes[0].attributes.total;
+    Id.setStyle('fontSize', 40);
+    Num2_view.setStyle('color', 0);
+    Num2_view.setStyle('fontWeight', 'bold');
+    Id.setStyle('color', 16750848);
+    Tol.setStyle('color', 8031279);
+    Id.setStyle('fontFamily', 'Arial Black');
+    Tol.setStyle('fontFamily', 'Arial Black');
+    Tol.text = total;
+    Tol.setStyle('fontSize', 40);
+    Num2_view.setStyle('fontSize', 40);
+    clearInterval(lapN);
+    ShowTitle(od);
+    DisOpt();
+    BTN();
+  }
+
+  instance Num2_view of movieClip 69 Label {
+
+    onClipEvent (construct) {
+      autoSize = 'left';
+      html = false;
+      text = 'Label';
+      visible = true;
+      minHeight = 0;
+      minWidth = 0;
+    }
+  }
+
+  instance Id of movieClip 69 Label {
+
+    onClipEvent (construct) {
+      autoSize = 'none';
+      html = false;
+      text = '1';
+      visible = true;
+      minHeight = 0;
+      minWidth = 0;
+    }
+  }
+
+  instance Tol of movieClip 69 Label {
+
+    onClipEvent (construct) {
+      autoSize = 'none';
+      html = false;
+      text = 'Label';
+      visible = true;
+      minHeight = 0;
+      minWidth = 0;
+    }
+  }
+
+  frame 4 {
+    for (each in _root) {
+      var obj = _root[each];
+      obj.removeMovieClip();
+    }
+    var k = String(QN[1]);
+    i = 2;
+    while (i <= TsbN) {
+      k += String(QN[i]);
+      ++i;
+    }
+    trace(k);
+    fscommand('saveT3', k);
+  }
+}
